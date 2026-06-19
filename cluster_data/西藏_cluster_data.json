@@ -1,0 +1,7975 @@
+{
+  "total_attractions": 1001,
+  "cluster_count": 26,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "representative_tags": "距离上海人民广场的整整5000公里",
+      "attraction_count": 2,
+      "attractions": [
+        {
+          "name": "● 波密桃花沟",
+          "location": "波密",
+          "level": "#",
+          "popularity": "4.6",
+          "tags": "绵延近30公里,自然山水",
+          "reviews": "56条点评"
+        },
+        {
+          "name": "318国道5000km纪念碑",
+          "location": "拉孜",
+          "level": "#",
+          "popularity": "4.4",
+          "tags": "距离上海人民广场的整整5000公里",
+          "reviews": "11条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "representative_tags": "#",
+      "attraction_count": 424,
+      "attractions": [
+        {
+          "name": "珠穆朗玛峰国家公园",
+          "location": "定日",
+          "level": "#",
+          "popularity": "7.2",
+          "tags": "#",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "千佛山",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "4.7",
+          "tags": "#",
+          "reviews": "9条点评"
+        },
+        {
+          "name": "林芝篝火体验",
+          "location": "工布江达·林芝",
+          "level": "#",
+          "popularity": "4.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "林芝赏桃花",
+          "location": "林芝·西藏",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨藏戏表演",
+          "location": "拉萨·西藏",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "林芝骑马",
+          "location": "林芝·西藏",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "色季拉山观景台",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "#",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "拉萨赏桃花",
+          "location": "拉萨·西藏",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雅隆冰川",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "纳木错",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "林芝热气球体验",
+          "location": "米林·林芝",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏百万农奴解放纪念馆",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "#",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "墨脱县海市蜃楼观景台",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "林芝看云海",
+          "location": "米林·林芝",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "林芝射箭",
+          "location": "林芝·西藏",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "古格王朝遗址-红殿",
+          "location": "札达",
+          "level": "#",
+          "popularity": "3.8",
+          "tags": "#",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "格林村观景台",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "3.8",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "扎西岗村",
+          "location": "林芝 · 鲁朗及附近地区",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "#",
+          "reviews": "33条点评"
+        },
+        {
+          "name": "日喀则看冰川",
+          "location": "江孜·日喀则",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏看冰川",
+          "location": "西藏·中国",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "羊湖观景台",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "文布南村",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "#",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "羊八井地热温泉度假村",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "冈仁波齐大本营",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "万岁山",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "高山牧场",
+          "location": "林芝 · 鲁朗及附近地区",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "林多大拐弯",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "莲花阁",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "如美村",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "#",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "珠穆朗玛峰观景平台",
+          "location": "定日",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "#",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "直贡梯寺天葬台",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "苯日神山",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "怒江72拐大峡谷景区",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "#",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "色季拉山口",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "乃村",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "12条点评"
+        },
+        {
+          "name": "松赞巴松措林卡",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "西藏羊八井国家地质公园",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "米堆冰川景区观景台",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "措玉村",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "巴嘎乡",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "茶马广场",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "仁多乡",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "推瓦村",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "玛旁雍错湿地",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "康布温泉度假区",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "下亚东原始森林",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "天空之树",
+          "location": "双湖",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "贡嘎冰洞",
+          "location": "边坝",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "倾多寺",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "止热寺",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "恰央措旅游景区",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "穹窿银城",
+          "location": "札达",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "纳木湖乡",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "#",
+          "reviews": "14条点评"
+        },
+        {
+          "name": "唐古拉山",
+          "location": "双湖",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "圣象天门三生石",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "樟木口岸",
+          "location": "聂拉木",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "#",
+          "reviews": "54条点评"
+        },
+        {
+          "name": "布达拉宫观景台",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "羊秀乡",
+          "location": "比如",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "孜珠山景区",
+          "location": "丁青",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "休登寺",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "珠峰观景台",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "米拉山",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "普姆雍措",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏唐卡画院",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "曲孜卡温泉度假村",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏旱地拔葱视频拍摄点",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉如村",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "洪崖洞",
+          "location": "拉萨 · 拉萨火车站/柳梧新区及附近地区",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏博物馆-讲解处",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "纳木错",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏民俗第一村",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "物玛错",
+          "location": "改则",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "雅鲁藏布江观景台",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雅弄冰川",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "玛旁雍错观景点",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "赛马场",
+          "location": "那曲",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "孔雀古城",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "鲁朗林海第一观景台",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "恰如寺",
+          "location": "比如",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "他念他翁山",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "桑桑高原牧场风景区",
+          "location": "昂仁",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "察瓦龙自驾游营地",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "班戈圣象天门帐篷营地",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨河沼泽湿地",
+          "location": "曲水",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "9条点评"
+        },
+        {
+          "name": "玉麦自然人文景区",
+          "location": "隆子",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "青朴修行地",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "东达山垭口",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "然乌湖国际自驾车营地",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "大疆无人机",
+          "location": "拉萨 · 拉萨火车站/柳梧新区及附近地区",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "释迦牟尼殿",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "德仲温泉",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "进藏先遣连纪念馆",
+          "location": "改则",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "色林错",
+          "location": "申扎",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "人间仙境",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "岗村",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "羊卓雍措雅布观景台",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "扎那尕",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉木错",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "独俊大峡谷",
+          "location": "嘉黎",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "尼玛林寺",
+          "location": "索县",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "西藏圣地旅行社",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "马泉河湿地",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏美术馆",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "象雄王国遗址",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "尼洋河观景台",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "星空藏药浴",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "嘎朗村",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "札达土林国家地质公园观景台",
+          "location": "札达",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "巴松措星空户外泡泡帐篷营地",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "古格风景名胜区",
+          "location": "札达",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "喜马拉雅山脉",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "文成公主文化旅游主题园",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "唐卡非遗文创体验馆",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "佩枯错希峰观景台",
+          "location": "聂拉木",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "藏游坛城",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "山南市羊卓雍措羊湖观景台",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "桑珠孜宗堡",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "旱地拔葱八号网红打卡点",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "易贡藏布",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "工布印象",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "尼木吞巴景区",
+          "location": "尼木",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "纳布错",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "烈士陵园",
+          "location": "山南",
+          "level": "#",
+          "popularity": "#",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "布加冰川穹雄沟景区",
+          "location": "索县",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "博秀·西藏唐卡艺术博物馆",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "纳木错国家风景区",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "展琼冰川",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "排龙温泉",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "松赞干布纪念馆",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "墨脱河",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "达东村",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "多东寺",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "藏北草原",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "盐井天主教堂",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "14条点评"
+        },
+        {
+          "name": "金顶",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "大经幡广场避雨亭",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "达蒙骷髅墙天葬院",
+          "location": "比如",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏阿里大地之树",
+          "location": "改则",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "亚东县巴夏瀑布",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "白塔",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "塔恰拉姆景区",
+          "location": "那曲",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏昌都市八宿县然乌湖免费露营地(趣汇友自驾游停车点)",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "林海",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "加隆瀑布",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "邦达广场",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "曲孜卡温泉",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "亲水叠瀑",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "亚热",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "岗嘎土山景观台",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "班公湖-观景台",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雅隆嘎布",
+          "location": "萨嘎",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "帕龙藏布",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "丙察察",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "格桑德吉颇章",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "雪巴沟景区",
+          "location": "江达",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "鲁朗骑马场射箭场",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "扎村",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨之眼",
+          "location": "拉萨 · 色拉寺及附近地区",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "米林桃源风景区",
+          "location": "林芝 · 林芝米林机场及附近地区",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雅尼玻璃观景台",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "尼屋藏布",
+          "location": "嘉黎",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "鲁朗镇",
+          "location": "林芝 · 鲁朗及附近地区",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "哲封寺",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西林观景台",
+          "location": "定结",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "亚洲湾水汇",
+          "location": "拉萨 · 拉萨火车站/柳梧新区及附近地区",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "麦地卡湿地国家级自然保护区",
+          "location": "嘉黎",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "班公措景点区",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "定结县十万个沙丘",
+          "location": "定结",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "宗山遗址",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "藏隆广场",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "洗澡堂",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "龙王潭",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "桑木村",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "羊湖旅拍星空营地",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "山南扎央宗溶洞",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "珠穆朗玛关帝庙",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "格桑林卡",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雪监狱",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "巴木措观景台",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "然乌湖免费观景台",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "鸦不结果",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "民俗文化村",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "巴嘎村",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "日土宗遗址",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "波密露营地",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "堆龙水亿方汤泉",
+          "location": "拉萨 · 堆龙德庆区政府及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "雪山星空营地",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "曲觉拉康",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "藏王洞",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "北京人在波密民居",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雪达村",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "扎西岗民俗村",
+          "location": "林芝 · 鲁朗及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "至尊宗喀巴大师殿",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "珠穆朗玛峰公园纪念碑",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "三座雪山观景台",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "阿里塔尔钦国际旅游特色小城镇",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "盛世台球俱乐部",
+          "location": "拉萨 · 拉萨火车站/柳梧新区及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "经幡广场",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "卓玛温泉度假村",
+          "location": "察雅",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "千年水磨石景区",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "加加藏布",
+          "location": "萨嘎",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "推瓦寺",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "波堆桃花谷桃花世界",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "日喀则上海科技馆",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "318露营地",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "两江汇流处",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "象雄美朵景区",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "玉许乡",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "真巴村",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "扎西曲登寺",
+          "location": "山南",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "满拉水库观景区",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "滨江草原森林公园",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "仁龙巴冰川-露营地",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "月亮湾三圣石",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "卓玛朗错",
+          "location": "洛隆",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏自治区会展中心",
+          "location": "拉萨 · 万达广场及附近地区",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "八堆村",
+          "location": "洛隆",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "唐古拉山",
+          "location": "安多",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "嘎达村",
+          "location": "索县",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "美玉草原风景区",
+          "location": "左贡",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏藏医药博物馆",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "错高湖",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "当雄县当吉仁赛马场",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "琼科寺",
+          "location": "索县",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "多玛曲",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "打加错",
+          "location": "措勤",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "可可西里山",
+          "location": "改则",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "尼木国家森林公园",
+          "location": "尼木",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "巴松措-漂流",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "金卡寺",
+          "location": "丁青",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "类乌齐寺",
+          "location": "类乌齐",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "泉水湖",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "巴卡村",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "哲蚌寺-观景台",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "狮泉河烈士陵园",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "帕羊湿地栈道景区",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "东坝民居",
+          "location": "左贡",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "林芝市散客中心",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉孜文化广场",
+          "location": "拉孜",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "雪巴沟风景区",
+          "location": "江达",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "金草滩",
+          "location": "安多",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "夯错湿地暗夜星空景区",
+          "location": "那曲",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏林芝华侨城汽车营地(趣汇友自驾游营地)",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "定日珠峰乔穆帐篷营地",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "加错拉山观景台",
+          "location": "拉孜",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "宗山抗英遗址",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "金色颇章",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "松多温泉",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "黑石北湖",
+          "location": "改则",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "色拉(西山口)",
+          "location": "山南",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "西藏林芝八一厦门广场",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "观景台",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "金城公主剧场",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "海通石林",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "中国西藏文化旅游创意园区",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "房车营地",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "比如寺",
+          "location": "比如",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "扎什伦布寺-陈列馆",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "萨嘎县布扎寺",
+          "location": "萨嘎",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏祥蚨湾康养基地",
+          "location": "拉萨 · 扎基寺及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "别若则错",
+          "location": "革吉",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "德兴乡",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "测东拉错",
+          "location": "申扎",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "阿隆藏布",
+          "location": "改则",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "格嘎村",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "多僧寺-天葬台",
+          "location": "江达",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "玛旁雍错湿地森林公园",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏革命建设改革纪念馆",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "鲁仁塘咔",
+          "location": "改则",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "林芝市 · 拉月温泉",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "浪卡子县珠地寺",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.3",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "飞越西藏5D飞行体验馆",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "曲当乡",
+          "location": "定日",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "强康",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雅鲁藏布大峡谷风景区第四景点",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "工布花谷",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "千年核桃园",
+          "location": "朗县",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "玛旁雍措湿地国家级自然保护区",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "玛朗峡谷观景台",
+          "location": "札达",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "嘉措拉山",
+          "location": "拉孜",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "九眼温泉景区",
+          "location": "定结",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "孜珠寺-露营地",
+          "location": "丁青",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "嘎贡布达",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "梵行浴池高压氧舱",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "日喀则剧院",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "阿布及错",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "吉吾寺",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "定结县湿地王国",
+          "location": "定结",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "聂拉木人民广场",
+          "location": "聂拉木",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "沃卡澡堂",
+          "location": "山南",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "根敦群培纪念馆",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "中国三峡",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "扎达广场",
+          "location": "札达",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "折公错",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏藏经博物馆",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏大剧院",
+          "location": "拉萨 · 万达广场及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "卓玛圣泉",
+          "location": "察雅",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏羊湖国际滑翔伞飞行基地",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "蒙达拉脚",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "那曲",
+          "location": "安多",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "大昭寺-朝拜区域",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "卡斯木村",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "达东盛夏林卡",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "索松村洛桑文历博物馆",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "布宮典藏布达拉宫文创体验馆",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "世界海拔最高的游泳馆",
+          "location": "那曲",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "林芝风情街",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "门东寺",
+          "location": "措勤",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "梵音映画环球旅拍",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "山南敏珠林寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "结果错",
+          "location": "昂仁",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "班戈江龙玛曲国家湿地公园",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "扎日南木错",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "奇林峡观景台",
+          "location": "定结",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨印象",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨滨河游船",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "V字峡谷",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "达绕错",
+          "location": "改则",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "俏夫人(德吉路店)",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "木如寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "鲁朗小镇牌坊",
+          "location": "林芝 · 鲁朗及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "然乌洒列自驾露营地",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "芒康县盐井马帮民俗博物馆",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "当惹雍错景区观景台",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "八宿县峡谷电竞馆",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "邦达草原观景点",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "仲措隆巴错",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "当惹雍措",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "巴松措秘境·户外运动营地",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "曲美辛古抗英纪念碑",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "印经院",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏自治区图书馆",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "慈觉林寺",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "象雄穹宗遗址",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "措学仁玛营地",
+          "location": "定日",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨美术馆",
+          "location": "拉萨 · 仙足岛及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨乃仓广场",
+          "location": "拉萨 · 仙足岛及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "波罗乡",
+          "location": "江达",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "热振国家森林公园",
+          "location": "林周",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "澜沧江天津广场",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "加木红柳湿地公园",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨河",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "札达土林国家地质公园-托林寺遗迹",
+          "location": "札达",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "喜荣沟景区",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雅鲁藏布江",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "尼木玛曲",
+          "location": "尼木",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "嘎玛",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏百万农奴解放纪念馆(分馆)",
+          "location": "拉萨 · 万达广场及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "白普隆沟牧场",
+          "location": "波密",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "丹娘乡沙丘旅游景区",
+          "location": "米林",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "芝达布日寺",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "里呀多卡",
+          "location": "波密",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "拉萨银河星空光影小镇",
+          "location": "曲水",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "泽当公园",
+          "location": "山南",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "岗日嘎布藏布",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "星际探索·星空营地(乃钦康桑雪山店)",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "小北湖",
+          "location": "改则",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "茶卡错",
+          "location": "革吉",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏昌都察雅县皇爵",
+          "location": "察雅",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "喇嘛岭",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "幸福小镇·汤泉水汇",
+          "location": "拉萨 · 万达广场及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "扎日南木措美人尖",
+          "location": "措勤",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "318彩虹冲水打卡地",
+          "location": "波密",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "林则野生猕猴乐园",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "那曲县杭州科普文化中心",
+          "location": "那曲",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "法王松赞干布殿",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉姆错",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "加嘎错",
+          "location": "嘉黎",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "排龙自驾房车露营地",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "途云客自驾车房车营地",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏纳木错自然保护区-错母期",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "沃卡乡曲龙寺",
+          "location": "桑日",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "田园风光观景台",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏天文馆",
+          "location": "拉萨 · 万达广场及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "江达县1976营地",
+          "location": "江达",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "木拉错",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "沉措",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "江萨国家湿地公园",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "广药白云山藏式养生古堡",
+          "location": "林芝 · 鲁朗及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "巴青县龙卡寺",
+          "location": "巴青",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉乌山国际自驾游露营地",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雪顿古镇",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "乃堆拉杜鹃花海景区",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "左贡寺",
+          "location": "左贡",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "萨普",
+          "location": "比如",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "纳麦村",
+          "location": "林芝 · 鲁朗及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "聂当大佛",
+          "location": "曲水",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雄楚",
+          "location": "边坝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "那曲市色尼区孔玛乡宗青扎嘎旅游景区",
+          "location": "那曲",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "恩达温泉瀑布",
+          "location": "察雅",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "澜沧江",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "吉日寺",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉木错",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨市中华文化公园",
+          "location": "拉萨 · 拉萨火车站/柳梧新区及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "朱拉河国家湿地公园",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "文成公主帐篷营地",
+          "location": "比如",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "波密县嘎隆拉冰川",
+          "location": "波密",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "沙琼村",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "岗布沟旅游景区(宁金康桑)",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "狮子吼观音殿",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "芒康滇金丝猴",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "清真寺(雪强路)",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "西藏朗县雅江公园",
+          "location": "朗县",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "香柏林寺遗址",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "珠穆朗玛国家公园纪念碑",
+          "location": "定日",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "黄湖",
+          "location": "边坝",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "撒木错",
+          "location": "比如",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "曲觉拉康",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "朗布其观景台",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "迪乐尼林卡乐园",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "杰岗日神山",
+          "location": "申扎",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "亚东县林海银河瀑布",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "加拉村",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "札达县达巴扎西伦布寺",
+          "location": "札达",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "协德乡",
+          "location": "双湖",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "羌姆石窟",
+          "location": "定结",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "西藏自治区日喀则桑珠子区步行街",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "马泥佯塘",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "拉萨烈士陵园",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "珠峰大剧院",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "雅鲁藏布江",
+          "location": "朗县",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "阿玛直布错",
+          "location": "定结",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "#",
+          "reviews": "#"
+        },
+        {
+          "name": "日喀则石刻艺术博物馆",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "#",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "representative_tags": "历史建筑",
+      "attraction_count": 180,
+      "attractions": [
+        {
+          "name": "● 大昭寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "5A",
+          "popularity": "7.5",
+          "tags": "藏传佛教圣地,历史建筑",
+          "reviews": "4440条点评"
+        },
+        {
+          "name": "扎什伦布寺",
+          "location": "日喀则",
+          "level": "5A",
+          "popularity": "5.9",
+          "tags": "金顶红墙的建筑群雄伟壮观,历史建筑",
+          "reviews": "588条点评"
+        },
+        {
+          "name": "色拉寺",
+          "location": "拉萨 · 色拉寺及附近地区",
+          "level": "#",
+          "popularity": "5.9",
+          "tags": "欣赏精彩的辩经,历史建筑",
+          "reviews": "474条点评"
+        },
+        {
+          "name": "扎基寺",
+          "location": "拉萨 · 扎基寺及附近地区",
+          "level": "#",
+          "popularity": "5.8",
+          "tags": "香火旺盛的财神庙,历史建筑",
+          "reviews": "156条点评"
+        },
+        {
+          "name": "小昭寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "5.4",
+          "tags": "融合了汉藏式建筑特点,历史建筑",
+          "reviews": "308条点评"
+        },
+        {
+          "name": "哲蚌寺",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "4A",
+          "popularity": "5.4",
+          "tags": "半山腰上的白色寺院,历史建筑",
+          "reviews": "355条点评"
+        },
+        {
+          "name": "古格王国遗址",
+          "location": "札达",
+          "level": "#",
+          "popularity": "5.2",
+          "tags": "王朝遗址规模宏伟壮观,历史建筑",
+          "reviews": "160条点评"
+        },
+        {
+          "name": "甘丹寺",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "5.0",
+          "tags": "拥有精美的24幅唐卡,历史建筑",
+          "reviews": "109条点评"
+        },
+        {
+          "name": "日托寺",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "4.8",
+          "tags": "历史建筑",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "孜珠寺",
+          "location": "丁青",
+          "level": "#",
+          "popularity": "4.6",
+          "tags": "依山而建的古老苯教寺庙,历史建筑",
+          "reviews": "40条点评"
+        },
+        {
+          "name": "宗山抗英遗址-江孜宗山古堡",
+          "location": "江孜",
+          "level": "4A",
+          "popularity": "4.5",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "布达拉宫-红宫",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "4.5",
+          "tags": "放置历代达赖等身像,历史建筑",
+          "reviews": "79条点评"
+        },
+        {
+          "name": "珠峰大本营绒布寺",
+          "location": "定日",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "属藏传佛教宁玛派寺庙,历史建筑",
+          "reviews": "100条点评"
+        },
+        {
+          "name": "雍布拉康",
+          "location": "山南",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "寺院居高临下，视野开阔,历史建筑",
+          "reviews": "98条点评"
+        },
+        {
+          "name": "盐井千年古盐田",
+          "location": "芒康",
+          "level": "4A",
+          "popularity": "4.3",
+          "tags": "观赏手工制盐的全过程,历史建筑",
+          "reviews": "57条点评"
+        },
+        {
+          "name": "强巴林寺",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "佛教场所，佛像壁画众多,历史建筑",
+          "reviews": "74条点评"
+        },
+        {
+          "name": "白宫",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "达赖喇嘛的冬宫,历史建筑",
+          "reviews": "78条点评"
+        },
+        {
+          "name": "仁青崩寺",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "看镀金铜佛像，品古老文化,历史建筑",
+          "reviews": "26条点评"
+        },
+        {
+          "name": "雪城",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "布达拉宫山下的古建筑群,历史建筑",
+          "reviews": "28条点评"
+        },
+        {
+          "name": "扎叶巴寺",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "四大隐修地之一,历史建筑",
+          "reviews": "40条点评"
+        },
+        {
+          "name": "西藏纳木错自然保护区-扎西岛寺",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "历史建筑",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "达木寺骷髅墙",
+          "location": "比如",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "头骨堆砌而成的围墙,历史建筑",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "桑耶寺",
+          "location": "扎囊",
+          "level": "4A",
+          "popularity": "3.9",
+          "tags": "佛、法、僧俱全的寺院,历史建筑",
+          "reviews": "137条点评"
+        },
+        {
+          "name": "托林寺",
+          "location": "札达",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "欣赏有名的唐卡壁画,历史建筑",
+          "reviews": "44条点评"
+        },
+        {
+          "name": "摩崖石刻",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "3.8",
+          "tags": "绝壁刻满大小佛像5000多尊,历史建筑",
+          "reviews": "38条点评"
+        },
+        {
+          "name": "帕邦喀",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "3.8",
+          "tags": "莲花生、 静命等曾在此修行,历史建筑",
+          "reviews": "22条点评"
+        },
+        {
+          "name": "措宗寺",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "建于唐代末年,历史建筑",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "嘎龙寺",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "功德林寺",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "布达拉宫西南角的安静寺庙,历史建筑",
+          "reviews": "21条点评"
+        },
+        {
+          "name": "宗山小布达拉",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "红白相间的墙面,历史建筑",
+          "reviews": "41条点评"
+        },
+        {
+          "name": "萨迦寺",
+          "location": "萨迦",
+          "level": "4A",
+          "popularity": "3.6",
+          "tags": "古老藏传佛寺,藏有贝叶经,历史建筑",
+          "reviews": "58条点评"
+        },
+        {
+          "name": "西藏盐井景区",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "历史建筑",
+          "reviews": "14条点评"
+        },
+        {
+          "name": "色拉寺辩经场",
+          "location": "拉萨 · 色拉寺及附近地区",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "拉萨不可不看的人文景观,历史建筑",
+          "reviews": "39条点评"
+        },
+        {
+          "name": "直贡梯寺",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "立于悬崖之上的古寺,历史建筑",
+          "reviews": "61条点评"
+        },
+        {
+          "name": "比日神山生态景区",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "可看到苯教的特色遗址,历史建筑",
+          "reviews": "89条点评"
+        },
+        {
+          "name": "关帝庙",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "规模较大保存较完整,历史建筑",
+          "reviews": "35条点评"
+        },
+        {
+          "name": "白居寺",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "藏传佛教寺庙，三派并立,历史建筑",
+          "reviews": "106条点评"
+        },
+        {
+          "name": "皮央东嘎洞窟遗址",
+          "location": "札达",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "历史建筑",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "悬空寺",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "寺庙和栈道是悬在空中的,历史建筑",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "赞丹寺",
+          "location": "索县",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "历史建筑",
+          "reviews": "9条点评"
+        },
+        {
+          "name": "湖心宫",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "历史建筑",
+          "reviews": "22条点评"
+        },
+        {
+          "name": "第十世班禅大师灵塔祀殿(释颂南捷)",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "历史建筑",
+          "reviews": "17条点评"
+        },
+        {
+          "name": "卡久寺",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "历史建筑",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "止热寺",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "历史建筑",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "昌珠寺",
+          "location": "山南",
+          "level": "4A",
+          "popularity": "3.3",
+          "tags": "珍珠唐卡为镇寺之宝,历史建筑",
+          "reviews": "59条点评"
+        },
+        {
+          "name": "日土岩画",
+          "location": "日土",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "历史建筑",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "秀巴千年古堡群",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "尼洋河风光带重要旅游景点,历史建筑",
+          "reviews": "67条点评"
+        },
+        {
+          "name": "强巴佛殿(弥勒殿)",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "历史建筑",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "林周县夏寺",
+          "location": "林周",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "历史建筑",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "嘎朗王宫遗址",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "历史建筑",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "孝登寺",
+          "location": "那曲",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "丹杰林寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "普贤菩萨双修像造型奇特,历史建筑",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "帕拉庄园",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "建筑配套完整,历史建筑",
+          "reviews": "55条点评"
+        },
+        {
+          "name": "布久喇嘛岭寺",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "历史建筑",
+          "reviews": "50条点评"
+        },
+        {
+          "name": "驻藏大臣衙门遗址",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "展示了历代驻藏大臣塑像,历史建筑",
+          "reviews": "107条点评"
+        },
+        {
+          "name": "查嘎寺",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "历史建筑",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "班禅新宫",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "历史建筑",
+          "reviews": "31条点评"
+        },
+        {
+          "name": "楚布寺",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "拥有大量文物的古寺,历史建筑",
+          "reviews": "61条点评"
+        },
+        {
+          "name": "藏王墓",
+          "location": "琼结",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "保存较好的大规模王陵,历史建筑",
+          "reviews": "35条点评"
+        },
+        {
+          "name": "卡若遗址",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "历史建筑",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "大昭寺弥勒殿",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "精致的弥勒佛像,历史建筑",
+          "reviews": "46条点评"
+        },
+        {
+          "name": "查杰玛大殿",
+          "location": "类乌齐",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "历史建筑",
+          "reviews": "12条点评"
+        },
+        {
+          "name": "曲古寺",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "历史建筑",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "青朴",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "一处风景气候皆佳的地方,历史建筑",
+          "reviews": "39条点评"
+        },
+        {
+          "name": "丁青寺",
+          "location": "丁青",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "羊八井寺",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "规模宏大的寺庙建筑群,历史建筑",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "达旦明久颇章",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "历史建筑",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "展佛台",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "历史建筑",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "泽当寺",
+          "location": "山南",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "历史建筑",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "夏珠林寺",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "历史建筑",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "扎达布日寺",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "历史建筑",
+          "reviews": "13条点评"
+        },
+        {
+          "name": "卡玛多塔林",
+          "location": "类乌齐",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "历史建筑",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "平措林寺",
+          "location": "拉孜",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "历史建筑",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "科迦寺",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "原始、古朴的古寺,历史建筑",
+          "reviews": "15条点评"
+        },
+        {
+          "name": "直贡噶举西方三怙主殿",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "宗角禄康公园-龙王庙",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "历史建筑",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "夏鲁寺",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "历史建筑",
+          "reviews": "22条点评"
+        },
+        {
+          "name": "贡嘎曲德寺",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "历史建筑",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "达木寺",
+          "location": "比如",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "敏珠林寺",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "历史建筑",
+          "reviews": "22条点评"
+        },
+        {
+          "name": "仓姑寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "鲜花围绕的尼姑庵,历史建筑",
+          "reviews": "123条点评"
+        },
+        {
+          "name": "热振寺",
+          "location": "林周",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "古柏树与溪水围绕的古刹,历史建筑",
+          "reviews": "20条点评"
+        },
+        {
+          "name": "喜德寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "拉萨四大林之一,历史建筑",
+          "reviews": "21条点评"
+        },
+        {
+          "name": "鲁普岩寺",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "主尊释迦摩尼及其弟子佛像,历史建筑",
+          "reviews": "23条点评"
+        },
+        {
+          "name": "东嘎寺",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "历史建筑",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "赛卡古托寺",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "了解藏传佛教噶举派事迹,历史建筑",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "比喜宅",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "历史建筑",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "多吉扎寺",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "藏传佛教知名寺院,历史建筑",
+          "reviews": "44条点评"
+        },
+        {
+          "name": "吉祥瓦拉寺",
+          "location": "江达",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "历史建筑",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "日崩尼寺",
+          "location": "索县",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "历史建筑",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "巴嘎噶林",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "历史建筑",
+          "reviews": "23条点评"
+        },
+        {
+          "name": "帕巴寺",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "历史建筑",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "布达拉宫-殊胜三界殿",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "位于红宫之巅,历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "乃琼寺",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "欣赏色彩浓郁的壁画,历史建筑",
+          "reviews": "30条点评"
+        },
+        {
+          "name": "大渡卡遗址",
+          "location": "米林",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "历史建筑",
+          "reviews": "13条点评"
+        },
+        {
+          "name": "拉加里王宫",
+          "location": "曲松",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "历史建筑",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "噶举寺",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "历史建筑",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "下密寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "可以看到僧人诵经的画面,历史建筑",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "白宫平台",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "绘有精美壁画,历史建筑",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "维色寺广场",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "历史建筑",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "狮林寺",
+          "location": "林周",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "热拉札塘",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "皮央和东嘎遗址",
+          "location": "札达",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "罗布拉康寺",
+          "location": "改则",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "历史建筑",
+          "reviews": "9条点评"
+        },
+        {
+          "name": "尼姑寺",
+          "location": "林周",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "朱古寺",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "后藏民俗风情园(喜格孜步行街)",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "历史建筑",
+          "reviews": "17条点评"
+        },
+        {
+          "name": "色拉寺密宗僧院",
+          "location": "拉萨 · 色拉寺及附近地区",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "洛卓窝隆寺",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "历史建筑",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "田妥寺",
+          "location": "左贡",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "策门林寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "隐于藏民大院的寺院,历史建筑",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "甘丹颇章",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "历史建筑",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "松赞干布出生地",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "桑顶寺",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "历史建筑",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "列山古墓群",
+          "location": "朗县",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "历史建筑",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "布达拉宫-东大殿",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "历史建筑",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "巴郎却康",
+          "location": "桑日",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "历史建筑",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "普兰县楚果寺",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "历史建筑",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "木如寺印经院",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "藏传佛教格鲁派寺院,历史建筑",
+          "reviews": "40条点评"
+        },
+        {
+          "name": "甲玛王宫",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "风光秀丽的古老城堡,历史建筑",
+          "reviews": "32条点评"
+        },
+        {
+          "name": "措钦大殿",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "历史建筑",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "古如江寺",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "曲登尼玛寺",
+          "location": "岗巴",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "历史建筑",
+          "reviews": "9条点评"
+        },
+        {
+          "name": "丹萨梯寺",
+          "location": "桑日",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "帕崩岗",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "扎西多寺",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "小恩达遗址",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "历史建筑",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "扎塘寺",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "历史建筑",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "大唐天竺使出铭",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "向康大殿",
+          "location": "察雅",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "嘎东寺",
+          "location": "白朗",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "米琼日寺",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "萨迦寺颇章萨巴",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "觉囊寺",
+          "location": "拉孜",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "湘河铁索桥",
+          "location": "南木林",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "措钦大殿",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "13条点评"
+        },
+        {
+          "name": "巴尔曲德寺",
+          "location": "朗县",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "次巴拉康寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "成排的酥油灯很壮观,历史建筑",
+          "reviews": "21条点评"
+        },
+        {
+          "name": "布达拉宫角楼",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "夏扎大院",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "唐蕃古道",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "协格尔曲德寺",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "西藏萨迦查仓啊上等贵族府邸",
+          "location": "萨迦",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "雄色寺",
+          "location": "曲水",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "噶玛夏寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "招提壁垒",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "即乌寺",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "建筑布局仿效布达拉宫,历史建筑",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "唐蕃会盟碑",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "汉藏历史上一件可贵文物,历史建筑",
+          "reviews": "40条点评"
+        },
+        {
+          "name": "琼果杰寺",
+          "location": "加查",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "历史建筑",
+          "reviews": "15条点评"
+        },
+        {
+          "name": "曲桑寺",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "历史建筑",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "亚桑寺",
+          "location": "山南",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "历史建筑",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "扎东寺",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "德仲寺",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "拉隆寺",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "历史建筑",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "查拉鲁普石窟",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "打隆寺",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "西泊寺",
+          "location": "贡觉",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "聂塘卓玛拉康",
+          "location": "曲水",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "曲贡文化遗址",
+          "location": "拉萨 · 色拉寺及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "古老的村居遗址,历史建筑",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "边坝寺",
+          "location": "边坝",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "江孜县紫金寺",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "热拉雍仲林寺",
+          "location": "南木林",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "吉如拉康寺",
+          "location": "山南",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "纳唐寺",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "芒框腊卡",
+          "location": "左贡",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "德央扎仓",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "德木寺",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "象雄古堡",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "俄尔寺",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "羌纳寺",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "松卡石塔",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "桑阿寺",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "木如宁巴寺",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "绒布德寺",
+          "location": "定日",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "土旦热麦寺",
+          "location": "贡嘎 · 拉萨贡嘎国际机场及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "扎热寺",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "乃朗寺",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "羊卓雍措-萨隆寺",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "#"
+        },
+        {
+          "name": "南方三佑怙殿",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "历史建筑",
+          "reviews": "9条点评"
+        },
+        {
+          "name": "同卡寺",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "历史建筑",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "representative_tags": "自然山水",
+      "attraction_count": 113,
+      "attractions": [
+        {
+          "name": "● 纳木措圣象天门",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "6.0",
+          "tags": "耸立的巨石远看像大象,自然山水",
+          "reviews": "169条点评"
+        },
+        {
+          "name": "鲁朗景区",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "5.8",
+          "tags": "自然山水",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "世界柏树王园林",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "4A",
+          "popularity": "5.5",
+          "tags": "界树龄最长的巨柏,自然山水",
+          "reviews": "122条点评"
+        },
+        {
+          "name": "米堆冰川",
+          "location": "波密",
+          "level": "4A",
+          "popularity": "5.5",
+          "tags": "近距离观赏开阔壮观的冰川,自然山水",
+          "reviews": "305条点评"
+        },
+        {
+          "name": "新措",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "5.4",
+          "tags": "自然山水",
+          "reviews": "27条点评"
+        },
+        {
+          "name": "岗云杉林",
+          "location": "波密",
+          "level": "#",
+          "popularity": "5.0",
+          "tags": "绵延几十公里的壮观云杉林,自然山水",
+          "reviews": "83条点评"
+        },
+        {
+          "name": "雅鲁藏布江",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "4.9",
+          "tags": "冰山雪岭中的杰马央宗冰川,自然山水",
+          "reviews": "31条点评"
+        },
+        {
+          "name": "嘎拉桃花村",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "4.8",
+          "tags": "山丘桃花密集分布，如晚霞,自然山水",
+          "reviews": "138条点评"
+        },
+        {
+          "name": "西藏雅尼国家湿地公园",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "4.8",
+          "tags": "自然山水",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "札达土林国家地质公园‌",
+          "location": "札达",
+          "level": "#",
+          "popularity": "4.6",
+          "tags": "罕见的土林地貌奇观,自然山水",
+          "reviews": "98条点评"
+        },
+        {
+          "name": "色林措",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "4.5",
+          "tags": "封闭的内陆湖泊群,自然山水",
+          "reviews": "53条点评"
+        },
+        {
+          "name": "羊湖",
+          "location": "改则",
+          "level": "#",
+          "popularity": "4.4",
+          "tags": "碧波荡漾的壮丽景色,自然山水",
+          "reviews": "23条点评"
+        },
+        {
+          "name": "尼洋河风光带",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "4.4",
+          "tags": "尼洋河美景，水量充沛，植被丰富,自然山水",
+          "reviews": "22条点评"
+        },
+        {
+          "name": "吉隆沟",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "雪山、牧场、梯田美不胜收,自然山水",
+          "reviews": "35条点评"
+        },
+        {
+          "name": "巴木错",
+          "location": "班戈",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "自然山水",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "拉昂错",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "鸟类的天堂,自然山水",
+          "reviews": "78条点评"
+        },
+        {
+          "name": "达古峡谷风景区",
+          "location": "桑日",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "观赏珍贵的野生动物,自然山水",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "日弄巴冰川",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "地球上少有的中低纬度海洋性现代山岳,自然山水",
+          "reviews": "12条点评"
+        },
+        {
+          "name": "三色湖",
+          "location": "边坝",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "自然山水",
+          "reviews": "14条点评"
+        },
+        {
+          "name": "思金拉措",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "自然山水",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "江河汇流",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "自然山水",
+          "reviews": "13条点评"
+        },
+        {
+          "name": "拉鲁湿地国家级自然保护区",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "欣赏野生鸟类的好去处,自然山水",
+          "reviews": "54条点评"
+        },
+        {
+          "name": "雅鲁藏布江",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "文明见证汉藏交融,自然山水",
+          "reviews": "20条点评"
+        },
+        {
+          "name": "狮泉河",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "3.8",
+          "tags": "沿岸以宽谷地形为主,自然山水",
+          "reviews": "74条点评"
+        },
+        {
+          "name": "佩枯错",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "3.8",
+          "tags": "自然山水",
+          "reviews": "38条点评"
+        },
+        {
+          "name": "拉姆拉措",
+          "location": "加查",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "湖面海拔5000多米,自然山水",
+          "reviews": "83条点评"
+        },
+        {
+          "name": "祥格拉冰川",
+          "location": "边坝",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "自然山水",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "公珠错",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "自然山水",
+          "reviews": "15条点评"
+        },
+        {
+          "name": "班公湖",
+          "location": "日土",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "自然山水",
+          "reviews": "21条点评"
+        },
+        {
+          "name": "吉布峡谷",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "自然山水",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "措那湖",
+          "location": "安多",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "高原圣湖，湖内绿水清漪,自然山水",
+          "reviews": "56条点评"
+        },
+        {
+          "name": "干尸洞",
+          "location": "札达",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "自然山水",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "那木错",
+          "location": "聂拉木",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "自然山水",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "班公错",
+          "location": "日土",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "明媚而狭长的湖泊,自然山水",
+          "reviews": "82条点评"
+        },
+        {
+          "name": "当惹雍错",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "自然山水",
+          "reviews": "55条点评"
+        },
+        {
+          "name": "扎日南木错",
+          "location": "措勤",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "自然山水",
+          "reviews": "44条点评"
+        },
+        {
+          "name": "白马错",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "自然山水",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "札达霞义沟土林景区",
+          "location": "札达",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "自然山水",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "雅鲁藏布江水葬台",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "自然山水",
+          "reviews": "27条点评"
+        },
+        {
+          "name": "扎布耶茶卡",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "自然山水",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "怒江第一湾",
+          "location": "比如",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "自然山水",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "布加雪山冰川",
+          "location": "巴青",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "自然山水",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "拿日雍错",
+          "location": "山南",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "自然山水",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "勒布沟",
+          "location": "错那",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "自然山水",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "嘎朗湖景区",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "自然风光十分优美,自然山水",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "措嘉冰川",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "自然山水",
+          "reviews": "12条点评"
+        },
+        {
+          "name": "定结县陈塘沟风景区",
+          "location": "定结",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "自然山水",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "朗吉错",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "自然山水",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "佩古错",
+          "location": "聂拉木",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "自然山水",
+          "reviews": "9条点评"
+        },
+        {
+          "name": "达则错",
+          "location": "双湖",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "自然山水",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "错愕湖",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "自然山水",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "鲁朗贡措湖景区",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "自然山水",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "卓龙沟",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "自然山水",
+          "reviews": "9条点评"
+        },
+        {
+          "name": "马泉河",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "自然山水",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "布托湖",
+          "location": "丁青",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "自然山水",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "定结宗措湖",
+          "location": "定结",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "易贡茶场",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "自然山水",
+          "reviews": "12条点评"
+        },
+        {
+          "name": "卧龙奇石",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "自然山水",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "多情错",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "自然山水",
+          "reviews": "22条点评"
+        },
+        {
+          "name": "盐湖",
+          "location": "革吉",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "自然山水",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "大脚印奇观",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "自然山水",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "仁青休布错",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "自然山水",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "仁措湖",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "自然山水",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "朗秋冰川",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "自然山水",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "绒布冰川",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "自然山水",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "炯拉措",
+          "location": "边坝",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "帕隆藏布江",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "日观雪山、随处可见桃花树,自然山水",
+          "reviews": "30条点评"
+        },
+        {
+          "name": "浪错",
+          "location": "昂仁",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "自然山水",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "普若岗日",
+          "location": "双湖",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "自然山水",
+          "reviews": "13条点评"
+        },
+        {
+          "name": "当穹错",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "自然山水",
+          "reviews": "54条点评"
+        },
+        {
+          "name": "背崩瀑布",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "激起的水沫烟雾高达数百公尺,自然山水",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "洞错",
+          "location": "改则",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "自然山水",
+          "reviews": "15条点评"
+        },
+        {
+          "name": "古冰川",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "藏布巴东瀑布群",
+          "location": "米林",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "年楚河",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "自然山水",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "达瓦错",
+          "location": "措勤",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "自然山水",
+          "reviews": "14条点评"
+        },
+        {
+          "name": "哲古措",
+          "location": "措美",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "自然山水",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "拉萨滨河公园",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "昂拉仁错",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "自然山水",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "开热瀑布",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "自然山水",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "合掌石",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "自然山水",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "林芝巴结巨柏自然保护区",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "自然山水",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "老虎嘴瀑布",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "自然山水",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "波罗吉荣大峡谷",
+          "location": "江达",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "自然山水",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "莽措湖自然风景区",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "自然山水",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "介久错",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "自然山水",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "曲卓木乡千年沙棘林景区",
+          "location": "错那",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "自然山水",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "错鄂",
+          "location": "申扎",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "自然山水",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "那木拉错",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "自然山水",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "羌塘湖泊湿地",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "自然山水",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "易贡错",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "自然山水",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "布裙湖",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "自然山水",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "塔若错",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "自然山水",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "象泉河",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "自然山水",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "年楚河自然观光游览区",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "自然山水",
+          "reviews": "12条点评"
+        },
+        {
+          "name": "神秘树林",
+          "location": "林周",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "空母错",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "自然山水",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "曲普水热爆炸奇观",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "自然山水",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "西藏察隅慈巴沟国家级自然保护区",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "观赏种类丰富的药材,自然山水",
+          "reviews": "23条点评"
+        },
+        {
+          "name": "米堆村",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "自然山水",
+          "reviews": "24条点评"
+        },
+        {
+          "name": "吉普村",
+          "location": "拉孜",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "自然山水",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "米拉日巴修行洞",
+          "location": "聂拉木",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "娜拉措",
+          "location": "米林",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "杰玛央宗冰川",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "恰青冰川",
+          "location": "波密",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "雅鲁藏布江源头",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "自然山水",
+          "reviews": "#"
+        },
+        {
+          "name": "工布自然保护区",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "近距离观察牦牛,自然山水",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "金嘎溶洞",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "自然山水",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "莽错",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "自然山水",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "桑耶景区渡口",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "自然山水",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "晓乌错",
+          "location": "定日",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "自然山水",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "雅鲁藏布江黑颈鹤保护区",
+          "location": "山南",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "自然山水",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "多雄拉",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "自然山水",
+          "reviews": "8条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "representative_tags": "登高爬山",
+      "attraction_count": 87,
+      "attractions": [
+        {
+          "name": "● 珠峰景区",
+          "location": "定日",
+          "level": "#",
+          "popularity": "7.2",
+          "tags": "登高爬山",
+          "reviews": "472条点评"
+        },
+        {
+          "name": "珠峰大本营",
+          "location": "定日",
+          "level": "#",
+          "popularity": "7.2",
+          "tags": "攀登珠峰的必经之地,登高爬山",
+          "reviews": "509条点评"
+        },
+        {
+          "name": "南迦巴瓦峰",
+          "location": "米林",
+          "level": "#",
+          "popularity": "7.0",
+          "tags": "具有代表性的中国雪山,登高爬山",
+          "reviews": "957条点评"
+        },
+        {
+          "name": "珠穆朗玛峰",
+          "location": "定日",
+          "level": "#",
+          "popularity": "6.3",
+          "tags": "世界第一高峰,登高爬山",
+          "reviews": "368条点评"
+        },
+        {
+          "name": "卡若拉冰川",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "6.2",
+          "tags": "大陆型冰川，电影拍摄地,登高爬山",
+          "reviews": "255条点评"
+        },
+        {
+          "name": "鲁朗林海",
+          "location": "林芝",
+          "level": "4A",
+          "popularity": "5.8",
+          "tags": "茂密连绵的绿色林海,登高爬山",
+          "reviews": "390条点评"
+        },
+        {
+          "name": "药王山",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "5.7",
+          "tags": "50元钱币背面拍摄地,登高爬山",
+          "reviews": "385条点评"
+        },
+        {
+          "name": "鲁朗国际旅游小镇",
+          "location": "林芝 · 鲁朗及附近地区",
+          "level": "#",
+          "popularity": "5.5",
+          "tags": "欣赏美丽的田园风光,登高爬山",
+          "reviews": "100条点评"
+        },
+        {
+          "name": "那根拉山口",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "5.6",
+          "tags": "通往纳木错的必经之地,登高爬山",
+          "reviews": "210条点评"
+        },
+        {
+          "name": "色季拉山",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "5.5",
+          "tags": "川藏线上的知名地标,登高爬山",
+          "reviews": "169条点评"
+        },
+        {
+          "name": "加乌拉",
+          "location": "定日",
+          "level": "#",
+          "popularity": "5.2",
+          "tags": "登高眺望珠穆朗玛峰美景,登高爬山",
+          "reviews": "20条点评"
+        },
+        {
+          "name": "岗巴拉山",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "5.2",
+          "tags": "有着巨大的玛尼堆,登高爬山",
+          "reviews": "66条点评"
+        },
+        {
+          "name": "念青唐古拉观景台",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "4.9",
+          "tags": "远眺巍巍高山，白雪皑皑,登高爬山",
+          "reviews": "125条点评"
+        },
+        {
+          "name": "米拉山口",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "4.7",
+          "tags": "山口东西两侧景色反差大,登高爬山",
+          "reviews": "356条点评"
+        },
+        {
+          "name": "库拉岗日雪山",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "4.6",
+          "tags": "登高爬山",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "嘎瓦龙景区",
+          "location": "波密",
+          "level": "#",
+          "popularity": "4.5",
+          "tags": "登高爬山",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "嘉措拉山口",
+          "location": "拉孜",
+          "level": "#",
+          "popularity": "4.5",
+          "tags": "登高爬山",
+          "reviews": "50条点评"
+        },
+        {
+          "name": "洛子峰",
+          "location": "定日",
+          "level": "#",
+          "popularity": "4.4",
+          "tags": "登高爬山",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "珠穆朗玛峰国家级自然保护区",
+          "location": "定日",
+          "level": "4A",
+          "popularity": "4.4",
+          "tags": "登山爱好者的理想选择,登高爬山",
+          "reviews": "34条点评"
+        },
+        {
+          "name": "希夏邦马峰",
+          "location": "聂拉木",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "欣赏美丽的冰晶园林,登高爬山",
+          "reviews": "44条点评"
+        },
+        {
+          "name": "念青唐古拉山",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "高海拔山川，长江的发源地,登高爬山",
+          "reviews": "17条点评"
+        },
+        {
+          "name": "曲登尼玛冰川",
+          "location": "岗巴",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "登高爬山",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "念青唐古拉山脉",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "登高爬山",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "喜马拉雅山脉",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "雪域之乡，珠峰是其主峰,登高爬山",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "错高村",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "登高爬山",
+          "reviews": "15条点评"
+        },
+        {
+          "name": "嘎隆拉",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "3.8",
+          "tags": "地势陡峭、地形复杂,登高爬山",
+          "reviews": "31条点评"
+        },
+        {
+          "name": "来古村",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "登高爬山",
+          "reviews": "14条点评"
+        },
+        {
+          "name": "马卡鲁山",
+          "location": "定日",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "登高爬山",
+          "reviews": "15条点评"
+        },
+        {
+          "name": "觉巴山",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "欣赏壮美的峭壁和深渊,登高爬山",
+          "reviews": "28条点评"
+        },
+        {
+          "name": "卓木拉日雪山",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "又称“神女峰”,登高爬山",
+          "reviews": "42条点评"
+        },
+        {
+          "name": "加若拉山口",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "登高爬山",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "卓奥友峰",
+          "location": "定日",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "峰体被大量的冰川覆盖,登高爬山",
+          "reviews": "21条点评"
+        },
+        {
+          "name": "琼穆岗日",
+          "location": "尼木",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "登高爬山",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "琼姆岗嘎",
+          "location": "尼木",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "登高爬山",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "东达山",
+          "location": "左贡",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "海拔高，一年四季雪常在,登高爬山",
+          "reviews": "86条点评"
+        },
+        {
+          "name": "色季拉国家森林公园",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "观看一日四季的奇特景观,登高爬山",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "西藏红山饭店(北京中路店)",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "布达拉宫的建造地,登高爬山",
+          "reviews": "30条点评"
+        },
+        {
+          "name": "乃钦康桑雪山冰川旅游区",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "登高爬山",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "廓琼岗日冰川",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "车辆可抵达的高海拔冰川,登高爬山",
+          "reviews": "84条点评"
+        },
+        {
+          "name": "盔甲山",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "登高爬山",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "鲁朗花海牧场",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "开阔的天然牧场,登高爬山",
+          "reviews": "144条点评"
+        },
+        {
+          "name": "纳木那尼峰",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "海拔7728米,登高爬山",
+          "reviews": "44条点评"
+        },
+        {
+          "name": "纳金山",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "登高爬山",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "雅拉香布神山",
+          "location": "山南",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "登高爬山",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "多拉神山",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "登高爬山",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "达果雪山",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "登高爬山",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "洛堆峰",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "登高爬山",
+          "reviews": "#"
+        },
+        {
+          "name": "乃钦康桑雪山",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "登高爬山",
+          "reviews": "15条点评"
+        },
+        {
+          "name": "冲巴雍错",
+          "location": "康马",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "登高爬山",
+          "reviews": "#"
+        },
+        {
+          "name": "格拉丹东雪山",
+          "location": "安多",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "长江发源地，冰塔林壮观,登高爬山",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "岗巴拉山",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "登高爬山",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "业拉山",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "登高爬山",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "拉乌山",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "登高爬山",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "西藏芒康滇金丝猴国家级自然保护区",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "近距离观察金丝猴,登高爬山",
+          "reviews": "33条点评"
+        },
+        {
+          "name": "卓玛拉山口",
+          "location": "革吉",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "登高爬山",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "业拉山垭口",
+          "location": "左贡",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "登高爬山",
+          "reviews": "#"
+        },
+        {
+          "name": "嘎玛沟",
+          "location": "定日",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "登高爬山",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "库拉日峰",
+          "location": "山南",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "登高爬山",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "扎日神山",
+          "location": "隆子",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "登高爬山",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "说拉山口",
+          "location": "左贡",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "登高爬山",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "安久拉山",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "海拔四千多米,登高爬山",
+          "reviews": "17条点评"
+        },
+        {
+          "name": "扎贡沟风景区",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "拥有种类丰富的医用药材,登高爬山",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "业拉山九十九道拐",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "弯多坡陡、路险景美,登高爬山",
+          "reviews": "40条点评"
+        },
+        {
+          "name": "界山达坂",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "登高爬山",
+          "reviews": "27条点评"
+        },
+        {
+          "name": "达美拥雪山",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "登高爬山",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "浪拉山",
+          "location": "察雅",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "登高爬山",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "冈底斯山",
+          "location": "措勤",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "登高爬山",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "易贡国家地质公园",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "登高爬山",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "多琼扎不涨",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "登高爬山",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "德庆颇章神山",
+          "location": "类乌齐",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "登高爬山",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "色季拉景区",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "登高爬山",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "加拉白垒峰",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "登高爬山",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "多雄拉雪山",
+          "location": "米林",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "登高爬山",
+          "reviews": "25条点评"
+        },
+        {
+          "name": "德姆拉山口",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "登高爬山",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "斯米拉山景区",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "购买精美的石头挂件,登高爬山",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "姆蓝雪山生态景区",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "登高爬山",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "康庆拉山口",
+          "location": "比如",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "登高爬山",
+          "reviews": "#"
+        },
+        {
+          "name": "过拉卡日",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "登高爬山",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "桑丹康桑",
+          "location": "那曲",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "登高爬山",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "玛布日山",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "登高爬山",
+          "reviews": "#"
+        },
+        {
+          "name": "中流砥柱",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "巨石矗立于湍急的水中,登高爬山",
+          "reviews": "71条点评"
+        },
+        {
+          "name": "孔唐拉姆山",
+          "location": "吉隆",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "登高爬山",
+          "reviews": "#"
+        },
+        {
+          "name": "海不日神山",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "登高爬山",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "生青",
+          "location": "丁青",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "登高爬山",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "蒙达岗日",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "登高爬山",
+          "reviews": "#"
+        },
+        {
+          "name": "姜桑拉姆峰",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "登高爬山",
+          "reviews": "12条点评"
+        },
+        {
+          "name": "宁金抗沙峰",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "1.6",
+          "tags": "登高爬山",
+          "reviews": "6条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "representative_tags": "观赏藏族传统建筑,地标观景",
+      "attraction_count": 44,
+      "attractions": [
+        {
+          "name": "● 佛掌沙丘",
+          "location": "米林",
+          "level": "#",
+          "popularity": "5.5",
+          "tags": "地标观景",
+          "reviews": "91条点评"
+        },
+        {
+          "name": "布达拉宫广场",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "5.4",
+          "tags": "布达拉宫正对面的广场,地标观景",
+          "reviews": "454条点评"
+        },
+        {
+          "name": "药王山观景台",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "5.3",
+          "tags": "欣赏布达拉宫日出的好位置,地标观景",
+          "reviews": "108条点评"
+        },
+        {
+          "name": "南迦巴瓦峰观景台",
+          "location": "米林",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "地标观景",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "大昭寺广场",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "众多虔诚的朝拜者聚集于此,地标观景",
+          "reviews": "178条点评"
+        },
+        {
+          "name": "鲁日拉观景台",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "地标观景",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "雅江河谷观景台",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "地标观景",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "墨脱解放大桥",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "地标观景",
+          "reviews": "22条点评"
+        },
+        {
+          "name": "通麦大桥",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "每次只限一部车过桥梁,地标观景",
+          "reviews": "39条点评"
+        },
+        {
+          "name": "珠峰小镇",
+          "location": "定日",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "登山者之家,地标观景",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "然乌镇",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "提供洁净丰富的水源,地标观景",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "达切拉观光台",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "地标观景",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "亲猴台",
+          "location": "桑日",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "地标观景",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "拉萨大桥",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "西藏第一座立交桥,地标观景",
+          "reviews": "36条点评"
+        },
+        {
+          "name": "帕羊镇",
+          "location": "仲巴",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "地标观景",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "拉萨之窗",
+          "location": "拉萨 · 拉萨火车站/柳梧新区及附近地区",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "地标观景",
+          "reviews": "21条点评"
+        },
+        {
+          "name": "金沙江大桥",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "地标观景",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "雅江河谷",
+          "location": "贡嘎",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "地标观景",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "达格架喷泉(自然景点)",
+          "location": "昂仁",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "地标观景",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "怒江桥",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "地标观景",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "藤桥",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "地标观景",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "牦牛广场",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "地标观景",
+          "reviews": "13条点评"
+        },
+        {
+          "name": "倾多镇",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "藏王聂赤赞布的故里,地标观景",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "下察隅镇",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "地标观景",
+          "reviews": "12条点评"
+        },
+        {
+          "name": "西藏拉孜-5000KM-上海人民广场",
+          "location": "拉孜",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "地标观景",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "拉萨市拉萨河水利风景区",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "地标观景",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "扎寺广场",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "地标观景",
+          "reviews": "13条点评"
+        },
+        {
+          "name": "札达县托林广场",
+          "location": "札达",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "地标观景",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "樟木镇",
+          "location": "聂拉木",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "地标观景",
+          "reviews": "#"
+        },
+        {
+          "name": "好日子莲花广场",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "地标观景",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "雅鲁藏布江观景台",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "地标观景",
+          "reviews": "#"
+        },
+        {
+          "name": "嘎玛贡桑",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "地标观景",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "竹卡大桥",
+          "location": "芒康",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "地标观景",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "甲应垭口",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "地标观景",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "日土镇",
+          "location": "日土",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "地标观景",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "波茂广场",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "地标观景",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "上察隅镇",
+          "location": "察隅",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "地标观景",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "松宗镇",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "地标观景",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "古乡镇",
+          "location": "波密",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "地标观景",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "西藏广播电视台(林廓西路)",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "离布达拉宫很近，有民族特色,地标观景",
+          "reviews": "19条点评"
+        },
+        {
+          "name": "拉萨河大桥",
+          "location": "曲水",
+          "level": "#",
+          "popularity": "2.1",
+          "tags": "地标观景",
+          "reviews": "16条点评"
+        },
+        {
+          "name": "琼波热巴艺术广场",
+          "location": "丁青",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "地标观景",
+          "reviews": "#"
+        },
+        {
+          "name": "厦门社区文化广场",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "地标观景",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "扎什文化广场",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "观赏藏族传统建筑,地标观景",
+          "reviews": "21条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "representative_tags": "特色展馆",
+      "attraction_count": 4,
+      "attractions": [
+        {
+          "name": "● 云藏文化体验空间",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "3.8",
+          "tags": "特色展馆",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "布达拉宫-珍宝馆",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "收藏精美文物,特色展馆",
+          "reviews": "#"
+        },
+        {
+          "name": "根敦群佩当代艺术画廊",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "特色展馆",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "拉萨规划建设展览馆",
+          "location": "拉萨 · 万达广场及附近地区",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "特色展馆",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "representative_tags": "动物园&水族馆",
+      "attraction_count": 3,
+      "attractions": [
+        {
+          "name": "● 罗布林卡动物园",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "3.8",
+          "tags": "动物园&水族馆",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "西藏拉萨净土健康动物保护园",
+          "location": "曲水",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "动物园&水族馆",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "藏游坛城奇幻海洋馆",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "动物园&水族馆",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "representative_tags": "草原采风",
+      "attraction_count": 11,
+      "attractions": [
+        {
+          "name": "● 藏北大草原",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "4.5",
+          "tags": "草原采风",
+          "reviews": "2条点评"
+        },
+        {
+          "name": "贡德林草原",
+          "location": "桑日",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "草原采风",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "羌塘国家级自然保护区",
+          "location": "尼玛",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "观赏经幡和古塔,草原采风",
+          "reviews": "80条点评"
+        },
+        {
+          "name": "西藏色林错国家级自然保护区",
+          "location": "申扎",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "观赏稀有野生生物物种资源,草原采风",
+          "reviews": "7条点评"
+        },
+        {
+          "name": "邦达草原",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "水草丰美的高寒草原,草原采风",
+          "reviews": "63条点评"
+        },
+        {
+          "name": "天堂草原",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "草原采风",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "高寒草原",
+          "location": "那曲",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "草原采风",
+          "reviews": "3条点评"
+        },
+        {
+          "name": "哲古景区",
+          "location": "措美",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "纯净、优美的旅游好地方,草原采风",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "邦杰唐景点",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "草原采风",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "帕里草原",
+          "location": "亚东",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "品尝正宗的酥油茶,草原采风",
+          "reviews": "13条点评"
+        },
+        {
+          "name": "哲古草原",
+          "location": "措美",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "草原采风",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "representative_tags": "儿童乐园",
+      "attraction_count": 2,
+      "attractions": [
+        {
+          "name": "● 工布儿童公园",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "儿童乐园",
+          "reviews": "#"
+        },
+        {
+          "name": "德吉罗布儿童乐园",
+          "location": "拉萨 · 拉萨火车站/柳梧新区及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "儿童乐园",
+          "reviews": "5条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "representative_tags": "公园&植物园",
+      "attraction_count": 10,
+      "attractions": [
+        {
+          "name": "● 南山公园",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "5.2",
+          "tags": "假山瀑布，自然风光的精华,公园&植物园",
+          "reviews": "32条点评"
+        },
+        {
+          "name": "阿里暗夜公园",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "天文爱好者观测的好去处,公园&植物园",
+          "reviews": "20条点评"
+        },
+        {
+          "name": "格桑花公园",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "休息游憩的城市公园,公园&植物园",
+          "reviews": "34条点评"
+        },
+        {
+          "name": "定结湿地公园",
+          "location": "定结",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "公园&植物园",
+          "reviews": "#"
+        },
+        {
+          "name": "贡觉林卡",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "3.0",
+          "tags": "公园&植物园",
+          "reviews": "23条点评"
+        },
+        {
+          "name": "娘热民俗风情园",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "公园&植物园",
+          "reviews": "22条点评"
+        },
+        {
+          "name": "冲康",
+          "location": "朗县",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "公园&植物园",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "林芝桃花园",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "公园&植物园",
+          "reviews": "#"
+        },
+        {
+          "name": "布久朵当村桃花园",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "公园&植物园",
+          "reviews": "#"
+        },
+        {
+          "name": "雅砻人民公园",
+          "location": "山南",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "公园&植物园",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "representative_tags": "夜游观景",
+      "attraction_count": 2,
+      "attractions": [
+        {
+          "name": "● 莲花圣地公园",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "夜游观景",
+          "reviews": "#"
+        },
+        {
+          "name": "和平解放纪念碑",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "夜游观景",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "representative_tags": "场馆展馆",
+      "attraction_count": 6,
+      "attractions": [
+        {
+          "name": "● 吉本岗艺术中心",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "场馆展馆",
+          "reviews": "#"
+        },
+        {
+          "name": "刚坚唐卡绘画艺术中心",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "场馆展馆",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "西藏藏医药文化博览中心",
+          "location": "拉萨 · 哲蚌寺/金珠西路及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "场馆展馆",
+          "reviews": "17条点评"
+        },
+        {
+          "name": "西藏体育馆",
+          "location": "拉萨 · 色拉寺及附近地区",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "场馆展馆",
+          "reviews": "13条点评"
+        },
+        {
+          "name": "介观艺术中心",
+          "location": "拉萨 · 仙足岛及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "场馆展馆",
+          "reviews": "#"
+        },
+        {
+          "name": "朗孜夏陈列馆",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "1.9",
+          "tags": "场馆展馆",
+          "reviews": "2条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "representative_tags": "避暑纳凉",
+      "attraction_count": 25,
+      "attractions": [
+        {
+          "name": "● 纳木措",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "7.8",
+          "tags": "藏区三大圣湖之一,避暑纳凉",
+          "reviews": "4635条点评"
+        },
+        {
+          "name": "巴松措",
+          "location": "工布江达",
+          "level": "5A",
+          "popularity": "7.6",
+          "tags": "藏传佛教圣湖，湖水碧绿,避暑纳凉",
+          "reviews": "2106条点评"
+        },
+        {
+          "name": "雅鲁藏布大峡谷",
+          "location": "米林",
+          "level": "5A",
+          "popularity": "7.4",
+          "tags": "徒步旅行者的好去处,避暑纳凉",
+          "reviews": "4239条点评"
+        },
+        {
+          "name": "羊卓雍错",
+          "location": "贡嘎",
+          "level": "4A",
+          "popularity": "7.3",
+          "tags": "西藏三大圣湖之一,避暑纳凉",
+          "reviews": "2123条点评"
+        },
+        {
+          "name": "来古冰川",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "6.9",
+          "tags": "给人到了南极的感觉,避暑纳凉",
+          "reviews": "395条点评"
+        },
+        {
+          "name": "冈仁波齐",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "6.6",
+          "tags": "世界公认神山,避暑纳凉",
+          "reviews": "295条点评"
+        },
+        {
+          "name": "索松村",
+          "location": "米林",
+          "level": "#",
+          "popularity": "6.3",
+          "tags": "田园景色秀丽,避暑纳凉",
+          "reviews": "141条点评"
+        },
+        {
+          "name": "卡定沟景区",
+          "location": "林芝",
+          "level": "4A",
+          "popularity": "6.2",
+          "tags": "欣赏有名的天佛瀑布,避暑纳凉",
+          "reviews": "112条点评"
+        },
+        {
+          "name": "罗布林卡",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "4A",
+          "popularity": "6.1",
+          "tags": "精美的大型园林,避暑纳凉",
+          "reviews": "692条点评"
+        },
+        {
+          "name": "奇林峡风景区",
+          "location": "定结",
+          "level": "#",
+          "popularity": "6.1",
+          "tags": "避暑纳凉",
+          "reviews": "1073条点评"
+        },
+        {
+          "name": "措木及日",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "5.7",
+          "tags": "钟灵毓秀的蓝冰湖,避暑纳凉",
+          "reviews": "211条点评"
+        },
+        {
+          "name": "然乌湖",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "5.4",
+          "tags": "季节不同时，湖水或蓝或绿,避暑纳凉",
+          "reviews": "325条点评"
+        },
+        {
+          "name": "玛旁雍措",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "5.3",
+          "tags": "三大圣湖之一,避暑纳凉",
+          "reviews": "197条点评"
+        },
+        {
+          "name": "苯日景区",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "4.8",
+          "tags": "是西藏原生苯教的神山,避暑纳凉",
+          "reviews": "226条点评"
+        },
+        {
+          "name": "宗角禄康公园",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "#",
+          "popularity": "4.8",
+          "tags": "可以拍布达拉宫的湖中倒影,避暑纳凉",
+          "reviews": "222条点评"
+        },
+        {
+          "name": "拉萨河",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "4.5",
+          "tags": "拉萨的母亲河,避暑纳凉",
+          "reviews": "264条点评"
+        },
+        {
+          "name": "普莫雍错",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "4.4",
+          "tags": "湖泊清澈，四周雪山环绕,避暑纳凉",
+          "reviews": "54条点评"
+        },
+        {
+          "name": "卡定沟天佛瀑布",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "瀑布后的岩壁有尊天然佛像,避暑纳凉",
+          "reviews": "103条点评"
+        },
+        {
+          "name": "满拉水库",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "避暑纳凉",
+          "reviews": "64条点评"
+        },
+        {
+          "name": "南伊沟",
+          "location": "米林",
+          "level": "4A",
+          "popularity": "4.2",
+          "tags": "峡谷深40多公里,避暑纳凉",
+          "reviews": "246条点评"
+        },
+        {
+          "name": "尼洋河",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "沿途有高山峡谷和巨石景观,避暑纳凉",
+          "reviews": "228条点评"
+        },
+        {
+          "name": "林则精灵谷",
+          "location": "工布江达",
+          "level": "4A",
+          "popularity": "4.0",
+          "tags": "精灵之谷,避暑纳凉",
+          "reviews": "27条点评"
+        },
+        {
+          "name": "古乡湖景区",
+          "location": "波密",
+          "level": "#",
+          "popularity": "4.0",
+          "tags": "湖上建有亭台楼阁,避暑纳凉",
+          "reviews": "49条点评"
+        },
+        {
+          "name": "神山圣湖景区",
+          "location": "普兰",
+          "level": "4A",
+          "popularity": "2.9",
+          "tags": "世界的中心,避暑纳凉",
+          "reviews": "18条点评"
+        },
+        {
+          "name": "工布原乡景区",
+          "location": "林芝",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "避暑纳凉",
+          "reviews": "1条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "representative_tags": "演出",
+      "attraction_count": 4,
+      "attractions": [
+        {
+          "name": "● 文成公主剧场",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "7.3",
+          "tags": "演出",
+          "reviews": "12条点评"
+        },
+        {
+          "name": "《金城公主》演出",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "3.6",
+          "tags": "演出",
+          "reviews": "48条点评"
+        },
+        {
+          "name": "西藏金马演艺中心",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "演出",
+          "reviews": "#"
+        },
+        {
+          "name": "藏戏艺术中心",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "演出",
+          "reviews": "1条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "representative_tags": "古镇古村",
+      "attraction_count": 4,
+      "attractions": [
+        {
+          "name": "● 结巴村",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "4.5",
+          "tags": "古镇古村",
+          "reviews": "24条点评"
+        },
+        {
+          "name": "江孜古城",
+          "location": "江孜",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "古镇古村",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "萨迦镇",
+          "location": "萨迦",
+          "level": "4A",
+          "popularity": "2.9",
+          "tags": "古镇古村",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "太昭古城",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "古镇古村",
+          "reviews": "16条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "representative_tags": "红色光辉,博物馆&展馆",
+      "attraction_count": 16,
+      "attractions": [
+        {
+          "name": "● 西藏博物馆",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "4A",
+          "popularity": "6.1",
+          "tags": "珍藏了珍贵的文物,博物馆",
+          "reviews": "512条点评"
+        },
+        {
+          "name": "日喀则博物馆",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "博物馆",
+          "reviews": "9条点评"
+        },
+        {
+          "name": "墨脱门珞历史文化遗产博物馆",
+          "location": "墨脱",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "博物馆",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "林芝自然博物馆",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "3.9",
+          "tags": "博物馆",
+          "reviews": "37条点评"
+        },
+        {
+          "name": "尼洋阁藏东南文化博览园",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "4A",
+          "popularity": "3.8",
+          "tags": "藏东南区独有少数民族文化,博物馆",
+          "reviews": "34条点评"
+        },
+        {
+          "name": "西藏自然科学博物馆",
+          "location": "拉萨 · 万达广场及附近地区",
+          "level": "4A",
+          "popularity": "3.5",
+          "tags": "博物馆",
+          "reviews": "23条点评"
+        },
+        {
+          "name": "山南博物馆",
+          "location": "山南",
+          "level": "#",
+          "popularity": "3.4",
+          "tags": "博物馆",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "昌都博物馆",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "博物馆",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "珠峰登山博物馆",
+          "location": "拉萨 · 色拉寺及附近地区",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "了解珠穆朗玛峰历史,博物馆",
+          "reviews": "11条点评"
+        },
+        {
+          "name": "牦牛博物馆",
+          "location": "拉萨 · 拉萨火车站/柳梧新区及附近地区",
+          "level": "4A",
+          "popularity": "3.0",
+          "tags": "了解牦牛文化的佳地,博物馆",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "西藏非物质文化遗产博物馆",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "博物馆",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "西藏自治区阿里博物馆",
+          "location": "噶尔",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "博物馆",
+          "reviews": "#"
+        },
+        {
+          "name": "藏东南文化遗产博物馆",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "博物馆",
+          "reviews": "#"
+        },
+        {
+          "name": "昌都市革命历史博物馆",
+          "location": "昌都",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "博物馆",
+          "reviews": "#"
+        },
+        {
+          "name": "次仁切阿雪山博物馆",
+          "location": "拉萨 · 色拉寺及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "展示珠穆朗玛峰登山历史,博物馆",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "西藏毛主席像章博物馆",
+          "location": "拉萨 · 拉萨火车站/柳梧新区及附近地区",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "红色光辉,博物馆&展馆",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "representative_tags": "泡温泉",
+      "attraction_count": 3,
+      "attractions": [
+        {
+          "name": "● 蓝色天国羊八井地热旅游区",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "4.7",
+          "tags": "有规模宏大的喷泉和间歇泉,泡温泉",
+          "reviews": "183条点评"
+        },
+        {
+          "name": "日多温泉",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "3.2",
+          "tags": "拉萨周边放松好去处,泡温泉",
+          "reviews": "26条点评"
+        },
+        {
+          "name": "拉普温泉",
+          "location": "洛扎",
+          "level": "#",
+          "popularity": "2.5",
+          "tags": "泡温泉",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "representative_tags": "游览圣湖纳木措,遛娃宝藏地",
+      "attraction_count": 2,
+      "attractions": [
+        {
+          "name": "● 布达拉宫",
+          "location": "拉萨 · 布达拉宫/太阳岛及附近地区",
+          "level": "5A",
+          "popularity": "8.5",
+          "tags": "宏伟的宫堡式建筑群,遛娃宝藏地",
+          "reviews": "2.1万条点评"
+        },
+        {
+          "name": "纳木措国家公园",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "7.8",
+          "tags": "游览圣湖纳木措,遛娃宝藏地",
+          "reviews": "430条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "representative_tags": "园林花园",
+      "attraction_count": 2,
+      "attractions": [
+        {
+          "name": "● 福建园",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "园林花园",
+          "reviews": "36条点评"
+        },
+        {
+          "name": "秀色才纳净土健康产业观光园",
+          "location": "曲水",
+          "level": "#",
+          "popularity": "1.8",
+          "tags": "园林花园",
+          "reviews": "15条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "representative_tags": "城市漫步",
+      "attraction_count": 11,
+      "attractions": [
+        {
+          "name": "● 八廓街",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "7.0",
+          "tags": "民俗风情浓郁的千年古街,城市漫步",
+          "reviews": "1151条点评"
+        },
+        {
+          "name": "川藏公路",
+          "location": "墨竹工卡",
+          "level": "#",
+          "popularity": "5.2",
+          "tags": "318国道的一段,城市漫步",
+          "reviews": "85条点评"
+        },
+        {
+          "name": "青藏铁路",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "4.3",
+          "tags": "城市漫步",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "林拉公路",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "城市漫步",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "怒江72拐",
+          "location": "八宿",
+          "level": "#",
+          "popularity": "4.1",
+          "tags": "道路狭窄、坡道陡峭,城市漫步",
+          "reviews": "121条点评"
+        },
+        {
+          "name": "通麦天险",
+          "location": "波密",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "土质疏松，雪山河流遍布,城市漫步",
+          "reviews": "62条点评"
+        },
+        {
+          "name": "西藏天海夜市(西藏天海商城天海路店)",
+          "location": "拉萨 · 罗布林卡及附近地区",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "城市漫步",
+          "reviews": "10条点评"
+        },
+        {
+          "name": "小昭寺路",
+          "location": "拉萨 · 八廓街/大昭寺及附近地区",
+          "level": "#",
+          "popularity": "3.1",
+          "tags": "能看到售卖酥油、披肩等的商贩,城市漫步",
+          "reviews": "38条点评"
+        },
+        {
+          "name": "林芝福林街",
+          "location": "林芝 · 林芝市中心及附近地区",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "城市漫步",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "喜格孜步行街",
+          "location": "日喀则",
+          "level": "#",
+          "popularity": "2.6",
+          "tags": "城市漫步",
+          "reviews": "4条点评"
+        },
+        {
+          "name": "樟木318国道",
+          "location": "聂拉木",
+          "level": "#",
+          "popularity": "2.2",
+          "tags": "城市漫步",
+          "reviews": "21条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "representative_tags": "沙漠戈壁",
+      "attraction_count": 2,
+      "attractions": [
+        {
+          "name": "● 扎囊沙漠公园",
+          "location": "扎囊",
+          "level": "#",
+          "popularity": "2.9",
+          "tags": "沙漠戈壁",
+          "reviews": "#"
+        },
+        {
+          "name": "五彩沙漠",
+          "location": "昂仁",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "沙漠戈壁",
+          "reviews": "4条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "representative_tags": "直升机体验",
+      "attraction_count": 2,
+      "attractions": [
+        {
+          "name": "● 雪鹰通航直升机观光之旅",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "3.7",
+          "tags": "直升机体验",
+          "reviews": "6条点评"
+        },
+        {
+          "name": "直升机观光旅游区",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.8",
+          "tags": "直升机体验",
+          "reviews": "#"
+        }
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "representative_tags": "露营·营地",
+      "attraction_count": 10,
+      "attractions": [
+        {
+          "name": "● 南迦巴瓦峰大本营露营地",
+          "location": "米林",
+          "level": "#",
+          "popularity": "4.2",
+          "tags": "南迦巴瓦峰脚下的营地,露营·营地",
+          "reviews": "5条点评"
+        },
+        {
+          "name": "西藏羊湖荒地星空营地",
+          "location": "浪卡子",
+          "level": "#",
+          "popularity": "3.3",
+          "tags": "露营·营地",
+          "reviews": "23条点评"
+        },
+        {
+          "name": "巴松措▪喜玛拉雅轻奢露营地",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "湖泊雪山，与你相约,露营·营地",
+          "reviews": "#"
+        },
+        {
+          "name": "南迦巴瓦露营地",
+          "location": "米林",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "遇见南迦巴瓦峰，心之所向,露营·营地",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "林芝小橘子露营地",
+          "location": "米林",
+          "level": "#",
+          "popularity": "2.7",
+          "tags": "观景帐篷,露营·营地",
+          "reviews": "8条点评"
+        },
+        {
+          "name": "玛旁雍措星空露营地",
+          "location": "普兰",
+          "level": "#",
+          "popularity": "2.4",
+          "tags": "湖光峰影余霞成绮星河璀璨,露营·营地",
+          "reviews": "#"
+        },
+        {
+          "name": "阿热湿地帐篷营地",
+          "location": "当雄",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "露营·营地",
+          "reviews": "#"
+        },
+        {
+          "name": "隔邻热气球露营地",
+          "location": "拉萨",
+          "level": "#",
+          "popularity": "2.3",
+          "tags": "拉萨河畔的露营地,露营·营地",
+          "reviews": "1条点评"
+        },
+        {
+          "name": "西藏山野营地",
+          "location": "拉萨 · 文成公主实景剧场及附近地区",
+          "level": "#",
+          "popularity": "2.0",
+          "tags": "露营·营地",
+          "reviews": "#"
+        },
+        {
+          "name": "野绣半岛露营",
+          "location": "林周",
+          "level": "#",
+          "popularity": "1.7",
+          "tags": "露营·营地",
+          "reviews": "1条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "representative_tags": "背包客热爱的清闲之地,岛屿漫步",
+      "attraction_count": 2,
+      "attractions": [
+        {
+          "name": "● 湖心岛",
+          "location": "工布江达",
+          "level": "#",
+          "popularity": "4.7",
+          "tags": "仿佛湖面上的一颗明珠,岛屿漫步",
+          "reviews": "23条点评"
+        },
+        {
+          "name": "仙足岛",
+          "location": "拉萨 · 仙足岛及附近地区",
+          "level": "#",
+          "popularity": "3.5",
+          "tags": "背包客热爱的清闲之地,岛屿漫步",
+          "reviews": "57条点评"
+        }
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "representative_tags": "露营 营地, 岛屿漫步, 公园, 公园 植物园, 公里",
+      "attraction_count": 30,
+      "attractions": []
+    }
+  ],
+  "wordcloud_images": [
+    "./output/wordclouds/西藏/cluster_0.png",
+    "./output/wordclouds/西藏/cluster_1.png",
+    "./output/wordclouds/西藏/cluster_2.png",
+    "./output/wordclouds/西藏/cluster_3.png",
+    "./output/wordclouds/西藏/cluster_4.png",
+    "./output/wordclouds/西藏/cluster_5.png",
+    "./output/wordclouds/西藏/cluster_6.png",
+    "./output/wordclouds/西藏/cluster_7.png",
+    "./output/wordclouds/西藏/cluster_8.png",
+    "./output/wordclouds/西藏/cluster_9.png",
+    "./output/wordclouds/西藏/cluster_10.png",
+    "./output/wordclouds/西藏/cluster_11.png",
+    "./output/wordclouds/西藏/cluster_12.png",
+    "./output/wordclouds/西藏/cluster_13.png",
+    "./output/wordclouds/西藏/cluster_14.png",
+    "./output/wordclouds/西藏/cluster_15.png",
+    "./output/wordclouds/西藏/cluster_16.png",
+    "./output/wordclouds/西藏/cluster_17.png",
+    "./output/wordclouds/西藏/cluster_18.png",
+    "./output/wordclouds/西藏/cluster_19.png",
+    "./output/wordclouds/西藏/cluster_20.png",
+    "./output/wordclouds/西藏/cluster_21.png",
+    "./output/wordclouds/西藏/cluster_22.png",
+    "./output/wordclouds/西藏/cluster_23.png",
+    "./output/wordclouds/西藏/cluster_24.png",
+    "./output/wordclouds/西藏/cluster_25.png"
+  ]
+}

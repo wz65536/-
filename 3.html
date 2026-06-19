@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国旅游景点 - 探索美丽中国</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/echarts/dist/echarts.min.js"></script>
+    <script src="./echarts-china-map-master/js/map/china.js"></script>
+
+    <!-- Tailwind CSS 配置 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#36BFFA',
+                        accent: '#FF7D00',
+                        neutral: '#F5F7FA',
+                        dark: '#1D2129',
+                        light: '#F8FAFC'
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'card': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+                        'card-hover': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05)'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+      #china-map {
+        width: 1000px;
+        height: 800px;
+        position: absolute;
+        left: calc(50% - 500px);
+        top: -50px;
+      }
+      .shanghai-analysis {
+        display: none;
+      }
+      .aspect-\[16\/9\] {
+        aspect-ratio: 19 / 9;
+      }
+      canvas{
+        top:-100px;
+      }
+    </style>
+
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .map-container {
+                @apply relative mx-auto bg-white rounded-2xl shadow-xl overflow-hidden transition-all duration-300;
+            }
+            .nav-link {
+                @apply text-dark hover:text-primary transition-colors duration-200 font-medium;
+            }
+            .btn-primary {
+                @apply bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg;
+            }
+            .card-hover {
+                @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+            }
+            .tag-cloud {
+                @apply flex flex-wrap gap-2 mb-4
+            }
+            .tag {
+                @apply px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-md
+            }
+            .tag-primary {
+                @apply bg-primary/10 text-primary
+            }
+            .tag-secondary {
+                @apply bg-secondary/10 text-secondary
+            }
+            .tag-accent {
+                @apply bg-accent/10 text-accent
+            }
+            .景点卡片 {
+                @apply bg-white rounded-xl shadow-card overflow-hidden transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1
+            }
+            .簇卡片 {
+                @apply border-l-4 border-primary/70 bg-light/50 p-4 mb-4 transition-all duration-300 hover:bg-light/70
+            }
+            .景点项 {
+                @apply p-3 border-b border-gray-100 last:border-0 transition-all duration-200 hover:bg-gray-50
+            }
+            .统计指标 {
+                @apply flex flex-wrap items-center justify-between p-4 bg-primary/5 rounded-lg mb-4
+            }
+            .指标项 {
+                @apply flex flex-col items-center p-2 sm:p-4 min-w-[80px]
+            }
+            .指标值 {
+                @apply text-2xl font-bold text-primary
+            }
+            .指标标签 {
+                @apply text-sm text-gray-500 mt-1
+            }
+            .景点热度 {
+                @apply inline-block px-2 py-1 rounded-full text-xs font-medium
+            }
+            .热度高 {
+                @apply bg-red-100 text-red-800
+            }
+            .热度中 {
+                @apply bg-yellow-100 text-yellow-800
+            }
+            .热度低 {
+                @apply bg-green-100 text-green-800
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-neutral to-white min-h-screen font-inter text-dark">
+    <!-- 导航栏 -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm transition-all duration-300">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa fa-map-o text-primary text-2xl"></i>
+                <h1 class="text-xl font-bold text-primary">中国旅游景点--携程旅行</h1>
+            </div>
+
+            <div class="flex items-center space-x-4">
+                <button id="back-to-map" class="btn-primary hidden">
+                    <i class="fa fa-arrow-left mr-2"></i>返回全国地图
+                </button>
+                <button class="md:hidden text-dark hover:text-primary transition-colors duration-200">
+                    <i class="fa fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 中国地图部分 -->
+    <div id="main-content">
+        <!-- 主要内容区 -->
+        <main class="container mx-auto px-4 py-8">
+            <!-- 页面标题 -->
+            <div class="text-center mb-10">
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-3">探索中国美丽景点</h2>
+            </div>
+
+            <div class="map-container w-full max-w-5xl aspect-[16/9]">
+                <div id="china-map"></div>
+            </div>
+
+            <!-- 热门景点推荐 -->
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold text-center mb-8">热门景点推荐</h3>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- 景点卡片 1 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
+                        <div class="h-48 overflow-hidden">
+                            <img src="./img/wct.png" alt="五彩滩" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-center mb-3">
+                                <h4 class="font-bold text-lg">五彩滩</h4>
+                                <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded-full">新疆</span>
+                            </div>
+                            <p class="text-slate-600 text-sm mb-4">有典型的雅丹地貌，岩石因含多种矿物质而呈现五彩斑斓的颜色</p>
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center">
+                                    <i class="fa fa-star text-yellow-400 mr-1"></i>
+                                    <span class="text-sm font-medium">4.4 (1,664 评价)</span>
+                                </div>
+                            </div>
+                        </div>
+a                    </div>
+
+                    <!-- 景点卡片 2 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
+                        <div class="h-48 overflow-hidden">
+                            <img src="./img/gugong.png" alt="故宫" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-center mb-3">
+                                <h4 class="font-bold text-lg">故宫博物馆</h4>
+                                <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded-full">北京</span>
+                            </div>
+                            <p class="text-slate-600 text-sm mb-4">世界上现存规模最大、保存最完整的木质宫殿建筑群，珍藏着 186 万余件承载中华文明的稀世瑰宝。</p>
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center">
+                                    <i class="fa fa-star text-yellow-400 mr-1"></i>
+                                    <span class="text-sm font-medium">4.8 (181,458 评价)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 景点卡片 3 -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden card-hover">
+                        <div class="h-48 overflow-hidden">
+                            <img src="./img/jzg.png" alt="九寨沟风" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
+                        </div>
+                        <div class="p-5">
+                            <div class="flex justify-between items-center mb-3">
+                                <h4 class="font-bold text-lg">九寨沟风景区</h4>
+                                <span class="bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded-full">四川</span>
+                            </div>
+                            <p class="text-slate-600 text-sm mb-4">有 "童话世界""水景之王" 的美誉，拥有丰富的动植物资源和浓郁的民族风情</p>
+                            <div class="flex justify-between items-center">
+                                <div class="flex items-center">
+                                    <i class="fa fa-star text-yellow-400 mr-1"></i>
+                                    <span class="text-sm font-medium">4.7 (41,096 评价)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- 上海分析部分 -->
+    <div id="shanghai-analysis" class="shanghai-analysis">
+        <!-- 主要内容区 -->
+        <main class="container mx-auto px-4 py-8 max-w-6xl">
+            <!-- 页面标题 -->
+            <div class="text-center mb-8">
+                <h2 class="text-[clamp(1.8rem,4vw,2.5rem)] font-bold text-dark mb-2">上海景点聚类分析</h2>
+                <p class="text-gray-600 max-w-3xl mx-auto">通过聚类分析展示上海景点特征，帮助您快速了解不同类型景点分布</p>
+            </div>
+
+            <!-- 统计信息卡片 -->
+            <div class="景点卡片 mb-8">
+                <div class="p-6">
+                    <div class="统计指标">
+                        <div class="指标项">
+                            <div class="指标值" id="total-attractions">1001</div>
+                            <div class="指标标签">总景点数</div>
+                        </div>
+                        <div class="指标项">
+                            <div class="指标值" id="cluster-count">52</div>
+                            <div class="指标标签">识别簇数</div>
+                        </div>
+                        <div class="指标项">
+                            <div class="指标值" id="noise-points">0</div>
+                            <div class="指标标签">噪声点数</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 簇列表 -->
+            <div id="cluster-container">
+                <!-- 簇内容将通过JavaScript动态生成 -->
+            </div>
+        </main>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="bg-dark text-white mt-20">
+        <div class="container mx-auto px-4 py-12">
+            <div class="border-t border-slate-800 mt-8 pt-8 text-center text-slate-500 text-sm">
+                <p>© 数据来源：携程旅游.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 初始化地图
+
+        var myChart = echarts.init(document.getElementById("china-map"));
+        var backToMapBtn = document.getElementById("back-to-map");
+        var mainContent = document.getElementById("main-content");
+        var shanghaiAnalysis = document.getElementById("shanghai-analysis");
+
+        // 上海景点聚类数据
+        const shanghaiData = {
+            province: "上海",
+            totalAttractions: 1001,
+            clusterCount: 52,
+            noisePoints: 0,
+            clusters: [
+                {
+                    id: 0,
+                    representativeTags: ["登高爬山", "音乐会", "博物馆 展馆", "巴士观光", "展馆展览"],
+                    attractionCount: 4,
+                    attractions: [
+                        {
+                            name: "上海佘山国家旅游度假区",
+                            location: "佘山/松江大学城·距市中心30.5km",
+                            level: "#",
+                            popularity: 5.5,
+                            tags: ["登高爬山"],
+                            reviews: "18条点评"
+                        },
+                        {
+                            name: "上海佘山国家森林公园",
+                            location: "佘山/松江大学城·距市中心30.5km",
+                            level: "4A",
+                            popularity: 4.3,
+                            tags: ["登上海名山赏天文奇观", "登高爬山"],
+                            reviews: "857条点评"
+                        },
+                        {
+                            name: "天马山公园",
+                            location: "佘山/松江大学城·距市中心34.9km",
+                            level: "#",
+                            popularity: 3.9,
+                            tags: ["登高爬山"],
+                            reviews: "930条点评"
+                        },
+                        {
+                            name: "大假山",
+                            location: "豫园地区·距市中心1.8km",
+                            level: "#",
+                            popularity: 2.7,
+                            tags: ["登高爬山"],
+                            reviews: "1条点评"
+                        }
+                    ]
+                },
+                {
+                    id: 1,
+                    representativeTags: ["无标签", "音乐会", "历史建筑", "巴士观光", "展馆展览"],
+                    attractionCount: 114,
+                    attractions: [
+                        {
+                            name: "上海赏郁金香",
+                            location: "上海·中国",
+                            level: "#",
+                            popularity: 7.0,
+                            tags: ["#"],
+                            reviews: "#"
+                        },
+                        {
+                            name: "上海citywalk",
+                            location: "上海·中国",
+                            level: "#",
+                            popularity: 7.0,
+                            tags: ["#"],
+                            reviews: "#"
+                        },
+                        {
+                            name: "上海游船观光",
+                            location: "上海·中国",
+                            level: "#",
+                            popularity: 6.3,
+                            tags: ["#"],
+                            reviews: "#"
+                        }
+                    ]
+                }
+            ]
+        };
+
+        // 加载地图
+        function loadMap(mapType, name) {
+            var option = {
+                title: {
+                    text: name || mapType,
+                    left: "center",
+                },
+                series: [
+                    {
+                        name: name || mapType,
+                        type: "map",
+                        mapType,
+                        roam: false,
+                        itemStyle: {
+                            normal: {
+                                label: {
+                                    show: true,
+                                    textStyle: {
+                                        color: "rgba(255,255,255,0)",
+                                    },
+                                },
+                            },
+                        },
+                        aspectScale: mapType === "china" ? 0.75 : 1,
+                        top: "10%",
+                    },
+                ],
+            };
+
+            myChart.clear();
+            myChart.setOption(option);
+            myChart.off("click");
+
+            if (mapType === "china") {
+                // 全国地图点击事件
+                myChart.on("click", function (param) {
+                    if (param.name === "上海") {
+                        showShanghaiAnalysis();
+                    }
+                });
+            }
+        }
+
+        // 显示上海分析页面
+        function showShanghaiAnalysis() {
+            mainContent.style.display = "none";
+            shanghaiAnalysis.style.display = "block";
+            backToMapBtn.classList.remove("hidden");
+
+            // 渲染上海分析内容
+            renderClusters();
+        }
+
+        // 返回地图
+        function backToMap() {
+            mainContent.style.display = "block";
+            shanghaiAnalysis.style.display = "none";
+            backToMapBtn.classList.add("hidden");
+            loadMap("china", "");
+        }
+
+        // 热度分类函数
+        function getPopularityClass(popularity) {
+            if (popularity >= 6) return "热度高";
+            if (popularity >= 4) return "热度中";
+            return "热度低";
+        }
+
+        // 渲染簇数据
+        function renderClusters() {
+            const container = document.getElementById("cluster-container");
+            container.innerHTML = "";
+
+            // 只显示前10个簇以保持页面简洁
+            const displayClusters = shanghaiData.clusters.slice(0, 10);
+
+            displayClusters.forEach(cluster => {
+                const clusterCard = document.createElement("div");
+                clusterCard.className = "簇卡片";
+
+                // 簇标题
+                clusterCard.innerHTML = `
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="font-bold text-lg">簇 ${cluster.id}</h3>
+                        <span class="bg-primary/10 text-primary text-sm px-3 py-1 rounded-full">
+                            ${cluster.attractionCount} 个景点
+                        </span>
+                    </div>
+
+                    <div class="tag-cloud">
+                        ${cluster.representativeTags.map(tag => `
+                            <span class="tag tag-primary">${tag}</span>
+                        `).join('')}
+                    </div>
+
+                    <div class="景点列表">
+                        ${cluster.attractions.map(attraction => `
+                            <div class="景点项">
+                                <div class="flex justify-between items-start mb-2">
+                                    <h4 class="font-medium">${attraction.name}</h4>
+                                    <span class="景点热度 ${getPopularityClass(attraction.popularity)}">
+                                        ${attraction.popularity}
+                                    </span>
+                                </div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-gray-600 mb-2">
+                                    <div><i class="fa fa-map-marker text-primary mr-1"></i> ${attraction.location}</div>
+                                    <div><i class="fa fa-trophy text-primary mr-1"></i> ${attraction.level}</div>
+                                </div>
+                                <div class="tag-cloud">
+                                    ${attraction.tags.map(tag => `
+                                        <span class="tag tag-secondary">${tag}</span>
+                                    `).join('')}
+                                </div>
+                                <div class="text-xs text-gray-500">
+                                    <i class="fa fa-comment text-primary mr-1"></i> ${attraction.reviews}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+
+                container.appendChild(clusterCard);
+            });
+        }
+
+        // 返回按钮事件
+        backToMapBtn.addEventListener('click', backToMap);
+
+        // 页面加载时初始化地图
+        document.addEventListener('DOMContentLoaded', function() {
+            loadMap("china", "");
+        });
+    </script>
+</body>
+</html>

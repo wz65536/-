@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>中国旅游景点地图展示</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/echarts/dist/echarts.min.js"></script>
+  <script src="./echarts-china-map-master/js/map/china.js"></script>
+  <style>
+    .map-card { box-shadow: 0 20px 60px rgba(15, 23, 42, 0.12); }
+    #map { width: 100%; height: 720px; }
+    .loading-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.75); backdrop-filter: blur(4px); z-index: 20; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <header class="bg-white/90 backdrop-blur sticky top-0 z-10 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div>
+        <h1 class="text-2xl font-bold text-sky-700">全国旅游景点地图</h1>
+        <p class="text-sm text-slate-500">点击省份查看省级地图与景点分类结果</p>
+      </div>
+      <div class="flex gap-3 items-center">
+        <button id="backBtn" class="hidden px-4 py-2 rounded-lg bg-sky-600 text-white hover:bg-sky-700">返回全国</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-6 grid lg:grid-cols-[1.3fr_0.7fr] gap-6">
+    <section class="bg-white rounded-2xl p-4 map-card relative">
+      <div id="map"></div>
+      <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="text-center">
+          <div class="inline-block h-10 w-10 animate-spin rounded-full border-4 border-sky-600 border-t-transparent"></div>
+          <div class="mt-3 text-sm text-slate-600">正在加载省级地图...</div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="space-y-4">
+      <div class="bg-white rounded-2xl p-5 map-card">
+        <h2 class="text-lg font-bold text-slate-900 mb-2">展示说明</h2>
+        <ul class="text-sm text-slate-600 space-y-2 list-disc pl-5">
+          <li>全国地图展示各省旅游景点 4A/5A 数量。</li>
+          <li>点击省份后进入省级地图。</li>
+          <li>右侧会展示该省的标签聚类与代表景点。</li>
+          <li>分类基于规则 + 机器学习 + 聚类，覆盖全部景点标签。</li>
+        </ul>
+      </div>
+
+      <div id="provincePanel" class="bg-white rounded-2xl p-5 map-card min-h-[200px]">
+        <div class="text-slate-400 text-sm">请选择一个省份查看详情</div>
+      </div>
+
+      <div id="selfTestPanel" class="bg-white rounded-2xl p-5 map-card">
+        <h2 class="text-lg font-bold text-slate-900 mb-3">自检模式</h2>
+        <div id="selfTestResult" class="space-y-2 text-sm text-slate-600"></div>
+      </div>
+    </aside>
+  </main>
+
+  <script>
+    const map = echarts.init(document.getElementById('map'));
+    const backBtn = document.getElementById('backBtn');
+    const provincePanel = document.getElementById('provincePanel');
+    const loadingOverlay = document.getElementById('loadingOverlay');
+    const provinceMapName = {
+      '北京':'beijing','天津':'tianjin','河北':'hebei','山西':'shanxi','内蒙古':'neimenggu','辽宁':'liaoning','吉林':'jilin','黑龙江':'heilongjiang','上海':'shanghai','江苏':'jiangsu','浙江':'zhejiang','安徽':'anhui','福建':'fujian','江西':'jiangxi','山东':'shandong','河南':'henan','湖北':'hubei','湖南':'hunan','广东':'guangdong','广西':'guangxi','海南':'hainan','重庆':'chongqing','四川':'sichuan','贵州':'guizhou','云南':'yunnan','西藏':'xizang','陕西':'shanxi1','甘肃':'gansu','青海':'qinghai','宁夏':'ningxia','新疆':'xinjiang','香港':'xianggang','澳门':'aomen','台湾':'taiwan'
+    };
+    const provinces = Object.keys(provinceMapName);
+    const provinceDataCache = {};
+    const selfTestResult = document.getElementById('selfTestResult');
+    const provinceAliases = {
+      '内蒙古自治区': '内蒙古',
+      '广西壮族自治区': '广西',
+      '西藏自治区': '西藏',
+      '宁夏回族自治区': '宁夏',
+      '新疆维吾尔自治区': '新疆',
+      '香港特别行政区': '香港',
+      '澳门特别行政区': '澳门',
+      '北京': '北京',
+      '天津': '天津',
+      '上海': '上海',
+      '重庆': '重庆',
+      '台湾省': '台湾'
+    };
+    const directCities = new Set(['北京', '天津', '上海', '重庆']);
+
+    async function fetchJson(path) {
+      const candidates = [path, encodeURI(path)];
+      let lastError;
+      for (const url of candidates) {
+        try {
+          const r = await fetch(url, { cache: 'no-store' });
+          if (!r.ok) throw new Error(`${url} not found`);
+          return await r.json();
+        } catch (err) {
+          lastError = err;
+        }
+      }
+      throw lastError || new Error(path + ' not found');
+    }
+
+    function renderSelfTest(items) {
+      selfTestResult.innerHTML = items.map(item => {
+        const color = item.ok ? 'text-emerald-600' : 'text-red-600';
+        return `<div class="flex items-start gap-2"><span class="mt-0.5 ${color}">${item.ok ? '●' : '●'}</span><span>${item.text}</span></div>`;
+      }).join('');
+    }
+
+    async function runSelfTest() {
+      const results = [];
+      results.push({ ok: !!window.echarts, text: `ECharts 已加载：${!!window.echarts}` });
+      try {
+        const chinaMap = echarts.getMap('china');
+        results.push({ ok: !!chinaMap, text: `中国地图注册状态：${chinaMap ? '成功' : '失败'}` });
+      } catch (e) {
+        results.push({ ok: false, text: `中国地图注册检查失败：${e.message}` });
+      }
+      results.push({ ok: location.protocol === 'http:' || location.protocol === 'https:', text: `当前协议：${location.protocol}（必须是 http/https，不能直接 file:// 打开）` });
+      try {
+        const res = await fetch('./output/national_summary.json', { cache: 'no-store' });
+        results.push({ ok: res.ok, text: `全国汇总 JSON 可访问：${res.ok ? '成功' : '失败'}` });
+      } catch (e) {
+        results.push({ ok: false, text: `全国汇总 JSON 请求失败：${e.message}` });
+      }
+      try {
+        const res = await fetch('./output/province/北京.json', { cache: 'no-store' });
+        results.push({ ok: res.ok, text: `省级 JSON 可访问：${res.ok ? '成功' : '失败'}` });
+      } catch (e) {
+        results.push({ ok: false, text: `省级 JSON 请求失败：${e.message}` });
+      }
+      try {
+        const res = await fetch('./echarts-china-map-master/js/map/china.js', { cache: 'no-store' });
+        results.push({ ok: res.ok, text: `china.js 文件可访问：${res.ok ? '成功' : '失败'}` });
+      } catch (e) {
+        results.push({ ok: false, text: `china.js 检查失败：${e.message}` });
+      }
+      renderSelfTest(results);
+    }
+
+    function setLoading(show) {
+      loadingOverlay.classList.toggle('hidden', !show);
+    }
+
+    function loadProvinceMap(province) {
+      return new Promise((resolve, reject) => {
+        const fileName = provinceMapName[province];
+        if (!fileName) return reject(new Error('unknown province'));
+        const existing = echarts.getMap(province);
+        if (existing) return resolve(province);
+        const script = document.createElement('script');
+        script.src = `./echarts-china-map-master/js/map/province/${fileName}.js`;
+        script.async = true;
+        script.onload = () => {
+          const loaded = echarts.getMap(province);
+          if (loaded) resolve(province);
+          else {
+            const altNames = [province, province + '省', province + '市', province + '自治区', province + '特别行政区'];
+            const found = altNames.find(name => echarts.getMap(name));
+            if (found) resolve(found);
+            else reject(new Error(`province map ${fileName} loaded but not registered as ${province}`));
+          }
+        };
+        script.onerror = () => reject(new Error(`failed to load ${province}`));
+        document.head.appendChild(script);
+      });
+    }
+
+    function renderNational() {
+      setLoading(false);
+      fetchJson('./output/national_summary.json').then(data => {
+        const option = {
+          title: { text: '中国旅游景点总览（4A及以上）', left: 'center', top: 10 },
+          tooltip: { trigger: 'item', formatter: p => `${p.name}<br/>4A及以上景点：${p.value || 0}` },
+          visualMap: {
+            min: 0, max: Math.max(...data.provinces.map(p => p.high_rated_count || 0), 1),
+            left: 20, bottom: 20, text: ['多','少'], calculable: true,
+            inRange: { color: ['#dbeafe', '#60a5fa', '#2563eb', '#1d4ed8'] }
+          },
+          series: [{
+            type: 'map', map: 'china', roam: true, selectedMode: 'single',
+            data: data.provinces.map(p => ({ name: p.name, value: p.high_rated_count || 0 })),
+            label: { show: true },
+            emphasis: { itemStyle: { areaColor: '#f59e0b' } }
+          }]
+        };
+        map.clear();
+        map.setOption(option, true);
+      }).catch(() => {
+        map.clear();
+        map.setOption({ title: { text: '中国旅游景点总览', left: 'center' }, series: [{ type: 'map', map: 'china', roam: true, selectedMode: 'single', label: { show: true } }] }, true);
+      });
+    }
+
+    function buildProvinceMapData(cityCounts) {
+      return Object.entries(cityCounts || {})
+        .filter(([city]) => directCities.has(city) || city.endsWith('市') || city.endsWith('州') || city.endsWith('盟') || city.endsWith('地区') || city.endsWith('自治州'))
+        .map(([name, value]) => ({ name, value }));
+    }
+
+    function renderProvincePanel(province, data) {
+      const total = data.total_attractions || 0;
+      const clusters = data.clusters || { cluster_count: 0, clusters: [] };
+      const topSpots = data.top_spots || [];
+      const clusterHtml = (clusters.clusters || []).map(cluster => {
+        const spotList = (cluster.representative_spots || []).slice(0, 6)
+          .map(s => `<li class="py-1 text-xs text-slate-600">${s.name} <span class="text-slate-400">${s.level || '#'} · ${s.tags || ''}</span></li>`)
+          .join('');
+        const tags = (cluster.top_tags || []).slice(0, 6)
+          .map(tag => `<span class="px-2 py-1 rounded-full bg-slate-100 text-slate-700 text-xs">${tag}</span>`)
+          .join('');
+        return `
+          <div class="border rounded-xl p-4 bg-white">
+            <div class="flex items-center justify-between mb-2">
+              <h4 class="font-semibold text-slate-900">簇 ${cluster.cluster_id}</h4>
+              <span class="text-xs text-slate-500">${cluster.attraction_count} 个景点</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-3">${tags || '<span class="text-slate-400 text-xs">暂无标签</span>'}</div>
+            <ul class="space-y-1">${spotList || '<li class="text-slate-400 text-xs">暂无代表景点</li>'}</ul>
+          </div>
+        `;
+      }).join('');
+      const spotHtml = topSpots.length
+        ? topSpots.map(s => `<li class="py-3 border-b last:border-0"><div class="font-medium">${s.name}</div><div class="text-xs text-slate-500 mt-1">${s.location} · ${s.level || '#'} · ${s.label || '未分类'} · 置信度 ${s.score ?? 0}</div></li>`).join('')
+        : '<li class="text-slate-400">暂无景点数据</li>';
+
+      provincePanel.innerHTML = `
+        <h2 class="text-xl font-bold text-slate-900">${province}</h2>
+        <p class="text-sm text-slate-500 mt-1">共 ${total} 个景点，自动聚类为 ${clusters.cluster_count || 0} 个簇</p>
+        <div class="mt-4">
+          <h3 class="font-semibold mb-2">标签聚类</h3>
+          <div class="grid grid-cols-1 gap-3">${clusterHtml || '<span class="text-slate-400 text-sm">暂无聚类结果</span>'}</div>
+        </div>
+        <div class="mt-6">
+          <h3 class="font-semibold mb-3">代表景点</h3>
+          <ul class="text-sm">${spotHtml}</ul>
+        </div>
+      `;
+    }
+
+    function renderProvince(province) {
+      setLoading(true);
+      const normalized = provinceAliases[province] || province;
+      loadProvinceMap(normalized).then(mapName => {
+        return fetchJson(`./output/province/${normalized}.json`).then(data => {
+          provinceDataCache[normalized] = data;
+          const mapData = buildProvinceMapData(data.city_counts);
+          const option = {
+            title: { text: `${normalized}旅游景点标签聚类图`, left: 'center' },
+            tooltip: { trigger: 'item', formatter: p => `${p.name}<br/>景点数：${p.value || 0}` },
+            visualMap: {
+              min: 0, max: Math.max(...mapData.map(item => item.value || 0), 1),
+              left: 20, bottom: 20, text: ['多','少'], calculable: true,
+              inRange: { color: ['#dbeafe', '#93c5fd', '#3b82f6', '#1d4ed8'] }
+            },
+            series: [{
+              type: 'map', map: mapName, roam: true, selectedMode: 'single',
+              data: mapData,
+              label: { show: true },
+              emphasis: { itemStyle: { areaColor: '#f59e0b' } }
+            }]
+          };
+          map.clear();
+          map.setOption(option, true);
+          renderProvincePanel(normalized, data);
+          backBtn.classList.remove('hidden');
+          setLoading(false);
+        });
+      }).catch(err => {
+        setLoading(false);
+        console.error(err);
+        provincePanel.innerHTML = `<div class="text-red-500 text-sm">${normalized} 省级地图或分类结果加载失败：${err.message}</div>`;
+      });
+    }
+
+    backBtn.addEventListener('click', () => {
+      backBtn.classList.add('hidden');
+      provincePanel.innerHTML = '<div class="text-slate-400 text-sm">请选择一个省份查看详情</div>';
+      renderNational();
+    });
+
+    map.on('click', params => {
+      const province = provinceAliases[params.name] || params.name;
+      if (provinces.includes(province)) {
+        renderProvince(province);
+      } else {
+        console.warn('未识别点击项', params.name, params);
+      }
+    });
+
+    window.addEventListener('load', () => {
+      try {
+        map.resize();
+      } catch (e) {}
+      renderNational();
+      runSelfTest();
+    });
+
+    window.addEventListener('resize', () => map.resize());
+  </script>
+</body>
+</html>
