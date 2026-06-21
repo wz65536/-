@@ -3,6 +3,8 @@ from __future__ import annotations
 import json
 import os
 import re
+
+os.environ.setdefault("OMP_NUM_THREADS", "4")
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from pathlib import Path
@@ -10,12 +12,12 @@ from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 import pandas as pd
-from sklearn.cluster import KMeans
+from sklearn.cluster import AgglomerativeClustering, KMeans
 from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import silhouette_score
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import FunctionTransformer
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
@@ -141,7 +143,7 @@ def build_model(texts: List[str], labels: List[str]) -> Optional[Pipeline]:
     model = Pipeline(
         steps=[
             ("tfidf", TfidfVectorizer(analyzer="char", ngram_range=(2, 4), max_features=12000)),
-            ("clf", LogisticRegression(max_iter=2000, class_weight="balanced", multi_class="auto")),
+            ("clf", LogisticRegression(max_iter=2000, class_weight="balanced")),
         ]
     )
     model.fit(texts, labels)
@@ -179,24 +181,58 @@ def build_tag_corpus(item: Attraction) -> str:
 
 def cluster_province_tags(attractions: List[Attraction]) -> Dict:
     if not attractions:
-        return {"cluster_count": 0, "clusters": []}
+        return {"cluster_count": 0, "clusters": [], "method": "none"}
+
     corpus = [build_tag_corpus(a) for a in attractions]
-    vectorizer = TfidfVectorizer(analyzer="char", ngram_range=(2, 4), max_features=6000)
+    vectorizer = TfidfVectorizer(analyzer="char", ngram_range=(2, 4), max_features=12000)
     X = vectorizer.fit_transform(corpus)
-    n_samples = X.shape[0]
-    if n_samples < 3:
-        cluster_ids = np.zeros(n_samples, dtype=int)
-    else:
-        n_clusters = min(8, max(2, int(round(np.sqrt(n_samples / 2)))))
-        n_clusters = min(n_clusters, n_samples)
-        if n_clusters < 2:
-            cluster_ids = np.zeros(n_samples, dtype=int)
-        else:
-            model = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
-            cluster_ids = model.fit_predict(X)
+    svd_dim = min(96, max(8, X.shape[1] - 1)) if X.shape[1] > 2 else 2
+    X_embed = TruncatedSVD(n_components=svd_dim, random_state=42).fit_transform(X) if svd_dim > 1 and X.shape[1] > 2 else (X.toarray() if hasattr(X, "toarray") else np.asarray(X))
+
+    n_samples = len(attractions)
+
+    def score_partition(labels: np.ndarray) -> float:
+        unique = set(labels.tolist())
+        if len(unique) < 2 or len(unique) >= n_samples:
+            return -1.0
+        return float(silhouette_score(X_embed, labels))
+
+    def quantile_rule_labels() -> np.ndarray:
+        scores = np.array([a.score * 0.65 + a.heat * 0.35 for a in attractions], dtype=float)
+        if np.allclose(scores.max(), scores.min()):
+            return np.zeros(n_samples, dtype=int)
+        bins = np.quantile(scores, [0.33, 0.66])
+        return np.digitize(scores, bins, right=True)
+
+    candidate_models = []
+    if n_samples >= 4:
+        k_max = min(10, max(2, int(round(np.sqrt(n_samples)))))
+        for k in range(2, min(k_max, n_samples) + 1):
+            try:
+                labels = KMeans(n_clusters=k, random_state=42, n_init=20).fit_predict(X_embed)
+                candidate_models.append((labels, "semantic-kmeans"))
+            except Exception:
+                continue
+    if not candidate_models and n_samples >= 3:
+        try:
+            candidate_models.append((AgglomerativeClustering(n_clusters=min(3, n_samples)).fit_predict(X_embed), "semantic-agglo"))
+        except Exception:
+            pass
+    if not candidate_models:
+        candidate_models.append((quantile_rule_labels(), "rule-fallback"))
+
+    best_labels, method = max(candidate_models, key=lambda item: score_partition(item[0]))
+    if len(set(best_labels.tolist())) < 2 and n_samples >= 3:
+        try:
+            best_labels = AgglomerativeClustering(n_clusters=min(3, n_samples)).fit_predict(X_embed)
+            method = "semantic-agglo"
+        except Exception:
+            best_labels = quantile_rule_labels()
+            method = "rule-fallback"
+
     clusters = []
-    for cid in sorted(set(cluster_ids)):
-        items = [a for a, label in zip(attractions, cluster_ids) if label == cid]
+    for cid in sorted(set(best_labels.tolist())):
+        items = [a for a, label in zip(attractions, best_labels) if label == cid]
         top_tags = Counter()
         for a in items:
             for tag in re.split(r"[，,、\s]+", a.tags or ""):
@@ -207,19 +243,24 @@ def cluster_province_tags(attractions: List[Attraction]) -> Dict:
             "cluster_id": int(cid),
             "attraction_count": len(items),
             "top_tags": [name for name, _ in top_tags.most_common(8)],
+            "dominant_label": Counter(a.label for a in items).most_common(1)[0][0] if items else "",
             "representative_spots": [
                 {
                     "name": a.name,
                     "location": a.location,
                     "level": a.level,
+                    "heat": a.heat,
+                    "reputation": a.reputation,
                     "tags": a.tags,
+                    "reviews": a.reviews,
                     "label": a.label,
                     "score": round(a.score, 3),
+                    "source": a.label_source,
                 }
-                for a in sorted(items, key=lambda x: (x.score, x.heat), reverse=True)[:10]
+                for a in sorted(items, key=lambda x: (x.score, x.heat), reverse=True)[:12]
             ],
         })
-    return {"cluster_count": len(clusters), "clusters": clusters}
+    return {"cluster_count": len(clusters), "clusters": clusters, "method": method}
 
 
 def extract_city(location: str, province: str) -> str:
@@ -237,31 +278,35 @@ def extract_city(location: str, province: str) -> str:
 
 def aggregate_province(attractions: List[Attraction]) -> Dict:
     total = len(attractions)
-    high_rated_count = sum(1 for a in attractions if a.level in {"4A", "5A"})
     label_counts = Counter(a.label for a in attractions)
-    city_counts = Counter(
-        extract_city(a.location, a.province) for a in attractions if a.level in {"4A", "5A"}
-    )
+    level_counts = Counter(a.level for a in attractions if a.level and a.level != "#")
+    tag_counts = Counter()
+    for a in attractions:
+        for tag in re.split(r"[，,、\s]+", a.tags or ""):
+            tag = tag.strip()
+            if tag and tag != "#":
+                tag_counts[tag] += 1
     top_spots = sorted(attractions, key=lambda x: (x.score, x.heat), reverse=True)[:8]
     return {
         "province": attractions[0].province if attractions else "",
         "total_attractions": total,
-        "high_rated_count": high_rated_count,
         "label_counts": dict(label_counts),
-        "city_counts": dict(city_counts),
+        "level_counts": dict(level_counts),
+        "tag_counts": dict(tag_counts),
         "clusters": cluster_province_tags(attractions),
-        "labels": [
-            {"name": name, "value": count} for name, count in label_counts.items()
-        ],
+        "labels": [{"name": name, "value": count} for name, count in label_counts.items()],
         "top_spots": [
             {
                 "name": a.name,
                 "location": a.location,
                 "level": a.level,
                 "heat": a.heat,
+                "reputation": a.reputation,
                 "tags": a.tags,
+                "reviews": a.reviews,
                 "label": a.label,
                 "score": round(a.score, 3),
+                "source": a.label_source,
             }
             for a in top_spots
         ],
@@ -292,30 +337,34 @@ def save_json(path: Path, data: dict) -> None:
 def main() -> None:
     ensure_dirs()
 
+    print("开始读取景点数据...")
     all_attractions: List[Attraction] = []
-    for file_path in sorted(DATA_DIR.glob("*.txt")):
+    txt_files = [file_path for file_path in sorted(DATA_DIR.glob("*.txt")) if file_path.stem in CITY_PROVINCE and file_path.stem != "全国景点"]
+    for idx, file_path in enumerate(txt_files, start=1):
         province = file_path.stem
-        if province not in CITY_PROVINCE:
-            continue
-        if province == "全国景点":
-            continue
+        print(f"[{idx}/{len(txt_files)}] 解析 {province}...")
         all_attractions.extend(parse_attraction_file(file_path, province))
 
+    print(f"共读取 {len(all_attractions)} 条景点数据，开始训练分类模型...")
     train_texts, train_labels = create_training_data(all_attractions)
     model = build_model(train_texts, train_labels)
+    print("分类模型训练完成，开始生成省级结果...")
 
     by_province: Dict[str, List[Attraction]] = defaultdict(list)
-    for item in all_attractions:
+    for idx, item in enumerate(all_attractions, start=1):
         label, score, source = predict_label(item, model)
         item.label = label
         item.score = score
         item.label_source = source
         by_province[item.province].append(item)
+        if idx % 500 == 0 or idx == len(all_attractions):
+            print(f"已分类 {idx}/{len(all_attractions)} 条景点")
 
     province_summary = {}
     national_labels = Counter()
-    for province in PROVINCES:
+    for idx, province in enumerate(PROVINCES, start=1):
         items = by_province.get(province, [])
+        print(f"[{idx}/{len(PROVINCES)}] 汇总 {province}（{len(items)} 条）...")
         summary = aggregate_province(items)
         province_summary[province] = summary
         national_labels.update(summary["label_counts"])
@@ -329,13 +378,13 @@ def main() -> None:
             {
                 "name": province,
                 "total_attractions": province_summary[province]["total_attractions"],
-                "high_rated_count": province_summary[province]["high_rated_count"],
                 "label_counts": province_summary[province]["label_counts"],
             }
             for province in PROVINCES
         ],
     }
 
+    print("正在写入全国汇总文件...")
     save_json(OUTPUT_DIR / "national_summary.json", national)
     save_json(OUTPUT_DIR / "province_summary.json", province_summary)
 

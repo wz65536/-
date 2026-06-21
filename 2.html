@@ -3,73 +3,208 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>中国旅游景点地图展示</title>
+  <title>Travel View | 中国旅游景点地图</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/echarts/dist/echarts.min.js"></script>
   <script src="./echarts-china-map-master/js/map/china.js"></script>
   <style>
-    .map-card { box-shadow: 0 20px 60px rgba(15, 23, 42, 0.12); }
-    #map { width: 100%; height: 720px; }
-    .loading-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.75); backdrop-filter: blur(4px); z-index: 20; }
+    :root {
+      --glass: rgba(255, 255, 255, 0.72);
+      --line: rgba(255, 255, 255, 0.58);
+    }
+    html, body {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      color: #0f172a;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.22), transparent 28%),
+        radial-gradient(circle at 80% 0%, rgba(16, 185, 129, 0.18), transparent 24%),
+        radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.18), transparent 22%),
+        linear-gradient(135deg, #08111f 0%, #0f172a 35%, #111c34 60%, #0b1220 100%);
+      overflow-x: hidden;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+      background-size: 44px 44px;
+      mask-image: radial-gradient(circle at center, black 30%, transparent 90%);
+      opacity: 0.35;
+    }
+    .glass-card {
+      background: var(--glass);
+      backdrop-filter: blur(18px) saturate(1.4);
+      border: 1px solid var(--line);
+      box-shadow: 0 24px 80px rgba(2, 6, 23, 0.25);
+    }
+    .map-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 28px;
+    }
+    .map-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(56,189,248,.18), rgba(16,185,129,.08), rgba(245,158,11,.10));
+      pointer-events: none;
+      mix-blend-mode: screen;
+    }
+    #map {
+      width: 100%;
+      height: min(78vh, 760px);
+      min-height: 620px;
+    }
+    .float-chip {
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.18);
+    }
+    .title-glow {
+      text-shadow: 0 0 24px rgba(56, 189, 248, 0.18);
+    }
+    .soft-shadow {
+      box-shadow: 0 18px 40px rgba(2, 6, 23, 0.18);
+    }
+    .loading-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(7, 13, 24, 0.35);
+      backdrop-filter: blur(8px);
+      z-index: 20;
+    }
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-8px) scale(1.02); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: .55; filter: blur(18px); }
+      50% { opacity: .95; filter: blur(24px); }
+    }
+    .floaty { animation: floaty 6s ease-in-out infinite; }
+    .glow { animation: pulseGlow 5s ease-in-out infinite; }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800">
-  <header class="bg-white/90 backdrop-blur sticky top-0 z-10 border-b border-slate-200">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-      <div>
-        <h1 class="text-2xl font-bold text-sky-700">全国旅游景点地图</h1>
-        <p class="text-sm text-slate-500">点击省份查看省级地图与景点分类结果</p>
-      </div>
-      <div class="flex gap-3 items-center">
-        <button id="backBtn" class="hidden px-4 py-2 rounded-lg bg-sky-600 text-white hover:bg-sky-700">返回全国</button>
-      </div>
-    </div>
-  </header>
+<body>
+  <main class="max-w-7xl mx-auto px-4 py-5 md:py-7">
+    <section id="dashboard" class="glass-card map-card p-4 md:p-6 relative soft-shadow">
+      <div class="absolute -inset-x-20 -top-20 h-40 bg-cyan-400/20 blur-3xl glow pointer-events-none"></div>
+      <div class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-cyan-400 via-sky-500 to-amber-400"></div>
 
-  <main class="max-w-7xl mx-auto px-4 py-6 grid lg:grid-cols-[1.3fr_0.7fr] gap-6">
-    <section class="bg-white rounded-2xl p-4 map-card relative">
-      <div id="map"></div>
-      <div id="loadingOverlay" class="loading-overlay hidden">
-        <div class="text-center">
-          <div class="inline-block h-10 w-10 animate-spin rounded-full border-4 border-sky-600 border-t-transparent"></div>
-          <div class="mt-3 text-sm text-slate-600">正在加载省级地图...</div>
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-3 mb-4 px-1 pt-1">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900/80 text-cyan-300 text-xs font-semibold tracking-[0.28em] uppercase float-chip border border-cyan-400/20">
+            Travel View
+          </div>
+          <h1 class="mt-3 text-4xl md:text-6xl font-black tracking-tight text-white title-glow drop-shadow-[0_0_24px_rgba(34,211,238,0.22)]">
+            中国旅游景点地图
+          </h1>
+       
+        </div>
+        <div class="flex items-center gap-2 text-xs text-slate-200">
+      
+          <span id="statusChip" class="px-3 py-1 rounded-full bg-cyan-400/15 text-cyan-200 border border-cyan-300/20 shadow-[0_0_18px_rgba(34,211,238,0.18)]">全国地图</span>
+          <button id="backBtn" class="hidden absolute right-14 top-44 z-30 inline-flex items-center gap-2 rounded-full bg-slate-950/80 px-4 py-2 text-sm font-semibold text-white border border-white/10 backdrop-blur hover:bg-slate-900 transition">
+            <span>←</span><span>返回全国</span>
+          </button>      
+        </div>
+      </div>
+
+      <div class="relative rounded-[26px] overflow-hidden border border-white/50 bg-gradient-to-br from-slate-50 via-white to-cyan-50/80 shadow-[inset_0_1px_0_rgba(255,255,255,0.8)]">
+        <div class="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_20%_20%,rgba(34,211,238,0.10),transparent_30%),radial-gradient(circle_at_80%_25%,rgba(59,130,246,0.10),transparent_28%),radial-gradient(circle_at_60%_80%,rgba(245,158,11,0.08),transparent_25%)]"></div>
+
+        <div id="map"></div>
+        <div id="loadingOverlay" class="loading-overlay hidden">
+          <div class="rounded-2xl bg-slate-950/70 px-6 py-5 text-center text-white border border-white/10 shadow-2xl">
+            <div class="inline-block h-11 w-11 animate-spin rounded-full border-4 border-cyan-400 border-t-transparent"></div>
+            <div class="mt-3 text-sm text-slate-200">正在加载省级地图...</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <aside class="space-y-4">
-      <div class="bg-white rounded-2xl p-5 map-card">
-        <h2 class="text-lg font-bold text-slate-900 mb-2">展示说明</h2>
-        <ul class="text-sm text-slate-600 space-y-2 list-disc pl-5">
-          <li>全国地图展示各省旅游景点 4A/5A 数量。</li>
-          <li>点击省份后进入省级地图。</li>
-          <li>右侧会展示该省的标签聚类与代表景点。</li>
-          <li>分类基于规则 + 机器学习 + 聚类，覆盖全部景点标签。</li>
-        </ul>
+    <section id="provinceDashboard" class="hidden mt-6 grid xl:grid-cols-[1.05fr_0.95fr] gap-6">
+      <div class="glass-card rounded-[26px] p-5 soft-shadow border border-white/70">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <div class="text-xs font-semibold tracking-[0.24em] text-cyan-300 uppercase">Province Intelligence</div>
+            <h2 id="provinceTitle" class="mt-1 text-2xl font-black text-white">省级分析</h2>
+            <p class="mt-2 text-sm text-slate-300">地图保持在上方，分析内容沿下方展开，更像专业数据大屏。</p>
+          </div>
+          <span id="provinceBadge" class="px-3 py-1 rounded-full bg-cyan-400/15 text-cyan-200 border border-cyan-300/20">省级地图</span>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-3 mb-4">
+          <div class="rounded-2xl bg-slate-950/55 border border-white/10 p-4">
+            <div class="text-xs text-cyan-200 uppercase tracking-[0.22em]">景点总数</div>
+            <div id="statTotal" class="mt-2 text-3xl font-black text-white">0</div>
+          </div>
+          <div class="rounded-2xl bg-slate-950/55 border border-white/10 p-4">
+            <div class="text-xs text-cyan-200 uppercase tracking-[0.22em]">簇数量</div>
+            <div id="statClusters" class="mt-2 text-3xl font-black text-white">0</div>
+          </div>
+        </div>
+        <div class="rounded-2xl border border-cyan-400/20 bg-cyan-400/10 px-4 py-3 text-sm text-cyan-100 mb-4">
+          <span class="font-semibold">主标签：</span><span id="statLabel" class="ml-1">-</span>
+          <span class="mx-3 text-cyan-300/40">|</span>
+          <span class="font-semibold">最高热度：</span><span id="statHeat" class="ml-1">-</span>
+        </div>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="bg-slate-950/55 rounded-2xl p-3 border border-white/10"><div id="chartLabels" style="height: 220px;"></div></div>
+          <div class="bg-slate-950/55 rounded-2xl p-3 border border-white/10"><div id="chartClusters" style="height: 220px;"></div></div>
+          <div class="bg-slate-950/55 rounded-2xl p-3 border border-white/10 md:col-span-2"><div id="chartFlow" style="height: 240px;"></div></div>
+          <div class="bg-slate-950/55 rounded-2xl p-3 border border-white/10 md:col-span-2"><div id="chartHeat" style="height: 240px;"></div></div>
+        </div>
       </div>
 
-      <div id="provincePanel" class="bg-white rounded-2xl p-5 map-card min-h-[200px]">
-        <div class="text-slate-400 text-sm">请选择一个省份查看详情</div>
+      <div class="space-y-4">
+        <div class="glass-card rounded-[26px] p-5 soft-shadow border border-white/70">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="text-white font-bold">重点簇摘要</h3>
+            <span class="text-xs text-slate-300">点击卡片查看代表景点</span>
+          </div>
+          <div id="provincePanel" class="space-y-3 max-h-[360px] overflow-auto pr-1"></div>
+        </div>
+        <div class="glass-card rounded-[26px] p-5 soft-shadow border border-white/70">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="text-white font-bold">簇与代表景点</h3>
+            <span class="text-xs text-slate-300">科技感布局</span>
+          </div>
+          <div id="clusterDetail" class="rounded-2xl bg-slate-900/60 border border-white/10 p-4 text-slate-100 min-h-[420px]"></div>
+        </div>
       </div>
-
-      <div id="selfTestPanel" class="bg-white rounded-2xl p-5 map-card">
-        <h2 class="text-lg font-bold text-slate-900 mb-3">自检模式</h2>
-        <div id="selfTestResult" class="space-y-2 text-sm text-slate-600"></div>
-      </div>
-    </aside>
+    </section>
   </main>
 
   <script>
     const map = echarts.init(document.getElementById('map'));
     const backBtn = document.getElementById('backBtn');
-    const provincePanel = document.getElementById('provincePanel');
     const loadingOverlay = document.getElementById('loadingOverlay');
+    const statusChip = document.getElementById('statusChip');
+    const dashboard = document.getElementById('dashboard');
+    const provinceDashboard = document.getElementById('provinceDashboard');
+    const provinceTitle = document.getElementById('provinceTitle');
+    const provinceBadge = document.getElementById('provinceBadge');
+    const provincePanel = document.getElementById('provincePanel');
+    const clusterDetail = document.getElementById('clusterDetail');
+    const chartLabels = echarts.init(document.getElementById('chartLabels'));
+    const chartClusters = echarts.init(document.getElementById('chartClusters'));
+    const chartFlow = echarts.init(document.getElementById('chartFlow'));
+    const chartHeat = echarts.init(document.getElementById('chartHeat'));
+
     const provinceMapName = {
       '北京':'beijing','天津':'tianjin','河北':'hebei','山西':'shanxi','内蒙古':'neimenggu','辽宁':'liaoning','吉林':'jilin','黑龙江':'heilongjiang','上海':'shanghai','江苏':'jiangsu','浙江':'zhejiang','安徽':'anhui','福建':'fujian','江西':'jiangxi','山东':'shandong','河南':'henan','湖北':'hubei','湖南':'hunan','广东':'guangdong','广西':'guangxi','海南':'hainan','重庆':'chongqing','四川':'sichuan','贵州':'guizhou','云南':'yunnan','西藏':'xizang','陕西':'shanxi1','甘肃':'gansu','青海':'qinghai','宁夏':'ningxia','新疆':'xinjiang','香港':'xianggang','澳门':'aomen','台湾':'taiwan'
     };
+    const provinceMapFallbackNames = {
+      '台湾': ['taiwan', '台湾'],
+      '香港': ['xianggang', '香港'],
+      '澳门': ['aomen', '澳门']
+    };
     const provinces = Object.keys(provinceMapName);
-    const provinceDataCache = {};
-    const selfTestResult = document.getElementById('selfTestResult');
     const provinceAliases = {
       '内蒙古自治区': '内蒙古',
       '广西壮族自治区': '广西',
@@ -78,22 +213,21 @@
       '新疆维吾尔自治区': '新疆',
       '香港特别行政区': '香港',
       '澳门特别行政区': '澳门',
-      '北京': '北京',
-      '天津': '天津',
-      '上海': '上海',
-      '重庆': '重庆',
       '台湾省': '台湾'
     };
-    const directCities = new Set(['北京', '天津', '上海', '重庆']);
+
+    function setLoading(show) {
+      loadingOverlay.classList.toggle('hidden', !show);
+    }
 
     async function fetchJson(path) {
       const candidates = [path, encodeURI(path)];
       let lastError;
       for (const url of candidates) {
         try {
-          const r = await fetch(url, { cache: 'no-store' });
-          if (!r.ok) throw new Error(`${url} not found`);
-          return await r.json();
+          const res = await fetch(url, { cache: 'no-store' });
+          if (!res.ok) throw new Error(`${url} not found`);
+          return await res.json();
         } catch (err) {
           lastError = err;
         }
@@ -101,203 +235,207 @@
       throw lastError || new Error(path + ' not found');
     }
 
-    function renderSelfTest(items) {
-      selfTestResult.innerHTML = items.map(item => {
-        const color = item.ok ? 'text-emerald-600' : 'text-red-600';
-        return `<div class="flex items-start gap-2"><span class="mt-0.5 ${color}">${item.ok ? '●' : '●'}</span><span>${item.text}</span></div>`;
-      }).join('');
-    }
-
-    async function runSelfTest() {
-      const results = [];
-      results.push({ ok: !!window.echarts, text: `ECharts 已加载：${!!window.echarts}` });
-      try {
-        const chinaMap = echarts.getMap('china');
-        results.push({ ok: !!chinaMap, text: `中国地图注册状态：${chinaMap ? '成功' : '失败'}` });
-      } catch (e) {
-        results.push({ ok: false, text: `中国地图注册检查失败：${e.message}` });
-      }
-      results.push({ ok: location.protocol === 'http:' || location.protocol === 'https:', text: `当前协议：${location.protocol}（必须是 http/https，不能直接 file:// 打开）` });
-      try {
-        const res = await fetch('./output/national_summary.json', { cache: 'no-store' });
-        results.push({ ok: res.ok, text: `全国汇总 JSON 可访问：${res.ok ? '成功' : '失败'}` });
-      } catch (e) {
-        results.push({ ok: false, text: `全国汇总 JSON 请求失败：${e.message}` });
-      }
-      try {
-        const res = await fetch('./output/province/北京.json', { cache: 'no-store' });
-        results.push({ ok: res.ok, text: `省级 JSON 可访问：${res.ok ? '成功' : '失败'}` });
-      } catch (e) {
-        results.push({ ok: false, text: `省级 JSON 请求失败：${e.message}` });
-      }
-      try {
-        const res = await fetch('./echarts-china-map-master/js/map/china.js', { cache: 'no-store' });
-        results.push({ ok: res.ok, text: `china.js 文件可访问：${res.ok ? '成功' : '失败'}` });
-      } catch (e) {
-        results.push({ ok: false, text: `china.js 检查失败：${e.message}` });
-      }
-      renderSelfTest(results);
-    }
-
-    function setLoading(show) {
-      loadingOverlay.classList.toggle('hidden', !show);
-    }
-
     function loadProvinceMap(province) {
       return new Promise((resolve, reject) => {
         const fileName = provinceMapName[province];
-        if (!fileName) return reject(new Error('unknown province'));
-        const existing = echarts.getMap(province);
-        if (existing) return resolve(province);
+        const resolveNames = [province, fileName, ...(provinceMapFallbackNames[province] || [])].filter(Boolean);
+        const tryResolve = () => resolveNames.find(name => echarts.getMap(name));
+        const existing = tryResolve();
+        if (existing) return resolve(existing);
+        if (!fileName) return reject(new Error(`unknown province ${province}`));
         const script = document.createElement('script');
         script.src = `./echarts-china-map-master/js/map/province/${fileName}.js`;
         script.async = true;
         script.onload = () => {
-          const loaded = echarts.getMap(province);
-          if (loaded) resolve(province);
-          else {
-            const altNames = [province, province + '省', province + '市', province + '自治区', province + '特别行政区'];
-            const found = altNames.find(name => echarts.getMap(name));
-            if (found) resolve(found);
-            else reject(new Error(`province map ${fileName} loaded but not registered as ${province}`));
-          }
+          const found = tryResolve() || resolveNames.find(name => echarts.getMap(name));
+          if (found) resolve(found);
+          else reject(new Error(`failed to load ${province}`));
         };
         script.onerror = () => reject(new Error(`failed to load ${province}`));
         document.head.appendChild(script);
       });
     }
 
+    function baseMapOption({ title, subtext, mapName, data, maxValue }) {
+      return {
+        backgroundColor: 'transparent',
+        title: {
+          text: title,
+          subtext,
+          left: 'center',
+          top: 16,
+          textStyle: { color: '#f8fafc', fontSize: 28, fontWeight: 900 },
+          subtextStyle: { color: '#cbd5e1', fontSize: 13 }
+        },
+        tooltip: {
+          trigger: 'item',
+          backgroundColor: 'rgba(2, 6, 23, 0.96)',
+          borderWidth: 0,
+          textStyle: { color: '#fff' },
+          formatter: p => p.name
+        },
+      
+        series: [{
+          type: 'map',
+          map: mapName,
+          roam: true,
+          selectedMode: 'single',
+          label: { show: false },
+          itemStyle: {
+            borderColor: '#8ecdf4',
+            borderWidth: 1,
+            areaColor: '#DBEAFE'
+          },
+          emphasis: {
+            label: { show: true, color: '#ffffff', fontWeight: 800 },
+            itemStyle: { areaColor: '#f59e0b', shadowBlur: 18, shadowColor: 'rgba(245,158,11,0.35)' }
+          },
+          data: data || []
+        }]
+      };
+    }
+
     function renderNational() {
       setLoading(false);
+      dashboard.classList.remove('hidden');
+      provinceDashboard.classList.add('hidden');
+      statusChip.textContent = '全国地图';
+      backBtn.classList.add('hidden');
+      const option = baseMapOption({ title: '中国旅游景点总览', mapName: 'china', data: [], maxValue: 1 });
       fetchJson('./output/national_summary.json').then(data => {
-        const option = {
-          title: { text: '中国旅游景点总览（4A及以上）', left: 'center', top: 10 },
-          tooltip: { trigger: 'item', formatter: p => `${p.name}<br/>4A及以上景点：${p.value || 0}` },
-          visualMap: {
-            min: 0, max: Math.max(...data.provinces.map(p => p.high_rated_count || 0), 1),
-            left: 20, bottom: 20, text: ['多','少'], calculable: true,
-            inRange: { color: ['#dbeafe', '#60a5fa', '#2563eb', '#1d4ed8'] }
-          },
-          series: [{
-            type: 'map', map: 'china', roam: true, selectedMode: 'single',
-            data: data.provinces.map(p => ({ name: p.name, value: p.high_rated_count || 0 })),
-            label: { show: true },
-            emphasis: { itemStyle: { areaColor: '#f59e0b' } }
-          }]
-        };
+        const maxValue = Math.max(...data.provinces.map(p => p.high_rated_count || 0), 1);
+        option.visualMap.max = maxValue;
+        option.series[0].data = data.provinces.map(p => ({ name: p.name, value: p.high_rated_count || 0 }));
         map.clear();
         map.setOption(option, true);
       }).catch(() => {
+        option.series[0].data = [];
         map.clear();
-        map.setOption({ title: { text: '中国旅游景点总览', left: 'center' }, series: [{ type: 'map', map: 'china', roam: true, selectedMode: 'single', label: { show: true } }] }, true);
+        map.setOption(option, true);
       });
-    }
-
-    function buildProvinceMapData(cityCounts) {
-      return Object.entries(cityCounts || {})
-        .filter(([city]) => directCities.has(city) || city.endsWith('市') || city.endsWith('州') || city.endsWith('盟') || city.endsWith('地区') || city.endsWith('自治州'))
-        .map(([name, value]) => ({ name, value }));
-    }
-
-    function renderProvincePanel(province, data) {
-      const total = data.total_attractions || 0;
-      const clusters = data.clusters || { cluster_count: 0, clusters: [] };
-      const topSpots = data.top_spots || [];
-      const clusterHtml = (clusters.clusters || []).map(cluster => {
-        const spotList = (cluster.representative_spots || []).slice(0, 6)
-          .map(s => `<li class="py-1 text-xs text-slate-600">${s.name} <span class="text-slate-400">${s.level || '#'} · ${s.tags || ''}</span></li>`)
-          .join('');
-        const tags = (cluster.top_tags || []).slice(0, 6)
-          .map(tag => `<span class="px-2 py-1 rounded-full bg-slate-100 text-slate-700 text-xs">${tag}</span>`)
-          .join('');
-        return `
-          <div class="border rounded-xl p-4 bg-white">
-            <div class="flex items-center justify-between mb-2">
-              <h4 class="font-semibold text-slate-900">簇 ${cluster.cluster_id}</h4>
-              <span class="text-xs text-slate-500">${cluster.attraction_count} 个景点</span>
-            </div>
-            <div class="flex flex-wrap gap-2 mb-3">${tags || '<span class="text-slate-400 text-xs">暂无标签</span>'}</div>
-            <ul class="space-y-1">${spotList || '<li class="text-slate-400 text-xs">暂无代表景点</li>'}</ul>
-          </div>
-        `;
-      }).join('');
-      const spotHtml = topSpots.length
-        ? topSpots.map(s => `<li class="py-3 border-b last:border-0"><div class="font-medium">${s.name}</div><div class="text-xs text-slate-500 mt-1">${s.location} · ${s.level || '#'} · ${s.label || '未分类'} · 置信度 ${s.score ?? 0}</div></li>`).join('')
-        : '<li class="text-slate-400">暂无景点数据</li>';
-
-      provincePanel.innerHTML = `
-        <h2 class="text-xl font-bold text-slate-900">${province}</h2>
-        <p class="text-sm text-slate-500 mt-1">共 ${total} 个景点，自动聚类为 ${clusters.cluster_count || 0} 个簇</p>
-        <div class="mt-4">
-          <h3 class="font-semibold mb-2">标签聚类</h3>
-          <div class="grid grid-cols-1 gap-3">${clusterHtml || '<span class="text-slate-400 text-sm">暂无聚类结果</span>'}</div>
-        </div>
-        <div class="mt-6">
-          <h3 class="font-semibold mb-3">代表景点</h3>
-          <ul class="text-sm">${spotHtml}</ul>
-        </div>
-      `;
     }
 
     function renderProvince(province) {
       setLoading(true);
       const normalized = provinceAliases[province] || province;
-      loadProvinceMap(normalized).then(mapName => {
-        return fetchJson(`./output/province/${normalized}.json`).then(data => {
-          provinceDataCache[normalized] = data;
-          const mapData = buildProvinceMapData(data.city_counts);
-          const option = {
-            title: { text: `${normalized}旅游景点标签聚类图`, left: 'center' },
-            tooltip: { trigger: 'item', formatter: p => `${p.name}<br/>景点数：${p.value || 0}` },
-            visualMap: {
-              min: 0, max: Math.max(...mapData.map(item => item.value || 0), 1),
-              left: 20, bottom: 20, text: ['多','少'], calculable: true,
-              inRange: { color: ['#dbeafe', '#93c5fd', '#3b82f6', '#1d4ed8'] }
-            },
-            series: [{
-              type: 'map', map: mapName, roam: true, selectedMode: 'single',
-              data: mapData,
-              label: { show: true },
-              emphasis: { itemStyle: { areaColor: '#f59e0b' } }
-            }]
-          };
-          map.clear();
-          map.setOption(option, true);
-          renderProvincePanel(normalized, data);
-          backBtn.classList.remove('hidden');
-          setLoading(false);
-        });
-      }).catch(err => {
+      dashboard.classList.remove('hidden');
+      provinceDashboard.classList.remove('hidden');
+      statusChip.textContent = normalized + ' 省级地图';
+      backBtn.classList.remove('hidden');
+      loadProvinceMap(normalized).then(mapName => fetchJson(`./output/province/${normalized}.json`).then(data => {
+        const labels = data.labels || [];
+        const clusters = (data.clusters && data.clusters.clusters) || [];
+        const topSpots = (data.top_spots || []).slice(0, 8);
+        const levelCounts = data.level_counts || {};
+        const total = data.total_attractions || 1;
+        const dominantLabel = Object.entries(data.label_counts || {}).sort((a, b) => b[1] - a[1])[0]?.[0] || '-';
+        const topHeat = topSpots[0]?.score ?? '-';
+        provinceTitle.textContent = `${normalized}省级分析`;
+        provinceBadge.textContent = `${normalized} · ${total} 景点`;
+        document.getElementById('statTotal').textContent = String(total);
+        document.getElementById('statClusters').textContent = String(clusters.length || 0);
+        document.getElementById('statLabel').textContent = dominantLabel;
+        document.getElementById('statHeat').textContent = String(topHeat);
+        provincePanel.innerHTML = clusters.map(c => `
+          <button class="w-full text-left rounded-2xl border border-white/10 bg-white/5 hover:bg-cyan-400/10 transition px-4 py-3 cluster-card" data-cluster="${c.cluster_id}">
+            <div class="flex items-center justify-between gap-3">
+              <div>
+                <div class="text-white font-bold">簇 ${c.cluster_id}</div>
+                <div class="text-xs text-slate-300 mt-1">${c.attraction_count} 个景点 · ${c.dominant_label || ''} · ${c.top_tags.slice(0, 3).join(' / ')}</div>
+              </div>
+              <div class="text-right">
+                <div class="text-cyan-300 text-lg font-black">${Math.round((c.attraction_count / total) * 100)}%</div>
+                <div class="text-[11px] text-slate-400">占比</div>
+              </div>
+            </div>
+          </button>
+        `).join('');
+        const optionMap = baseMapOption({ title: `${normalized}省内地图`,  mapName, data: clusters.map(c => ({ name: `簇 ${c.cluster_id}`, value: c.attraction_count })), maxValue: Math.max(...clusters.map(c => c.attraction_count), 1) });
+        optionMap.series[0].itemStyle.areaColor = '#DBEAFE';
+        optionMap.series[0].emphasis.itemStyle.areaColor = '#f59e0b';
+        map.clear();
+        map.setOption(optionMap, true);
+
+        chartLabels.setOption({
+          backgroundColor: 'transparent',
+          title: { text: '标签结构', left: 'center', textStyle: { color: '#fff', fontWeight: 800, fontSize: 16 } },
+          tooltip: { trigger: 'item' },
+          series: [{ type: 'pie', radius: ['45%', '72%'], center: ['50%', '56%'], data: labels.length ? labels : [{ name: '无数据', value: 1 }], label: { color: '#e2e8f0' } }]
+        }, true);
+        chartClusters.setOption({
+          backgroundColor: 'transparent',
+          title: { text: '簇规模', left: 'center', textStyle: { color: '#fff', fontWeight: 800, fontSize: 16 } },
+          xAxis: { type: 'category', data: clusters.map(c => `C${c.cluster_id}`), axisLabel: { color: '#cbd5e1' }, axisLine: { lineStyle: { color: '#334155' } } },
+          yAxis: { type: 'value', axisLabel: { color: '#cbd5e1' }, splitLine: { lineStyle: { color: 'rgba(148,163,184,.18)' } } },
+          series: [{ type: 'bar', data: clusters.map(c => c.attraction_count), itemStyle: { color: '#38bdf8', borderRadius: [8, 8, 0, 0] } }]
+        }, true);
+        chartFlow.setOption({
+          backgroundColor: 'transparent',
+          title: { text: '热度与代表景点', left: 'center', textStyle: { color: '#fff', fontWeight: 800, fontSize: 16 } },
+          xAxis: { type: 'category', data: topSpots.map(s => s.name.slice(0, 8)), axisLabel: { color: '#cbd5e1', rotate: 20 }, axisLine: { lineStyle: { color: '#334155' } } },
+          yAxis: { type: 'value', axisLabel: { color: '#cbd5e1' }, splitLine: { lineStyle: { color: 'rgba(148,163,184,.18)' } } },
+          series: [{ type: 'line', smooth: true, data: topSpots.map(s => s.score), symbolSize: 10, lineStyle: { color: '#22d3ee', width: 3 }, itemStyle: { color: '#f59e0b' } }]
+        }, true);
+        const levelValues = Object.values(levelCounts);
+        chartHeat.setOption({
+          backgroundColor: 'transparent',
+          title: { text: '等级分布', left: 'center', textStyle: { color: '#fff', fontWeight: 800, fontSize: 16 } },
+          tooltip: { trigger: 'item' },
+          radar: { indicator: Object.keys(levelCounts).length ? Object.entries(levelCounts).map(([name]) => ({ name, max: Math.max(...levelValues, 1) })) : [{ name: '无等级数据', max: 1 }], axisName: { color: '#e2e8f0' }, splitLine: { lineStyle: { color: 'rgba(148,163,184,.18)' } } },
+          series: [{ type: 'radar', data: [{ value: levelValues.length ? levelValues : [0], name: normalized }], areaStyle: { color: 'rgba(56,189,248,.24)' }, lineStyle: { color: '#38bdf8' }, itemStyle: { color: '#f59e0b' } }]
+        }, true);
+
+        const renderClusterDetail = c => `
+          <div class="rounded-2xl border border-cyan-400/20 bg-gradient-to-br from-cyan-400/10 to-blue-500/10 p-4">
+            <div class="flex items-center justify-between">
+              <div>
+                <div class="text-cyan-200 text-xs tracking-[0.24em] uppercase">Cluster ${c.cluster_id}</div>
+                <h3 class="text-2xl font-black text-white mt-1">${c.attraction_count} 个景点</h3>
+              </div>
+              <div class="text-right">
+                <div class="text-slate-200 text-sm">主标签</div>
+                <div class="text-xs text-cyan-200 mt-1">${c.dominant_label || '-'}</div>
+              </div>
+            </div>
+            <div class="mt-4 flex flex-wrap gap-2">${(c.top_tags || []).slice(0, 6).map(t => `<span class="px-3 py-1 rounded-full bg-white/10 text-cyan-100 text-xs border border-white/10">${t}</span>`).join('')}</div>
+            <div class="mt-4 grid md:grid-cols-2 gap-3">${c.representative_spots.map(s => `<div class="rounded-xl bg-slate-950/50 border border-white/10 p-3"><div class="flex justify-between gap-3"><div class="text-white font-semibold">${s.name}</div><div class="text-cyan-200 text-xs">${s.score}</div></div><div class="text-slate-300 text-xs mt-1">${s.location}</div><div class="text-slate-400 text-xs mt-1">${s.level || ''}</div><div class="text-cyan-200 text-xs mt-2">${s.tags || ''}</div></div>`).join('')}</div>
+          </div>`;
+        clusterDetail.innerHTML = clusters.slice(0,1).map(renderClusterDetail).join('') || '<div class="text-slate-300">暂无簇数据</div>';
+        provincePanel.querySelectorAll('.cluster-card').forEach(btn => btn.addEventListener('click', () => {
+          const cluster = clusters.find(c => String(c.cluster_id) === btn.dataset.cluster);
+          if (!cluster) return;
+          clusterDetail.innerHTML = renderClusterDetail(cluster);
+        }));
         setLoading(false);
+      })).catch(err => {
         console.error(err);
-        provincePanel.innerHTML = `<div class="text-red-500 text-sm">${normalized} 省级地图或分类结果加载失败：${err.message}</div>`;
+        setLoading(false);
+        renderNational();
       });
     }
 
-    backBtn.addEventListener('click', () => {
-      backBtn.classList.add('hidden');
-      provincePanel.innerHTML = '<div class="text-slate-400 text-sm">请选择一个省份查看详情</div>';
-      renderNational();
-    });
-
     map.on('click', params => {
       const province = provinceAliases[params.name] || params.name;
-      if (provinces.includes(province)) {
-        renderProvince(province);
-      } else {
-        console.warn('未识别点击项', params.name, params);
-      }
+      if (provinces.includes(province)) renderProvince(province);
     });
 
-    window.addEventListener('load', () => {
-      try {
-        map.resize();
-      } catch (e) {}
+    backBtn.addEventListener('click', () => {
+      backBtn.classList.add('hidden');
+      statusChip.textContent = '全国地图';
       renderNational();
-      runSelfTest();
     });
 
-    window.addEventListener('resize', () => map.resize());
+    window.addEventListener('resize', () => {
+      map.resize();
+      chartLabels.resize();
+      chartClusters.resize();
+      chartFlow.resize();
+      chartHeat.resize();
+    });
+    window.addEventListener('load', () => {
+      renderNational();
+      setTimeout(() => map.resize(), 50);
+    });
   </script>
 </body>
 </html>

@@ -1,491 +1,201 @@
 {
   "province": "澳门",
   "total_attractions": 792,
-  "high_rated_count": 0,
   "label_counts": {
     "休闲娱乐": 546,
     "历史文化": 182,
     "城市地标": 45,
     "自然风光": 19
   },
-  "city_counts": {},
+  "level_counts": {},
+  "tag_counts": {
+    "体验蹦极欣赏澳门全景": 1,
+    "遛娃宝藏地": 13,
+    "澳门景致尽收眼底": 1,
+    "电影主题度假村": 1,
+    "度假村": 10,
+    "畅玩四个主题游乐区": 1,
+    "置身昔日威尼斯的街道": 1,
+    "身体沉浸式互动体验": 1,
+    "展馆展览": 2,
+    "演出": 11,
+    "恍如置身于水都威尼斯": 1,
+    "澳门标志性建筑": 1,
+    "历史建筑": 76,
+    "感受真正的伦敦体验": 1,
+    "贝聿铭设计的科学馆": 1,
+    "体验巴黎风格的浪漫风情": 1,
+    "逛精品购物店品尝环球美食": 1,
+    "格兰披治大赛车相关博物馆": 1,
+    "博物馆": 16,
+    "澳门美丽旅游观光巴士": 1,
+    "巴士观光": 1,
+    "美食购物两不误的手信街": 1,
+    "城市漫步": 33,
+    "游览欧陆风格建筑": 1,
+    "俯瞰城市全貌观赏路氹城": 1,
+    "夜游观景": 5,
+    "古老庙宇香火旺盛": 1,
+    "从233米的高空一跃而下": 1,
+    "蹦极": 4,
+    "演唱会": 38,
+    "参观百年古炮俯瞰澳门美景": 1,
+    "儿童乐园": 4,
+    "沉浸式城市飞索体验": 1,
+    "了解澳门历史文化": 1,
+    "四百年历史巴洛克教堂": 1,
+    "博物馆&展馆": 6,
+    "全球大型的空中激浪": 1,
+    "水乐园": 3,
+    "游览妈祖文化村": 1,
+    "岛屿漫步": 3,
+    "澳门旧式街道缩影": 1,
+    "凼仔岛到处是葡萄牙式建筑": 1,
+    "光": 1,
+    "影": 1,
+    "水世界": 1,
+    "特色展馆": 40,
+    "在233米的高空绕塔踱步": 1,
+    "大三巴牌坊前文艺小街": 1,
+    "回归纪念": 1,
+    "澳门的历史见证": 1,
+    "澳门车坛盛事": 1,
+    "葡式历史建筑环绕": 1,
+    "地标观景": 29,
+    "澳门回归纪念景点": 1,
+    "澳门的崭新地标": 1,
+    "新一代玩乐大本营": 1,
+    "赏黑沙享惬意海景": 1,
+    "海滨沙滩": 2,
+    "VR特色体验馆": 1,
+    "酒店内的定时表演": 1,
+    "葡式风格的街道": 1,
+    "塔顶可俯瞰半岛全景": 1,
+    "经常举办明星演唱会": 1,
+    "公立综合性大学": 1,
+    "SPA/按摩": 4,
+    "中西文化交融的历史城区": 1,
+    "老房子林立": 1,
+    "感受澳门的历史氛围": 1,
+    "薄荷绿的葡萄牙风情建筑": 1,
+    "气派的演出剧场": 1,
+    "艺术及文物主题博物馆": 1,
+    "巨大的湖泊式喷泉": 1,
+    "欣赏南欧风格的典雅建筑": 1,
+    "动物园&水族馆": 4,
+    "巴罗克式风格教堂": 1,
+    "供奉着形态各异的哪吒神像": 1,
+    "熊猫主题的动物园": 1,
+    "澳门很大的清代民宅": 1,
+    "介绍澳门的航海历史": 1,
+    "浓浓欧式风情购买手信好地": 1,
+    "在澳门上空写意遨翔": 1,
+    "历史城区的世遗建筑之一": 1,
+    "古色古香有着百年历史的关闸门楼": 1,
+    "环境优美": 1,
+    "面海靠山": 1,
+    "二战时曾是旧料地摊市场": 1,
+    "承办各类宴会及颁奖典礼": 1,
+    "体验攀登高塔的惊险滋味": 1,
+    "建筑典雅": 1,
+    "钟楼高耸": 1,
+    "该馆可举办演唱会": 1,
+    "舞台剧": 1,
+    "山上遍种青松": 1,
+    "登高爬山": 5,
+    "演唱会专用馆": 1,
+    "场馆展馆": 18,
+    "自然山水": 6,
+    "世界闻名国际娱乐表演": 1,
+    "澳门八景之一": 1,
+    "瞻仰知名的妈祖雕像": 1,
+    "内部有多个大型表演场馆": 1,
+    "乘船游览": 1,
+    "知名商人卢华绍家族的旧居": 1,
+    "结合古老传说演绎四大神兽": 1,
+    "祈求出海风顺的教堂": 1,
+    "音乐节": 1,
+    "参观欧战纪念馆": 1,
+    "公园&植物园": 30,
+    "120块汉白玉石雕刻而成": 1,
+    "建筑典雅庄严": 1,
+    "新古典主义建筑风格": 1,
+    "赛事": 3,
+    "设有母婴室": 1,
+    "澳门大规模的庙宇之一": 1,
+    "澳门著名的美食街": 1,
+    "主题乐园&游乐场": 3,
+    "澳门的优质住宅区之一": 1,
+    "灰墙相映成趣": 1,
+    "葡式建筑": 1,
+    "百年历史的人文古迹": 1,
+    "以可口可乐为主题的展馆": 1,
+    "氹仔唯一的天主教堂": 1,
+    "新古典主义风格建筑": 1,
+    "音乐会": 1,
+    "缆车索道": 1,
+    "连接澳门半岛和氹仔岛": 1,
+    "视觉盛宴": 1,
+    "音乐与灯光交织": 1,
+    "供奉有女娲神像": 1,
+    "仿唐朝建筑": 1,
+    "独特的商业区": 1,
+    "保留葡萄牙式建筑风格": 1,
+    "建有大型剧院": 1,
+    "海滩&岛屿": 4,
+    "了解澳门消防历史的演进": 1,
+    "游乐场": 3,
+    "西式剧院可欣赏小型演出": 1,
+    "融入阿拉伯元素的欧式建筑": 1,
+    "规模宏大": 1,
+    "可举办各类展会": 1,
+    "会议": 1,
+    "宴会的会展中心": 1,
+    "澳门三大古教堂之一": 1,
+    "设有可进食区域": 1,
+    "澳门知名地标建筑": 1,
+    "科技馆": 1,
+    "徒步": 1,
+    "欣赏历史悠久的铜钟": 1,
+    "了解澳门保安部队历史": 1,
+    "收藏了上百多件天主教艺术珍品": 1,
+    "汇集天主教艺术精品": 1,
+    "园林花园": 7,
+    "使用英语布道的教堂": 1,
+    "一览各式古董音响设备": 1,
+    "欣赏不同风格的华丽机车收藏": 1,
+    "园内小山环叠": 1,
+    "古木参天": 2,
+    "澳门较早的一间华人教堂": 1,
+    "观赏中西化结合的古老壁画": 1,
+    "澳门的城墙": 1,
+    "了解通讯媒介及技术发展": 1,
+    "庙堂虽小": 1,
+    "香烟袅袅": 1,
+    "华丽舞台的视听盛宴": 1,
+    "曾是葡兵军事防御据点之一": 1,
+    "意大利建筑风格": 1,
+    "建于清光绪十五年": 1,
+    "历史感浓厚的澳门特色马路": 1,
+    "建于18世纪70年代": 1,
+    "当地人休闲放松的好去处": 1,
+    "建有民族雕塑园": 1,
+    "领略传统典当业风貌": 1,
+    "远眺美丽的观光塔": 1,
+    "树木葱郁": 1,
+    "植物园": 1,
+    "中西合璧风格的喝茶场所": 1,
+    "形似八角而得名": 1,
+    "眺望澳门海景和观音莲花苑": 1,
+    "设有保龄球场馆": 1,
+    "澳门很大的3D影城": 1,
+    "节日": 20
+  },
   "clusters": {
-    "cluster_count": 8,
+    "cluster_count": 10,
     "clusters": [
       {
         "cluster_id": 0,
-        "attraction_count": 30,
-        "top_tags": [
-          "公园&植物园",
-          "参观欧战纪念馆",
-          "氹仔唯一的天主教堂",
-          "当地人休闲放松的好去处",
-          "建有民族雕塑园",
-          "古木参天",
-          "树木葱郁",
-          "植物园"
-        ],
-        "representative_spots": [
-          {
-            "name": "嘉模圣母教堂",
-            "location": "距市中心4.1km",
-            "level": "#",
-            "tags": "氹仔唯一的天主教堂,公园&植物园",
-            "label": "休闲娱乐",
-            "score": 0.912
-          },
-          {
-            "name": "十字花园",
-            "location": "距市中心4.1km",
-            "level": "#",
-            "tags": "公园&植物园",
-            "label": "休闲娱乐",
-            "score": 0.87
-          },
-          {
-            "name": "得胜花园",
-            "location": "距市中心1.8km",
-            "level": "#",
-            "tags": "植物园",
-            "label": "休闲娱乐",
-            "score": 0.856
-          },
-          {
-            "name": "三角花园",
-            "location": "距市中心2.5km",
-            "level": "#",
-            "tags": "公园&植物园",
-            "label": "休闲娱乐",
-            "score": 0.853
-          },
-          {
-            "name": "西望洋花园",
-            "location": "距市中心1.0km",
-            "level": "#",
-            "tags": "公园&植物园",
-            "label": "休闲娱乐",
-            "score": 0.826
-          },
-          {
-            "name": "何贤公园",
-            "location": "距市中心888m",
-            "level": "#",
-            "tags": "公园&植物园",
-            "label": "休闲娱乐",
-            "score": 0.818
-          },
-          {
-            "name": "艺园",
-            "location": "距市中心705m",
-            "level": "#",
-            "tags": "公园&植物园",
-            "label": "休闲娱乐",
-            "score": 0.817
-          },
-          {
-            "name": "氹仔中央公園",
-            "location": "距市中心3.3km",
-            "level": "#",
-            "tags": "公园&植物园",
-            "label": "休闲娱乐",
-            "score": 0.796
-          },
-          {
-            "name": "水塘公园",
-            "location": "距市中心1.9km",
-            "level": "#",
-            "tags": "公园&植物园",
-            "label": "休闲娱乐",
-            "score": 0.792
-          },
-          {
-            "name": "绿杨花园休憩区",
-            "location": "距市中心2.2km",
-            "level": "#",
-            "tags": "公园&植物园",
-            "label": "休闲娱乐",
-            "score": 0.791
-          }
-        ]
-      },
-      {
-        "cluster_id": 1,
-        "attraction_count": 269,
-        "top_tags": [
-          "地标观景",
-          "遛娃宝藏地",
-          "度假村",
-          "演出",
-          "自然山水",
-          "园林花园",
-          "夜游观景",
-          "场馆展馆"
-        ],
-        "representative_spots": [
-          {
-            "name": "澳门旅游塔户外广场",
-            "location": "距市中心651m",
-            "level": "#",
-            "tags": "地标观景",
-            "label": "城市地标",
-            "score": 0.999
-          },
-          {
-            "name": "西湾湖广场",
-            "location": "距市中心853m",
-            "level": "#",
-            "tags": "地标观景",
-            "label": "城市地标",
-            "score": 0.999
-          },
-          {
-            "name": "友谊广场",
-            "location": "距市中心455m",
-            "level": "#",
-            "tags": "地标观景",
-            "label": "城市地标",
-            "score": 0.999
-          },
-          {
-            "name": "银座广场(澳门半岛白马行店)",
-            "location": "距市中心882m",
-            "level": "#",
-            "tags": "地标观景",
-            "label": "城市地标",
-            "score": 0.999
-          },
-          {
-            "name": "耶稣会纪念广场",
-            "location": "距市中心1.1km",
-            "level": "#",
-            "tags": "地标观景",
-            "label": "城市地标",
-            "score": 0.999
-          },
-          {
-            "name": "宋玉生广场",
-            "location": "距市中心1.4km",
-            "level": "#",
-            "tags": "地标观景",
-            "label": "城市地标",
-            "score": 0.998
-          },
-          {
-            "name": "塔石广场",
-            "location": "距市中心1.3km",
-            "level": "#",
-            "tags": "地标观景",
-            "label": "城市地标",
-            "score": 0.998
-          },
-          {
-            "name": "金莲花广场",
-            "location": "距市中心1.3km",
-            "level": "#",
-            "tags": "澳门回归纪念景点,地标观景",
-            "label": "城市地标",
-            "score": 0.997
-          },
-          {
-            "name": "澳门渔人码头-马可勃罗露天广场",
-            "location": "距市中心1.6km",
-            "level": "#",
-            "tags": "地标观景",
-            "label": "城市地标",
-            "score": 0.997
-          },
-          {
-            "name": "东望洋山",
-            "location": "距市中心1.3km",
-            "level": "#",
-            "tags": "山上遍种青松,登高爬山",
-            "label": "自然风光",
-            "score": 0.997
-          }
-        ]
-      },
-      {
-        "cluster_id": 2,
-        "attraction_count": 42,
-        "top_tags": [
-          "演唱会",
-          "演出",
-          "音乐节",
-          "音乐会"
-        ],
-        "representative_spots": [
-          {
-            "name": "中国澳门 · 夏贤尚2025《FINE DAY WITH HYUN SANG》粉丝演唱会",
-            "location": "距市中心4.4km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.975
-          },
-          {
-            "name": "中国澳门 · Dear Jane 2025《Dearest》演唱会",
-            "location": "距市中心5.1km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.975
-          },
-          {
-            "name": "中国澳门 · G-DRAGON 2025 WORLD TOUR [Übermensch] IN MACAU, presented by Galaxy Macau™",
-            "location": "距市中心4.3km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.966
-          },
-          {
-            "name": "中国澳门 · MIDNIGHT REVERIE : BOUNPREM FANMEETING IN MACAU",
-            "location": "距市中心4.6km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.961
-          },
-          {
-            "name": "中国澳门 · 2025KARA“The Phoenix Tour”巡回演唱会中国澳门站",
-            "location": "距市中心5.4km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.96
-          },
-          {
-            "name": "中国澳门 · KAI 2025《KAION》个人巡回演唱会",
-            "location": "距市中心5.1km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.96
-          },
-          {
-            "name": "中国澳门 · 「澳門銀河™」荣誉呈献: 欧阳万成 Jimmy O. Yang Live in Macau",
-            "location": "距市中心4.6km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.959
-          },
-          {
-            "name": "中国澳门 · B.I 2025《The Last Parade Tour》亚洲巡演",
-            "location": "距市中心4.6km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.959
-          },
-          {
-            "name": "中国澳门 · 陈奕迅FEAR and DREAMS世界巡回演唱会 – 澳门（最终站）",
-            "location": "距市中心5.1km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.956
-          },
-          {
-            "name": "中国澳门 · 李惠利2025《Welcome to HYERI's STUDIO》粉丝见面会",
-            "location": "距市中心4.6km",
-            "level": "#",
-            "tags": "演唱会",
-            "label": "休闲娱乐",
-            "score": 0.956
-          }
-        ]
-      },
-      {
-        "cluster_id": 3,
-        "attraction_count": 256,
-        "top_tags": [
-          "历史建筑",
-          "地标观景",
-          "场馆展馆",
-          "园林花园",
-          "登高爬山",
-          "公园&植物园"
-        ],
-        "representative_spots": [
-          {
-            "name": "Centro De Bowling / Academia De Tenis / Macau International Shooting Range",
-            "location": "距市中心5.6km",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.98
-          },
-          {
-            "name": "Rio Hotel Macau Sauna Place",
-            "location": "距市中心944m",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.976
-          },
-          {
-            "name": "Centro de Convivio \"Hong Nin Chi Ka\" da Associacao de Agricultores de Macau",
-            "location": "距市中心2.8km",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.976
-          },
-          {
-            "name": "路環藝文空間 Coloane Art Space",
-            "location": "距市中心7.8km",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.975
-          },
-          {
-            "name": "The Ritz-Carlton Spa, Macau",
-            "location": "距市中心4.7km",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.975
-          },
-          {
-            "name": "Museu Vivo Macaense",
-            "location": "距市中心4.1km",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.973
-          },
-          {
-            "name": "Leprosaria de Coloane",
-            "location": "距市中心7.8km",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.971
-          },
-          {
-            "name": "Nirvana Spa Macau",
-            "location": "距市中心2.9km",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.97
-          },
-          {
-            "name": "Macao Polytechnic University Library (Taipa Campus)",
-            "location": "距市中心3.0km",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.968
-          },
-          {
-            "name": "Iglesia Ni Cristo - Macau District Office",
-            "location": "距市中心2.1km",
-            "level": "#",
-            "tags": "#",
-            "label": "休闲娱乐",
-            "score": 0.966
-          }
-        ]
-      },
-      {
-        "cluster_id": 4,
-        "attraction_count": 52,
-        "top_tags": [
-          "特色展馆",
-          "场馆展馆",
-          "经常举办明星演唱会",
-          "艺术及文物主题博物馆",
-          "欣赏不同风格的华丽机车收藏",
-          "领略传统典当业风貌"
-        ],
-        "representative_spots": [
-          {
-            "name": "塔石体育馆",
-            "location": "距市中心1.2km",
-            "level": "#",
-            "tags": "场馆展馆",
-            "label": "历史文化",
-            "score": 0.989
-          },
-          {
-            "name": "澳门超雄帝国体育馆",
-            "location": "距市中心1.2km",
-            "level": "#",
-            "tags": "场馆展馆",
-            "label": "历史文化",
-            "score": 0.985
-          },
-          {
-            "name": "澳门综艺馆",
-            "location": "距市中心1.4km",
-            "level": "#",
-            "tags": "场馆展馆",
-            "label": "历史文化",
-            "score": 0.985
-          },
-          {
-            "name": "饶宗颐学艺馆",
-            "location": "距市中心1.4km",
-            "level": "#",
-            "tags": "特色展馆",
-            "label": "历史文化",
-            "score": 0.983
-          },
-          {
-            "name": "澳门文学馆",
-            "location": "距市中心1.4km",
-            "level": "#",
-            "tags": "特色展馆",
-            "label": "历史文化",
-            "score": 0.982
-          },
-          {
-            "name": "青少年展艺馆",
-            "location": "距市中心1.2km",
-            "level": "#",
-            "tags": "特色展馆",
-            "label": "历史文化",
-            "score": 0.981
-          },
-          {
-            "name": "大三巴哪咤展馆",
-            "location": "距市中心1.2km",
-            "level": "#",
-            "tags": "特色展馆",
-            "label": "历史文化",
-            "score": 0.98
-          },
-          {
-            "name": "澳门东亚运动会体育馆",
-            "location": "距市中心5.9km",
-            "level": "#",
-            "tags": "场馆展馆",
-            "label": "历史文化",
-            "score": 0.979
-          },
-          {
-            "name": "沙梨头更馆",
-            "location": "距市中心1.7km",
-            "level": "#",
-            "tags": "特色展馆",
-            "label": "历史文化",
-            "score": 0.976
-          },
-          {
-            "name": "澳门动物标本展示馆",
-            "location": "距市中心7.8km",
-            "level": "#",
-            "tags": "特色展馆",
-            "label": "历史文化",
-            "score": 0.975
-          }
-        ]
-      },
-      {
-        "cluster_id": 5,
         "attraction_count": 33,
         "top_tags": [
           "城市漫步",
@@ -497,275 +207,1586 @@
           "二战时曾是旧料地摊市场",
           "澳门著名的美食街"
         ],
+        "dominant_label": "历史文化",
         "representative_spots": [
           {
             "name": "荷兰园二马路",
             "location": "距市中心1.2km",
             "level": "#",
+            "heat": 1.4,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "1条点评",
             "label": "历史文化",
-            "score": 0.968
+            "score": 0.968,
+            "source": "ml"
           },
           {
             "name": "康公夜市",
             "location": "距市中心1.2km",
             "level": "#",
+            "heat": 3.6,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "12条点评",
             "label": "历史文化",
-            "score": 0.968
+            "score": 0.968,
+            "source": "ml"
           },
           {
             "name": "板樟堂街",
             "location": "距市中心901m",
             "level": "#",
+            "heat": 2.5,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "10条点评",
             "label": "历史文化",
-            "score": 0.957
+            "score": 0.957,
+            "source": "ml"
           },
           {
             "name": "和隆街",
             "location": "距市中心1.1km",
             "level": "#",
+            "heat": 1.1,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "1条点评",
             "label": "历史文化",
-            "score": 0.956
+            "score": 0.956,
+            "source": "ml"
           },
           {
             "name": "买草地街",
             "location": "距市中心934m",
             "level": "#",
+            "heat": 1.6,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "21条点评",
             "label": "历史文化",
-            "score": 0.955
+            "score": 0.955,
+            "source": "ml"
           },
           {
             "name": "俊秀巷",
             "location": "距市中心1.2km",
             "level": "#",
+            "heat": 2.0,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "22条点评",
             "label": "历史文化",
-            "score": 0.954
+            "score": 0.954,
+            "source": "ml"
           },
           {
             "name": "三盏灯小吃街",
             "location": "距市中心1.8km",
             "level": "#",
+            "heat": 3.4,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "12条点评",
             "label": "历史文化",
-            "score": 0.952
+            "score": 0.952,
+            "source": "ml"
           },
           {
             "name": "高士德大马路",
             "location": "距市中心1.7km",
             "level": "#",
+            "heat": 2.0,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "9条点评",
             "label": "历史文化",
-            "score": 0.948
+            "score": 0.948,
+            "source": "ml"
           },
           {
             "name": "肥利喇亚美打大马路",
             "location": "距市中心1.4km",
             "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "20条点评",
             "label": "历史文化",
-            "score": 0.947
+            "score": 0.947,
+            "source": "ml"
           },
           {
             "name": "营地大街",
             "location": "距市中心960m",
             "level": "#",
+            "heat": 1.8,
+            "reputation": "#",
             "tags": "城市漫步",
+            "reviews": "1条点评",
             "label": "历史文化",
-            "score": 0.944
+            "score": 0.944,
+            "source": "ml"
+          },
+          {
+            "name": "南湾大马路",
+            "location": "距市中心483m",
+            "level": "#",
+            "heat": 1.6,
+            "reputation": "#",
+            "tags": "城市漫步",
+            "reviews": "1条点评",
+            "label": "历史文化",
+            "score": 0.943,
+            "source": "ml"
+          },
+          {
+            "name": "伦敦探索的士",
+            "location": "距市中心6.2km",
+            "level": "#",
+            "heat": 2.1,
+            "reputation": "#",
+            "tags": "城市漫步",
+            "reviews": "2条点评",
+            "label": "历史文化",
+            "score": 0.936,
+            "source": "ml"
           }
         ]
       },
       {
-        "cluster_id": 6,
-        "attraction_count": 89,
+        "cluster_id": 1,
+        "attraction_count": 67,
         "top_tags": [
           "历史建筑",
-          "博物馆",
-          "博物馆&展馆",
           "澳门标志性建筑",
-          "格兰披治大赛车相关博物馆",
           "古老庙宇香火旺盛",
           "参观百年古炮俯瞰澳门美景",
-          "了解澳门历史文化"
+          "中西文化交融的历史城区",
+          "欣赏南欧风格的典雅建筑",
+          "供奉着形态各异的哪吒神像",
+          "澳门很大的清代民宅"
         ],
+        "dominant_label": "休闲娱乐",
         "representative_spots": [
-          {
-            "name": "澳门基本法纪念馆",
-            "location": "距市中心1.4km",
-            "level": "#",
-            "tags": "博物馆&展馆",
-            "label": "历史文化",
-            "score": 0.976
-          },
           {
             "name": "澳门历史城区",
             "location": "距市中心847m",
             "level": "#",
+            "heat": 4.8,
+            "reputation": "#",
             "tags": "中西文化交融的历史城区,历史建筑",
+            "reviews": "425条点评",
             "label": "城市地标",
-            "score": 0.975
+            "score": 0.975,
+            "source": "ml"
+          },
+          {
+            "name": "氹仔天后古庙（天后宫）",
+            "location": "距市中心4.1km",
+            "level": "#",
+            "heat": 2.2,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "#",
+            "label": "历史文化",
+            "score": 0.929,
+            "source": "ml"
+          },
+          {
+            "name": "St. Raphael Hospital and Garden",
+            "location": "距市中心897m",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "1条点评",
+            "label": "休闲娱乐",
+            "score": 0.924,
+            "source": "ml"
+          },
+          {
+            "name": "旧城墙遗址",
+            "location": "距市中心1.2km",
+            "level": "#",
+            "heat": 2.1,
+            "reputation": "#",
+            "tags": "澳门的城墙,历史建筑",
+            "reviews": "98条点评",
+            "label": "历史文化",
+            "score": 0.901,
+            "source": "ml"
+          },
+          {
+            "name": "竹林寺",
+            "location": "距市中心1.8km",
+            "level": "#",
+            "heat": 1.6,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "24条点评",
+            "label": "历史文化",
+            "score": 0.895,
+            "source": "ml"
+          },
+          {
+            "name": "The Moosa Houses",
+            "location": "距市中心712m",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.895,
+            "source": "ml"
+          },
+          {
+            "name": "同善堂历史档案陈列馆",
+            "location": "距市中心1.0km",
+            "level": "#",
+            "heat": 2.4,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "6条点评",
+            "label": "历史文化",
+            "score": 0.89,
+            "source": "ml"
+          },
+          {
+            "name": "卢家大屋",
+            "location": "距市中心833m",
+            "level": "#",
+            "heat": 3.6,
+            "reputation": "#",
+            "tags": "知名商人卢华绍家族的旧居,历史建筑",
+            "reviews": "190条点评",
+            "label": "休闲娱乐",
+            "score": 0.882,
+            "source": "ml"
+          },
+          {
+            "name": "The Spectacle (MGM Cotai)",
+            "location": "距市中心5.1km",
+            "level": "#",
+            "heat": 1.7,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "5条点评",
+            "label": "休闲娱乐",
+            "score": 0.871,
+            "source": "ml"
+          },
+          {
+            "name": "澳门葡人之家协会",
+            "location": "距市中心863m",
+            "level": "#",
+            "heat": 1.5,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.849,
+            "source": "ml"
+          },
+          {
+            "name": "上架行会馆",
+            "location": "距市中心1.0km",
+            "level": "#",
+            "heat": 1.6,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "2条点评",
+            "label": "历史文化",
+            "score": 0.848,
+            "source": "ml"
+          },
+          {
+            "name": "Blue House",
+            "location": "距市中心1.2km",
+            "level": "#",
+            "heat": 1.1,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.845,
+            "source": "ml"
+          }
+        ]
+      },
+      {
+        "cluster_id": 2,
+        "attraction_count": 183,
+        "top_tags": [
+          "历史建筑",
+          "地标观景",
+          "场馆展馆",
+          "园林花园",
+          "登高爬山",
+          "公园&植物园"
+        ],
+        "dominant_label": "休闲娱乐",
+        "representative_spots": [
+          {
+            "name": "Centro De Bowling / Academia De Tenis / Macau International Shooting Range",
+            "location": "距市中心5.6km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.98,
+            "source": "ml"
+          },
+          {
+            "name": "Rio Hotel Macau Sauna Place",
+            "location": "距市中心944m",
+            "level": "#",
+            "heat": 1.5,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.976,
+            "source": "ml"
+          },
+          {
+            "name": "Centro de Convivio \"Hong Nin Chi Ka\" da Associacao de Agricultores de Macau",
+            "location": "距市中心2.8km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.976,
+            "source": "ml"
+          },
+          {
+            "name": "路環藝文空間 Coloane Art Space",
+            "location": "距市中心7.8km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.975,
+            "source": "ml"
+          },
+          {
+            "name": "The Ritz-Carlton Spa, Macau",
+            "location": "距市中心4.7km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.975,
+            "source": "ml"
+          },
+          {
+            "name": "Museu Vivo Macaense",
+            "location": "距市中心4.1km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.973,
+            "source": "ml"
+          },
+          {
+            "name": "Leprosaria de Coloane",
+            "location": "距市中心7.8km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.971,
+            "source": "ml"
+          },
+          {
+            "name": "Nirvana Spa Macau",
+            "location": "距市中心2.9km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.97,
+            "source": "ml"
+          },
+          {
+            "name": "Iglesia Ni Cristo - Macau District Office",
+            "location": "距市中心2.1km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.966,
+            "source": "ml"
+          },
+          {
+            "name": "Associação dos Escoteiros de Macau",
+            "location": "距市中心3.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.964,
+            "source": "ml"
+          },
+          {
+            "name": "Grass sliding ground at the Taipa Grande Natural Park",
+            "location": "距市中心4.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.963,
+            "source": "ml"
+          },
+          {
+            "name": "GreenRace Macau Retreat",
+            "location": "距市中心7.7km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.963,
+            "source": "ml"
+          }
+        ]
+      },
+      {
+        "cluster_id": 3,
+        "attraction_count": 61,
+        "top_tags": [
+          "节日",
+          "地标观景",
+          "度假村",
+          "博物馆",
+          "场馆展馆",
+          "澳门回归纪念景点",
+          "塔顶可俯瞰半岛全景",
+          "介绍澳门的航海历史"
+        ],
+        "dominant_label": "休闲娱乐",
+        "representative_spots": [
+          {
+            "name": "塔石广场",
+            "location": "距市中心1.3km",
+            "level": "#",
+            "heat": 2.8,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "57条点评",
+            "label": "城市地标",
+            "score": 0.998,
+            "source": "ml"
+          },
+          {
+            "name": "金莲花广场",
+            "location": "距市中心1.3km",
+            "level": "#",
+            "heat": 5.2,
+            "reputation": "#",
+            "tags": "澳门回归纪念景点,地标观景",
+            "reviews": "329条点评",
+            "label": "城市地标",
+            "score": 0.997,
+            "source": "ml"
+          },
+          {
+            "name": "东望洋山",
+            "location": "距市中心1.3km",
+            "level": "#",
+            "heat": 3.9,
+            "reputation": "#",
+            "tags": "山上遍种青松,登高爬山",
+            "reviews": "93条点评",
+            "label": "自然风光",
+            "score": 0.997,
+            "source": "ml"
+          },
+          {
+            "name": "瑪利二世皇后眺望台",
+            "location": "距市中心2.3km",
+            "level": "#",
+            "heat": 1.1,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "8条点评",
+            "label": "城市地标",
+            "score": 0.975,
+            "source": "ml"
+          },
+          {
+            "name": "Largo do Pagode do Bazar",
+            "location": "距市中心1.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "1条点评",
+            "label": "休闲娱乐",
+            "score": 0.961,
+            "source": "ml"
+          },
+          {
+            "name": "So Spa Ponte 16 Macau",
+            "location": "距市中心1.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.961,
+            "source": "ml"
           },
           {
             "name": "葡萄酒博物馆",
             "location": "距市中心1.3km",
             "level": "#",
+            "heat": 2.1,
+            "reputation": "#",
             "tags": "博物馆",
+            "reviews": "2条点评",
             "label": "历史文化",
-            "score": 0.96
+            "score": 0.96,
+            "source": "ml"
           },
           {
-            "name": "鲁班先师木工艺陈列馆",
+            "name": "水塘",
+            "location": "距市中心2.3km",
+            "level": "#",
+            "heat": 2.1,
+            "reputation": "#",
+            "tags": "自然山水",
+            "reviews": "49条点评",
+            "label": "自然风光",
+            "score": 0.96,
+            "source": "ml"
+          },
+          {
+            "name": "Pau Kung Temple",
+            "location": "距市中心1.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.949,
+            "source": "ml"
+          },
+          {
+            "name": "Capela de São Miguel Arcanjo",
+            "location": "距市中心1.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.947,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · WATERBOMB MACAO 2025音乐节",
+            "location": "距市中心1.3km",
+            "level": "#",
+            "heat": 3.8,
+            "reputation": "#",
+            "tags": "音乐节",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.941,
+            "source": "ml"
+          },
+          {
+            "name": "Instituto Cultural de Macau (ICM)",
+            "location": "距市中心1.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "历史建筑",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.939,
+            "source": "ml"
+          }
+        ]
+      },
+      {
+        "cluster_id": 4,
+        "attraction_count": 41,
+        "top_tags": [
+          "演唱会",
+          "演出",
+          "音乐会"
+        ],
+        "dominant_label": "休闲娱乐",
+        "representative_spots": [
+          {
+            "name": "中国澳门 · 夏贤尚2025《FINE DAY WITH HYUN SANG》粉丝演唱会",
+            "location": "距市中心4.4km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.975,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · Dear Jane 2025《Dearest》演唱会",
+            "location": "距市中心5.1km",
+            "level": "#",
+            "heat": 3.5,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.975,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · G-DRAGON 2025 WORLD TOUR [Übermensch] IN MACAU, presented by Galaxy Macau™",
+            "location": "距市中心4.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "8条点评",
+            "label": "休闲娱乐",
+            "score": 0.966,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · MIDNIGHT REVERIE : BOUNPREM FANMEETING IN MACAU",
+            "location": "距市中心4.6km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.961,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · 2025KARA“The Phoenix Tour”巡回演唱会中国澳门站",
+            "location": "距市中心5.4km",
+            "level": "#",
+            "heat": 5.5,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "1条点评",
+            "label": "休闲娱乐",
+            "score": 0.96,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · KAI 2025《KAION》个人巡回演唱会",
+            "location": "距市中心5.1km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.96,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · 「澳門銀河™」荣誉呈献: 欧阳万成 Jimmy O. Yang Live in Macau",
+            "location": "距市中心4.6km",
+            "level": "#",
+            "heat": 2.5,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.959,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · B.I 2025《The Last Parade Tour》亚洲巡演",
+            "location": "距市中心4.6km",
+            "level": "#",
+            "heat": 3.8,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.959,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · 陈奕迅FEAR and DREAMS世界巡回演唱会 – 澳门（最终站）",
+            "location": "距市中心5.1km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.956,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · 李惠利2025《Welcome to HYERI's STUDIO》粉丝见面会",
+            "location": "距市中心4.6km",
+            "level": "#",
+            "heat": 5.8,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.956,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · YU 5th Anniversary Asia Tour -vs YU- Special Fan Meeting in MACAU",
+            "location": "距市中心995m",
+            "level": "#",
+            "heat": 3.4,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.955,
+            "source": "ml"
+          },
+          {
+            "name": "中国澳门 · 夏贤尚2025《某天的贤尚》粉丝见面会",
+            "location": "距市中心4.4km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "演唱会",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.954,
+            "source": "ml"
+          }
+        ]
+      },
+      {
+        "cluster_id": 5,
+        "attraction_count": 264,
+        "top_tags": [
+          "地标观景",
+          "博物馆",
+          "遛娃宝藏地",
+          "场馆展馆",
+          "演出",
+          "度假村",
+          "博物馆&展馆",
+          "园林花园"
+        ],
+        "dominant_label": "休闲娱乐",
+        "representative_spots": [
+          {
+            "name": "澳门旅游塔户外广场",
+            "location": "距市中心651m",
+            "level": "#",
+            "heat": 1.9,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "5条点评",
+            "label": "城市地标",
+            "score": 0.999,
+            "source": "ml"
+          },
+          {
+            "name": "西湾湖广场",
+            "location": "距市中心853m",
+            "level": "#",
+            "heat": 2.2,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "3条点评",
+            "label": "城市地标",
+            "score": 0.999,
+            "source": "ml"
+          },
+          {
+            "name": "友谊广场",
+            "location": "距市中心455m",
+            "level": "#",
+            "heat": 1.8,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "#",
+            "label": "城市地标",
+            "score": 0.999,
+            "source": "ml"
+          },
+          {
+            "name": "银座广场(澳门半岛白马行店)",
+            "location": "距市中心882m",
+            "level": "#",
+            "heat": 1.8,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "4条点评",
+            "label": "城市地标",
+            "score": 0.999,
+            "source": "ml"
+          },
+          {
+            "name": "耶稣会纪念广场",
             "location": "距市中心1.1km",
             "level": "#",
-            "tags": "博物馆&展馆",
-            "label": "历史文化",
-            "score": 0.958
+            "heat": 1.9,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "4条点评",
+            "label": "城市地标",
+            "score": 0.999,
+            "source": "ml"
           },
           {
-            "name": "澳门博彩业历史资料馆",
-            "location": "距市中心339m",
+            "name": "宋玉生广场",
+            "location": "距市中心1.4km",
             "level": "#",
-            "tags": "博物馆",
-            "label": "历史文化",
-            "score": 0.956
+            "heat": 1.8,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "15条点评",
+            "label": "城市地标",
+            "score": 0.998,
+            "source": "ml"
           },
           {
-            "name": "澳门林则徐纪念馆",
-            "location": "距市中心2.6km",
+            "name": "澳门渔人码头-马可勃罗露天广场",
+            "location": "距市中心1.6km",
             "level": "#",
-            "tags": "博物馆&展馆",
-            "label": "历史文化",
-            "score": 0.953
+            "heat": 3.1,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "21条点评",
+            "label": "城市地标",
+            "score": 0.997,
+            "source": "ml"
           },
           {
-            "name": "澳门钟表博物馆",
-            "location": "距市中心1.1km",
-            "level": "#",
-            "tags": "博物馆",
-            "label": "历史文化",
-            "score": 0.953
-          },
-          {
-            "name": "保利美高梅博物馆",
-            "location": "距市中心524m",
-            "level": "#",
-            "tags": "博物馆&展馆",
-            "label": "历史文化",
-            "score": 0.947
-          },
-          {
-            "name": "澳门回归贺礼陈列馆",
+            "name": "文化中心广场",
             "location": "距市中心1.2km",
             "level": "#",
-            "tags": "回归纪念，澳门的历史见证,博物馆",
-            "label": "历史文化",
-            "score": 0.947
+            "heat": 2.5,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "2条点评",
+            "label": "城市地标",
+            "score": 0.996,
+            "source": "ml"
           },
           {
-            "name": "通讯博物馆",
-            "location": "距市中心2.2km",
+            "name": "凼仔人工湿地公园",
+            "location": "距市中心4.1km",
             "level": "#",
-            "tags": "了解通讯媒介及技术发展,博物馆",
+            "heat": 1.2,
+            "reputation": "#",
+            "tags": "自然山水",
+            "reviews": "#",
+            "label": "自然风光",
+            "score": 0.994,
+            "source": "ml"
+          },
+          {
+            "name": "小潭山",
+            "location": "距市中心2.9km",
+            "level": "#",
+            "heat": 2.1,
+            "reputation": "#",
+            "tags": "登高爬山",
+            "reviews": "3条点评",
+            "label": "自然风光",
+            "score": 0.993,
+            "source": "ml"
+          },
+          {
+            "name": "东方拱门",
+            "location": "距市中心914m",
+            "level": "#",
+            "heat": 1.9,
+            "reputation": "#",
+            "tags": "地标观景",
+            "reviews": "8条点评",
+            "label": "城市地标",
+            "score": 0.99,
+            "source": "ml"
+          },
+          {
+            "name": "塔石体育馆",
+            "location": "距市中心1.2km",
+            "level": "#",
+            "heat": 2.5,
+            "reputation": "#",
+            "tags": "场馆展馆",
+            "reviews": "9条点评",
             "label": "历史文化",
-            "score": 0.946
+            "score": 0.989,
+            "source": "ml"
+          }
+        ]
+      },
+      {
+        "cluster_id": 6,
+        "attraction_count": 40,
+        "top_tags": [
+          "特色展馆",
+          "经常举办明星演唱会",
+          "艺术及文物主题博物馆",
+          "欣赏不同风格的华丽机车收藏",
+          "领略传统典当业风貌"
+        ],
+        "dominant_label": "历史文化",
+        "representative_spots": [
+          {
+            "name": "饶宗颐学艺馆",
+            "location": "距市中心1.4km",
+            "level": "#",
+            "heat": 1.1,
+            "reputation": "#",
+            "tags": "特色展馆",
+            "reviews": "3条点评",
+            "label": "历史文化",
+            "score": 0.983,
+            "source": "ml"
+          },
+          {
+            "name": "澳门文学馆",
+            "location": "距市中心1.4km",
+            "level": "#",
+            "heat": 2.0,
+            "reputation": "#",
+            "tags": "特色展馆",
+            "reviews": "1条点评",
+            "label": "历史文化",
+            "score": 0.982,
+            "source": "ml"
+          },
+          {
+            "name": "青少年展艺馆",
+            "location": "距市中心1.2km",
+            "level": "#",
+            "heat": 1.2,
+            "reputation": "#",
+            "tags": "特色展馆",
+            "reviews": "#",
+            "label": "历史文化",
+            "score": 0.981,
+            "source": "ml"
+          },
+          {
+            "name": "大三巴哪咤展馆",
+            "location": "距市中心1.2km",
+            "level": "#",
+            "heat": 2.1,
+            "reputation": "#",
+            "tags": "特色展馆",
+            "reviews": "1条点评",
+            "label": "历史文化",
+            "score": 0.98,
+            "source": "ml"
+          },
+          {
+            "name": "沙梨头更馆",
+            "location": "距市中心1.7km",
+            "level": "#",
+            "heat": 1.2,
+            "reputation": "#",
+            "tags": "特色展馆",
+            "reviews": "3条点评",
+            "label": "历史文化",
+            "score": 0.976,
+            "source": "ml"
+          },
+          {
+            "name": "澳门动物标本展示馆",
+            "location": "距市中心7.8km",
+            "level": "#",
+            "heat": 1.6,
+            "reputation": "#",
+            "tags": "特色展馆",
+            "reviews": "#",
+            "label": "历史文化",
+            "score": 0.975,
+            "source": "ml"
+          },
+          {
+            "name": "澳门艺术博物馆",
+            "location": "距市中心1.2km",
+            "level": "#",
+            "heat": 4.6,
+            "reputation": "#",
+            "tags": "艺术及文物主题博物馆,特色展馆",
+            "reviews": "124条点评",
+            "label": "历史文化",
+            "score": 0.968,
+            "source": "ml"
+          },
+          {
+            "name": "《根与魂》甘肃省物质文化遗产展览",
+            "location": "距市中心1.1km",
+            "level": "#",
+            "heat": 1.6,
+            "reputation": "#",
+            "tags": "特色展馆",
+            "reviews": "#",
+            "label": "历史文化",
+            "score": 0.96,
+            "source": "ml"
+          },
+          {
+            "name": "澳门名人蜡像馆",
+            "location": "距市中心1.5km",
+            "level": "#",
+            "heat": 2.3,
+            "reputation": "#",
+            "tags": "特色展馆",
+            "reviews": "40条点评",
+            "label": "历史文化",
+            "score": 0.956,
+            "source": "ml"
+          },
+          {
+            "name": "德成按典当业展示馆",
+            "location": "距市中心1.0km",
+            "level": "#",
+            "heat": 1.9,
+            "reputation": "#",
+            "tags": "领略传统典当业风貌,特色展馆",
+            "reviews": "56条点评",
+            "label": "历史文化",
+            "score": 0.951,
+            "source": "ml"
+          },
+          {
+            "name": "银河综艺馆",
+            "location": "距市中心5.1km",
+            "level": "#",
+            "heat": 4.9,
+            "reputation": "#",
+            "tags": "经常举办明星演唱会,特色展馆",
+            "reviews": "5条点评",
+            "label": "历史文化",
+            "score": 0.949,
+            "source": "ml"
+          },
+          {
+            "name": "《暖暖宠纪》董嘉慧个人画展",
+            "location": "距市中心1.2km",
+            "level": "#",
+            "heat": 1.6,
+            "reputation": "#",
+            "tags": "特色展馆",
+            "reviews": "#",
+            "label": "历史文化",
+            "score": 0.947,
+            "source": "ml"
           }
         ]
       },
       {
         "cluster_id": 7,
-        "attraction_count": 21,
+        "attraction_count": 29,
         "top_tags": [
-          "节日"
+          "公园&植物园",
+          "参观欧战纪念馆",
+          "氹仔唯一的天主教堂",
+          "当地人休闲放松的好去处",
+          "建有民族雕塑园",
+          "古木参天",
+          "树木葱郁",
+          "眺望澳门海景和观音莲花苑"
         ],
+        "dominant_label": "休闲娱乐",
         "representative_spots": [
           {
-            "name": "2025澳门除夕倒数活动",
+            "name": "嘉模圣母教堂",
             "location": "距市中心4.1km",
             "level": "#",
-            "tags": "节日",
+            "heat": 3.2,
+            "reputation": "#",
+            "tags": "氹仔唯一的天主教堂,公园&植物园",
+            "reviews": "124条点评",
             "label": "休闲娱乐",
-            "score": 0.935
+            "score": 0.912,
+            "source": "ml"
           },
           {
-            "name": "第二届澳门国际喜剧节",
-            "location": "距市中心5.3km",
+            "name": "十字花园",
+            "location": "距市中心4.1km",
             "level": "#",
-            "tags": "节日",
+            "heat": 1.2,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "#",
             "label": "休闲娱乐",
-            "score": 0.931
+            "score": 0.87,
+            "source": "ml"
           },
           {
-            "name": "2025澳门国际幻彩大巡游",
-            "location": "距市中心1.1km",
+            "name": "三角花园",
+            "location": "距市中心2.5km",
             "level": "#",
-            "tags": "节日",
+            "heat": 1.1,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "9条点评",
             "label": "休闲娱乐",
-            "score": 0.922
+            "score": 0.853,
+            "source": "ml"
           },
           {
-            "name": "第二十四届澳门美食节",
-            "location": "距市中心852m",
-            "level": "#",
-            "tags": "节日",
-            "label": "休闲娱乐",
-            "score": 0.915
-          },
-          {
-            "name": "2025澳门农历新年花车汇演",
-            "location": "距市中心852m",
-            "level": "#",
-            "tags": "节日",
-            "label": "休闲娱乐",
-            "score": 0.908
-          },
-          {
-            "name": "澳门鱼行醉龙节",
-            "location": "距市中心1.3km",
-            "level": "#",
-            "tags": "节日",
-            "label": "休闲娱乐",
-            "score": 0.903
-          },
-          {
-            "name": "万圣节池畔派对",
-            "location": "距市中心449m",
-            "level": "#",
-            "tags": "节日",
-            "label": "休闲娱乐",
-            "score": 0.902
-          },
-          {
-            "name": "第一届澳门素食嘉年华",
-            "location": "距市中心1.5km",
-            "level": "#",
-            "tags": "节日",
-            "label": "休闲娱乐",
-            "score": 0.901
-          },
-          {
-            "name": "第32届澳门国际烟花比赛汇演",
+            "name": "西望洋花园",
             "location": "距市中心1.0km",
             "level": "#",
-            "tags": "节日",
+            "heat": 1.5,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "#",
             "label": "休闲娱乐",
-            "score": 0.899
+            "score": 0.826,
+            "source": "ml"
           },
           {
-            "name": "2025澳门灵蛇献瑞烟花汇演",
-            "location": "距市中心1.0km",
+            "name": "何贤公园",
+            "location": "距市中心888m",
             "level": "#",
-            "tags": "节日",
+            "heat": 1.7,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "2条点评",
             "label": "休闲娱乐",
-            "score": 0.898
+            "score": 0.818,
+            "source": "ml"
+          },
+          {
+            "name": "艺园",
+            "location": "距市中心705m",
+            "level": "#",
+            "heat": 2.2,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "27条点评",
+            "label": "休闲娱乐",
+            "score": 0.817,
+            "source": "ml"
+          },
+          {
+            "name": "氹仔中央公園",
+            "location": "距市中心3.3km",
+            "level": "#",
+            "heat": 2.1,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "14条点评",
+            "label": "休闲娱乐",
+            "score": 0.796,
+            "source": "ml"
+          },
+          {
+            "name": "水塘公园",
+            "location": "距市中心1.9km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "2条点评",
+            "label": "休闲娱乐",
+            "score": 0.792,
+            "source": "ml"
+          },
+          {
+            "name": "绿杨花园休憩区",
+            "location": "距市中心2.2km",
+            "level": "#",
+            "heat": 1.1,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "5条点评",
+            "label": "休闲娱乐",
+            "score": 0.791,
+            "source": "ml"
+          },
+          {
+            "name": "黑沙水库郊野公园",
+            "location": "距市中心8.2km",
+            "level": "#",
+            "heat": 1.9,
+            "reputation": "#",
+            "tags": "建有民族雕塑园,公园&植物园",
+            "reviews": "21条点评",
+            "label": "休闲娱乐",
+            "score": 0.781,
+            "source": "ml"
+          },
+          {
+            "name": "林茂海边马路休憩区",
+            "location": "距市中心2.0km",
+            "level": "#",
+            "heat": 1.4,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "3条点评",
+            "label": "休闲娱乐",
+            "score": 0.769,
+            "source": "ml"
+          },
+          {
+            "name": "烧灰炉公园",
+            "location": "距市中心605m",
+            "level": "#",
+            "heat": 1.8,
+            "reputation": "#",
+            "tags": "公园&植物园",
+            "reviews": "8条点评",
+            "label": "休闲娱乐",
+            "score": 0.763,
+            "source": "ml"
+          }
+        ]
+      },
+      {
+        "cluster_id": 8,
+        "attraction_count": 52,
+        "top_tags": [
+          "场馆展馆",
+          "凼仔岛到处是葡萄牙式建筑",
+          "岛屿漫步",
+          "乘船游览",
+          "赛事",
+          "主题乐园&游乐场",
+          "海滩&岛屿",
+          "SPA/按摩"
+        ],
+        "dominant_label": "休闲娱乐",
+        "representative_spots": [
+          {
+            "name": "Macao Polytechnic University Library (Taipa Campus)",
+            "location": "距市中心3.0km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.968,
+            "source": "ml"
+          },
+          {
+            "name": "UTM Taipa campus library",
+            "location": "距市中心3.1km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.966,
+            "source": "ml"
+          },
+          {
+            "name": "Fortaleza da Taipa, Junto ao Cais",
+            "location": "距市中心3.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.963,
+            "source": "ml"
+          },
+          {
+            "name": "Taipa Central Park Swimming Pool",
+            "location": "距市中心3.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.963,
+            "source": "ml"
+          },
+          {
+            "name": "海洋花园",
+            "location": "距市中心3.6km",
+            "level": "#",
+            "heat": 2.0,
+            "reputation": "#",
+            "tags": "海滩&岛屿",
+            "reviews": "#",
+            "label": "自然风光",
+            "score": 0.961,
+            "source": "ml"
+          },
+          {
+            "name": "Jardim do Cais",
+            "location": "距市中心3.3km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.952,
+            "source": "ml"
+          },
+          {
+            "name": "臻SPA国际水疗会所",
+            "location": "距市中心3.4km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.948,
+            "source": "ml"
+          },
+          {
+            "name": "Taipa Grande",
+            "location": "距市中心3.9km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.945,
+            "source": "ml"
+          },
+          {
+            "name": "CGV Cinemas Macau",
+            "location": "距市中心3.2km",
+            "level": "#",
+            "heat": 1.7,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.943,
+            "source": "ml"
+          },
+          {
+            "name": "Olympic Sport Center- Basketball Courts",
+            "location": "距市中心3.9km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.942,
+            "source": "ml"
+          },
+          {
+            "name": "Pilates House",
+            "location": "距市中心3.8km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.94,
+            "source": "ml"
+          },
+          {
+            "name": "Gymnastics Club Macau",
+            "location": "距市中心3.8km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.939,
+            "source": "ml"
+          }
+        ]
+      },
+      {
+        "cluster_id": 9,
+        "attraction_count": 22,
+        "top_tags": [],
+        "dominant_label": "休闲娱乐",
+        "representative_spots": [
+          {
+            "name": "Flex Fitness Macau- Patane 提督店",
+            "location": "距市中心1.8km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.963,
+            "source": "ml"
+          },
+          {
+            "name": "MOBOX Fitness Macau",
+            "location": "距市中心2.9km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.962,
+            "source": "ml"
+          },
+          {
+            "name": "Flex Fitness Macau - Taipa 氹仔",
+            "location": "距市中心3.4km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.96,
+            "source": "ml"
+          },
+          {
+            "name": "Warrior Fitness, Taipa, Macau",
+            "location": "距市中心3.8km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.96,
+            "source": "ml"
+          },
+          {
+            "name": "Macao Fitness",
+            "location": "距市中心447m",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.959,
+            "source": "ml"
+          },
+          {
+            "name": "EFIT Fitness Studio (Taipa)",
+            "location": "距市中心3.9km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.951,
+            "source": "ml"
+          },
+          {
+            "name": "Lucky Fitness 24/7 Macau",
+            "location": "距市中心2.7km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.949,
+            "source": "ml"
+          },
+          {
+            "name": "24/7 Fitness Macau - Areia Preta",
+            "location": "距市中心2.4km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.947,
+            "source": "ml"
+          },
+          {
+            "name": "24/7 FITNESS Macau - New Port",
+            "location": "距市中心809m",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.945,
+            "source": "ml"
+          },
+          {
+            "name": "24/7 FITNESS Macau - Taipa",
+            "location": "距市中心3.2km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.943,
+            "source": "ml"
+          },
+          {
+            "name": "Metal24 fitness macau",
+            "location": "距市中心2.7km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.943,
+            "source": "ml"
+          },
+          {
+            "name": "Flex Fitness Macau - Areia Preta 黑沙環",
+            "location": "距市中心2.6km",
+            "level": "#",
+            "heat": 0.0,
+            "reputation": "#",
+            "tags": "#",
+            "reviews": "#",
+            "label": "休闲娱乐",
+            "score": 0.941,
+            "source": "ml"
           }
         ]
       }
-    ]
+    ],
+    "method": "semantic-kmeans"
   },
   "labels": [
     {
@@ -791,72 +1812,96 @@
       "location": "距市中心651m",
       "level": "#",
       "heat": 1.9,
+      "reputation": "#",
       "tags": "地标观景",
+      "reviews": "5条点评",
       "label": "城市地标",
-      "score": 0.999
+      "score": 0.999,
+      "source": "ml"
     },
     {
       "name": "西湾湖广场",
       "location": "距市中心853m",
       "level": "#",
       "heat": 2.2,
+      "reputation": "#",
       "tags": "地标观景",
+      "reviews": "3条点评",
       "label": "城市地标",
-      "score": 0.999
+      "score": 0.999,
+      "source": "ml"
     },
     {
       "name": "友谊广场",
       "location": "距市中心455m",
       "level": "#",
       "heat": 1.8,
+      "reputation": "#",
       "tags": "地标观景",
+      "reviews": "#",
       "label": "城市地标",
-      "score": 0.999
+      "score": 0.999,
+      "source": "ml"
     },
     {
       "name": "银座广场(澳门半岛白马行店)",
       "location": "距市中心882m",
       "level": "#",
       "heat": 1.8,
+      "reputation": "#",
       "tags": "地标观景",
+      "reviews": "4条点评",
       "label": "城市地标",
-      "score": 0.999
+      "score": 0.999,
+      "source": "ml"
     },
     {
       "name": "耶稣会纪念广场",
       "location": "距市中心1.1km",
       "level": "#",
       "heat": 1.9,
+      "reputation": "#",
       "tags": "地标观景",
+      "reviews": "4条点评",
       "label": "城市地标",
-      "score": 0.999
+      "score": 0.999,
+      "source": "ml"
     },
     {
       "name": "宋玉生广场",
       "location": "距市中心1.4km",
       "level": "#",
       "heat": 1.8,
+      "reputation": "#",
       "tags": "地标观景",
+      "reviews": "15条点评",
       "label": "城市地标",
-      "score": 0.998
+      "score": 0.998,
+      "source": "ml"
     },
     {
       "name": "塔石广场",
       "location": "距市中心1.3km",
       "level": "#",
       "heat": 2.8,
+      "reputation": "#",
       "tags": "地标观景",
+      "reviews": "57条点评",
       "label": "城市地标",
-      "score": 0.998
+      "score": 0.998,
+      "source": "ml"
     },
     {
       "name": "金莲花广场",
       "location": "距市中心1.3km",
       "level": "#",
       "heat": 5.2,
+      "reputation": "#",
       "tags": "澳门回归纪念景点,地标观景",
+      "reviews": "329条点评",
       "label": "城市地标",
-      "score": 0.997
+      "score": 0.997,
+      "source": "ml"
     }
   ],
   "spots": [

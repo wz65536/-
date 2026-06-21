@@ -11,7 +11,6 @@
     {
       "name": "北京",
       "total_attractions": 1000,
-      "high_rated_count": 80,
       "label_counts": {
         "历史文化": 415,
         "自然风光": 203,
@@ -22,7 +21,6 @@
     {
       "name": "天津",
       "total_attractions": 1000,
-      "high_rated_count": 79,
       "label_counts": {
         "自然风光": 246,
         "城市地标": 85,
@@ -33,7 +31,6 @@
     {
       "name": "河北",
       "total_attractions": 1000,
-      "high_rated_count": 138,
       "label_counts": {
         "自然风光": 404,
         "历史文化": 218,
@@ -44,7 +41,6 @@
     {
       "name": "山西",
       "total_attractions": 1000,
-      "high_rated_count": 121,
       "label_counts": {
         "休闲娱乐": 226,
         "自然风光": 233,
@@ -55,7 +51,6 @@
     {
       "name": "内蒙古",
       "total_attractions": 1000,
-      "high_rated_count": 132,
       "label_counts": {
         "自然风光": 385,
         "休闲娱乐": 247,
@@ -66,7 +61,6 @@
     {
       "name": "辽宁",
       "total_attractions": 1000,
-      "high_rated_count": 136,
       "label_counts": {
         "历史文化": 273,
         "城市地标": 98,
@@ -77,7 +71,6 @@
     {
       "name": "吉林",
       "total_attractions": 999,
-      "high_rated_count": 50,
       "label_counts": {
         "自然风光": 149,
         "休闲娱乐": 518,
@@ -88,7 +81,6 @@
     {
       "name": "黑龙江",
       "total_attractions": 990,
-      "high_rated_count": 104,
       "label_counts": {
         "休闲娱乐": 350,
         "城市地标": 149,
@@ -99,7 +91,6 @@
     {
       "name": "上海",
       "total_attractions": 1000,
-      "high_rated_count": 107,
       "label_counts": {
         "休闲娱乐": 139,
         "城市地标": 93,
@@ -110,7 +101,6 @@
     {
       "name": "江苏",
       "total_attractions": 1000,
-      "high_rated_count": 204,
       "label_counts": {
         "休闲娱乐": 198,
         "自然风光": 449,
@@ -121,7 +111,6 @@
     {
       "name": "浙江",
       "total_attractions": 1000,
-      "high_rated_count": 185,
       "label_counts": {
         "自然风光": 521,
         "历史文化": 179,
@@ -132,7 +121,6 @@
     {
       "name": "安徽",
       "total_attractions": 1000,
-      "high_rated_count": 190,
       "label_counts": {
         "自然风光": 488,
         "休闲娱乐": 254,
@@ -143,7 +131,6 @@
     {
       "name": "福建",
       "total_attractions": 1000,
-      "high_rated_count": 100,
       "label_counts": {
         "自然风光": 442,
         "休闲娱乐": 264,
@@ -154,7 +141,6 @@
     {
       "name": "江西",
       "total_attractions": 1000,
-      "high_rated_count": 172,
       "label_counts": {
         "休闲娱乐": 285,
         "自然风光": 372,
@@ -165,7 +151,6 @@
     {
       "name": "山东",
       "total_attractions": 1000,
-      "high_rated_count": 187,
       "label_counts": {
         "自然风光": 644,
         "城市地标": 77,
@@ -176,7 +161,6 @@
     {
       "name": "河南",
       "total_attractions": 1000,
-      "high_rated_count": 195,
       "label_counts": {
         "历史文化": 318,
         "自然风光": 270,
@@ -187,7 +171,6 @@
     {
       "name": "湖北",
       "total_attractions": 1000,
-      "high_rated_count": 185,
       "label_counts": {
         "休闲娱乐": 287,
         "自然风光": 422,
@@ -198,7 +181,6 @@
     {
       "name": "湖南",
       "total_attractions": 1000,
-      "high_rated_count": 149,
       "label_counts": {
         "自然风光": 434,
         "休闲娱乐": 254,
@@ -209,7 +191,6 @@
     {
       "name": "广东",
       "total_attractions": 1000,
-      "high_rated_count": 163,
       "label_counts": {
         "休闲娱乐": 258,
         "自然风光": 440,
@@ -220,7 +201,6 @@
     {
       "name": "广西",
       "total_attractions": 1000,
-      "high_rated_count": 215,
       "label_counts": {
         "自然风光": 510,
         "休闲娱乐": 283,
@@ -231,7 +211,6 @@
     {
       "name": "海南",
       "total_attractions": 1000,
-      "high_rated_count": 44,
       "label_counts": {
         "自然风光": 717,
         "休闲娱乐": 208,
@@ -242,7 +221,6 @@
     {
       "name": "重庆",
       "total_attractions": 1000,
-      "high_rated_count": 142,
       "label_counts": {
         "自然风光": 306,
         "城市地标": 145,
@@ -253,7 +231,6 @@
     {
       "name": "四川",
       "total_attractions": 1000,
-      "high_rated_count": 192,
       "label_counts": {
         "休闲娱乐": 271,
         "自然风光": 381,
@@ -264,7 +241,6 @@
     {
       "name": "贵州",
       "total_attractions": 1000,
-      "high_rated_count": 136,
       "label_counts": {
         "自然风光": 349,
         "休闲娱乐": 361,
@@ -275,7 +251,6 @@
     {
       "name": "云南",
       "total_attractions": 1000,
-      "high_rated_count": 122,
       "label_counts": {
         "自然风光": 430,
         "休闲娱乐": 276,
@@ -286,7 +261,6 @@
     {
       "name": "西藏",
       "total_attractions": 1000,
-      "high_rated_count": 28,
       "label_counts": {
         "历史文化": 283,
         "休闲娱乐": 317,
@@ -297,7 +271,6 @@
     {
       "name": "陕西",
       "total_attractions": 1000,
-      "high_rated_count": 141,
       "label_counts": {
         "历史文化": 448,
         "自然风光": 239,
@@ -308,7 +281,6 @@
     {
       "name": "甘肃",
       "total_attractions": 1000,
-      "high_rated_count": 118,
       "label_counts": {
         "自然风光": 322,
         "休闲娱乐": 314,
@@ -319,7 +291,6 @@
     {
       "name": "青海",
       "total_attractions": 1000,
-      "high_rated_count": 39,
       "label_counts": {
         "自然风光": 411,
         "历史文化": 221,
@@ -330,7 +301,6 @@
     {
       "name": "宁夏",
       "total_attractions": 1000,
-      "high_rated_count": 31,
       "label_counts": {
         "休闲娱乐": 418,
         "历史文化": 233,
@@ -341,7 +311,6 @@
     {
       "name": "新疆",
       "total_attractions": 1000,
-      "high_rated_count": 103,
       "label_counts": {
         "自然风光": 345,
         "休闲娱乐": 337,
@@ -352,7 +321,6 @@
     {
       "name": "香港",
       "total_attractions": 1000,
-      "high_rated_count": 0,
       "label_counts": {
         "休闲娱乐": 450,
         "自然风光": 111,
@@ -363,7 +331,6 @@
     {
       "name": "澳门",
       "total_attractions": 792,
-      "high_rated_count": 0,
       "label_counts": {
         "休闲娱乐": 546,
         "历史文化": 182,
@@ -374,7 +341,6 @@
     {
       "name": "台湾",
       "total_attractions": 1000,
-      "high_rated_count": 0,
       "label_counts": {
         "历史文化": 341,
         "休闲娱乐": 322,
